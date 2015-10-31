@@ -1,0 +1,215 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: Helvetica, Arial, sans-serif;
+}
+header, footer{
+	background-color:white;
+	color:#b56a71;
+}
+header{
+	position:fixed;
+	float:left;
+	left:0;
+	right:0;
+	z-index:2;
+	height:60px;
+}
+main{
+	position:absolute;
+	overflow-y:hidden;
+	top: 60px;
+	right:0;
+	left:0;
+	bottom:0;
+}
+section{
+	overflow-y:auto;
+	width:100%;
+	height:100%;
+}
+footer{
+	border-top:2px solid rgba(0,0,0,0.1);
+	height:38px;
+}
+/* Header */
+header .logo{
+	display:inline-block;
+	vertical-align:middle;
+	white-space:nowrap;
+	text-align:center;
+	width:210px;
+}
+/* Main */
+main#index{
+	width:1000px;
+}
+/* Nav */
+nav{
+	position:relative;
+	float:left;
+	width:100%;
+	min-width:300px;
+	text-align:center;
+}
+nav ul li{
+	padding:2px 12px;
+	display:inline-block;
+}
+nav ul li a{
+	color:#CCC;
+}
+nav ul li a:hover{
+	text-decoration:underline;
+}
+#nav_main{
+	height:40px;
+}
+#nav_user{
+	background-color:#0f4a57;
+	color:#FFF;
+	height:20px;
+	font-size:14px;
+}
+/* Section */
+section{
+	position:relative;
+	float:left;
+	display:block;
+}
+section#register, section#login, section#home{
+	text-align:center;
+}
+/* Columns */
+.leftcolumn{
+	display:inline-block;
+	float:left;
+	min-width:90px;
+	width:30%;
+}
+.middlecolumn{
+	display:inline-block;
+	float:left;
+	min-width:120px;
+	width:40%;
+}
+.rightcolumn{
+	display:inline-block;
+	float:right;
+	min-width:90px;
+	width:30%;
+}
+
+/* Anchors */
+a{
+	color:inherit;
+	text-decoration:none;
+}
+/* Headers */
+h1, h2, .title{
+	color: #f7ac16;
+}
+/* Button */
+.button{
+	display:inline-block;
+	font-weight:normal;
+	text-align:center;
+	vertical-align:middle;
+	cursor: pointer;
+	border:1px solid transparent;
+	white-space:nowrap;
+	padding:4px 6px;
+	font-size:14px;
+	line-height:1.7;	
+	border-radius:2px;
+	min-width:80px;
+	margin:2px 10px;
+}
+.button-primary{
+	background-color:#14b2d1;
+	color:#fff;
+}
+.button-secondary{
+	background-color:#216e94;
+	color:#fff;
+}
+.button-alternate{
+}
+/* Forms */
+form.register, form.login{
+	position:absolute;
+	top:15%;
+	right:10%;
+	width:300px;
+}
+form.register input, form.login input{
+	display:block;
+	margin:8px auto;
+	height:40px;
+	font-size:1em;
+	width:90%;
+}
+form#search{
+	margin:2px;
+	padding:4px;
+	vertical-align:middle;
+}
+form input#search_main{
+	min-width:60px;
+	width:70%;
+	height:30px;
+}
+form input#search_button{
+	width:25%;
+	margin:0 2px;
+	border:none;
+	height:30px;
+	cursor:pointer;
+}
+/* Unordered List */
+ul#courses li{
+	margin:10px 0;
+	list-style:none;
+}
+ul#courses li .service{
+	font-size:80%;
+	color: #949494;
+	padding:5px 0;
+}
+/* List View */
+#leftNav{
+	line-height:normal;
+	float:left;
+	position:relative;
+	width:200px;
+	font-size:14px;
+	border-right:1px solid #DDD;
+}
+#leftNav h3{
+	color:#999;
+	padding-bottom:15px;
+}
+#leftNav ul.refinement{
+	padding-top:5px;
+	padding-bottom:4px;
+	margin-left:10px;
+}
+.a-grid{
+	overflow:hidden;
+}
+.a-col-left{
+	width:160px;
+	float:left;
+}
+.a-col-left img{
+	vertical-align:top;
+	width:160px;
+}
+.a-col-right{
+	padding-left:4%;
+	float:left;
+	width:680px;
+}
