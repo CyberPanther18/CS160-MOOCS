@@ -17,19 +17,37 @@ header{
 	right:0;
 	z-index:2;
 	height:60px;
+	border-bottom:1px solid white;
 }
 main{
 	position:absolute;
-	overflow-y:hidden;
-	top: 60px;
+	overflow-y:auto;
+	top: 61px;
 	right:0;
 	left:0;
 	bottom:0;
 }
 section{
-	overflow-y:auto;
-	width:100%;
+	position:relative;
 	height:100%;
+	width:95%;
+	margin:0 auto;
+}
+aside#slider{
+	z-index:5;
+	display:none;
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	width:400px;
+	background:#0f4a57;
+	color:white;
+	text-align:center;
+}
+aside#slider .close{
+	position:relative;
+	top:80px;
 }
 footer{
 	border-top:2px solid rgba(0,0,0,0.1);
@@ -75,34 +93,29 @@ nav ul li a:hover{
 	font-size:14px;
 }
 /* Section */
-section{
-	position:relative;
-	float:left;
-	display:block;
-}
 section#register, section#login, section#home{
 	text-align:center;
 }
 /* Columns */
-.leftcolumn{
+.columns{
+	min-width:300px;
+}
+.leftcolumn, .rightcolumn{
 	display:inline-block;
+	min-width:60px;
+	width:20%;
+}
+.leftcolumn{
 	float:left;
-	min-width:90px;
-	width:30%;
 }
 .middlecolumn{
 	display:inline-block;
-	float:left;
 	min-width:120px;
 	width:40%;
 }
 .rightcolumn{
-	display:inline-block;
 	float:right;
-	min-width:90px;
-	width:30%;
 }
-
 /* Anchors */
 a{
 	color:inherit;
@@ -140,10 +153,9 @@ h1, h2, .title{
 }
 /* Forms */
 form.register, form.login{
-	position:absolute;
-	top:15%;
-	right:10%;
-	width:300px;
+	position:relative;
+	top:40px;
+	text-align:center;
 }
 form.register input, form.login input{
 	display:block;
@@ -169,6 +181,12 @@ form input#search_button{
 	height:30px;
 	cursor:pointer;
 }
+form .invalid{
+	border:2px solid #802f31;
+}
+form .valid{
+	border:2px solid #a7fa5a;
+}
 /* Unordered List */
 ul#courses li{
 	margin:10px 0;
@@ -179,37 +197,34 @@ ul#courses li .service{
 	color: #949494;
 	padding:5px 0;
 }
-/* List View */
-#leftNav{
-	line-height:normal;
-	float:left;
+/* Filter */
+#filter{
+	border-right:thin solid rgba(0,0,0,0.5);
+	height:100%;
+}
+#filter h3{
+	padding:4px 0;
+	color:#CCC;
+}
+#filter h4{
+	padding:3px 0;
+}
+/* Refinement */
+.refinement{
+	list-style:none;
+}
+.refinement li{
+	font-size:12px;
+	padding:2px 1px;
+}
+.refinement li:hover{
+	color:#f7ac16;
+	text-decoration:underline;
+	cursor:pointer;
+}
+.select li span:before{
+	content:url('../images/filter/checkbox_unselected.png');
 	position:relative;
-	width:200px;
-	font-size:14px;
-	border-right:1px solid #DDD;
-}
-#leftNav h3{
-	color:#999;
-	padding-bottom:15px;
-}
-#leftNav ul.refinement{
-	padding-top:5px;
-	padding-bottom:4px;
-	margin-left:10px;
-}
-.a-grid{
-	overflow:hidden;
-}
-.a-col-left{
-	width:160px;
-	float:left;
-}
-.a-col-left img{
-	vertical-align:top;
-	width:160px;
-}
-.a-col-right{
-	padding-left:4%;
-	float:left;
-	width:680px;
+	z-index:3;
+	left:-6px;
 }

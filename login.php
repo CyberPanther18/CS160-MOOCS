@@ -1,7 +1,4 @@
-<section id="login">
-<div class="leftcolumn"></div>
-  <div class="rightcolumn">
- 
+<section id="login"> 
   <form class="login" action="./db/login.php" method="post">
    <h2>Sign In</h2>
     <input type="email" name="email" id="email" placeholder="Email Address" />
@@ -10,9 +7,10 @@
      <nav>
         <p>Not a member yet?</p>
         <ul>
-          <li><a href="#" data-target="register">Sign Up</a></li>
+          <li><a href="#" class="load" data-target="register">Sign Up</a></li>
         </ul>
       </nav>
   </form>
-  </div>
+   <script type="application/javascript" src="js/validate.js">
+    </script>
 </section>

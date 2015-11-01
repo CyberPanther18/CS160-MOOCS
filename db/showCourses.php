@@ -1,4 +1,5 @@
 <?php
+require "./db/connect.php";
 $sql = "SELECT name, subject, service, type, description FROM courses";
 $result = $con->query($sql);
 echo '<ul id="courses">';

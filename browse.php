@@ -1,15 +1,17 @@
 <?php
 $TITLE = "ULearn - Browse";
-require "./db/connect.php";
+require "./inc/header.php";
 ?>
-<section>
-<aside class="leftcolumn">
+<section id="browse">
+<div class="columns" id="browse">
+<div class="leftcolumn">
 <?php require "./inc/filter.php"; ?>
-</aside>
-<section class="middlecolumn">
+</div>
+<div class="middlecolumn">
   <?php require "./db/showCourses.php"; ?>
-</section>
+</div>
 </section>
 <?php
 require "./db/disconnect.php";
+require "./inc/footer.php";
 ?>

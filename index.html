@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ULearn - Home</title>
+<!-- Stylesheets -->
+<link rel="stylesheet" href="./css/stylesheet.css"/>
+<!-- Javascript -->
+<script type="application/javascript" src="./js/jquery-2.1.4.min.js"></script>
+<script type="application/javascript" src="./js/jquery-ui.min.js"></script>
+<script type="application/javascript" src="./js/functions.js"></script>
+</head>
+<body>
+<header>
+  <nav id="nav_main">
+    <div class="leftcolumn"><a href="./index.php" target="_self">
+      <h2>Ulearn</h2>
+      </a></div>
+    <div class="middlecolumn"><form id="search"><input type="search" id="search_main"/><input type="submit" id="search_button" value="Search" class="button-secondary"></form></div>
+    <div class="rightcolumn"> <a href="./browse.php" target="_self">
+      <div class="button button-primary"> Browse </div>
+      </a></div>
+  </nav>
+  <nav id="nav_user">
+  <ul class="user_options rightcolumn">
+      <li><a class="load" href="#" data-target="login"> Login </a> </li>
+      <li><a class="load" href="#" data-target="register"> Register </a> </li>
+    </ul>
+  </nav>
+</header>
+<main id="content">
+<section id="home">
+  <div class="leftcolumn"></div>
+  <div class="middlecolumn"> <h1>A Blend of EDX and NovoEd</h1> </div>
+  <div class="rightcolumn">
+    <form class="register" action="./db/register.php" method="post">
+      <h2>Sign Up</h2>
+      <input type="text" name="firstname" id="firstname" placeholder="First Name">
+      <input type="text" name="lastname" id="lastname" placeholder="Last Name">
+      <input type="email" name="email" id="email" placeholder="Email Address" />
+      <input type="password" name="password" id="password1" placeholder="Password"/>
+      <input type="password" id="password2" placeholder="Confirm Password" />
+      <input type="submit" value="Register" class=" button button-primary"/>
+      <nav>
+        <p>Already have an account?</p>
+        <ul>
+          <li><a href="#" class="load" data-target="login">Sign In</a></li>
+        </ul>
+      </nav>
+    </form>
+  </div>
+</section>
+<aside id="slider">
+<div id="slidercontent">
+</div>
+<div class="button button-secondary close">Close</div>
+</aside>
+</main>
+<footer>
+</footer>
+</body>
+</html>
