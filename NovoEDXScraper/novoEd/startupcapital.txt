@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang='en-US' xmlns:fb='http://developers.facebook.com/schema/' xmlns:og='http://opengraphprotocol.org/schema/' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<!-- SEO & Facebook Details -->
+<meta content='In this online course, students explored what type of investment is best for startups: venture capital, angel capital, grant funding, friends-and-family funding or self-funding, and took steps to get exploratory meetings with investors to secure funding.' name='Description'>
+<meta content='NovoEd - Online professional development and social learning' name='Author'>
+<meta name='Keywords'>
+<meta content='!' name='fragment'>
+<meta content='Raising Startup Capital' property='og:title'>
+<meta content='website' property='og:type'>
+<meta content='In this online course, students explored what type of investment is best for startups: venture capital, angel capital, grant funding, friends-and-family funding or self-funding, and took steps to get exploratory meetings with investors to secure funding.' property='og:description'>
+<meta content='https://novoed.com/startupcapital' property='og:url'>
+<meta content='https://img.youtube.com/vi/T3HsOWZ5wWU/hqdefault.jpg' property='og:image'>
+<meta content='NovoEd' property='og:site_name'>
+<meta content='394850367201365' property='fb:app_id'>
+<link href='https://novoed.com/startupcapital' rel='canonical'>
+<title>
+Raising Startup Capital | Kauffman Fellows Academy | NovoEd
+</title>
+<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Comfortaa:400,700|Nunito:300' rel='stylesheet' type='text/css'>
+<link href='//d29rg257idl8cu.cloudfront.net/assets/brand/favicon-96bd4f9f452ad4fea53906879d7b90cc.ico' rel='shortcut icon'>
+<!--[if !IE 7]>
+<style type="text/css">
+<div id='wrap'>{ style: "display:table;height:100%" }</div>
+</style>
+<![endif]-->
+<!--[if lte IE 7]>
+<script src="//d29rg257idl8cu.cloudfront.net/assets/json3.min-c4b14426ee921085314b0283b524ef3f.js"></script>
+<![endif]-->
+<!-- Frame killer -->
+<style> html{display:none;} </style>
+<script>
+  function shouldKeepIframe() {
+    if (self == top) {
+      return true;
+    }
+    
+    var topDomainSplit = top.document.domain.split('.');
+    var selfDomainSplit = self.document.domain.split('.');
+    var selfDomainLength = selfDomainSplit.length;
+  
+    return topDomainSplit[selfDomainLength - 1 ] == topDomainSplit[selfDomainLength - 1 ] &&
+      topDomainSplit[selfDomainLength - 2 ] == topDomainSplit[selfDomainLength - 2 ]
+  }
+  
+  if(shouldKeepIframe()) {
+    document.documentElement.style.display = 'block'; 
+  } else {
+    top.location = self.location;
+  }
+</script>
+<link rel="stylesheet" media="all" href="//d29rg257idl8cu.cloudfront.net/assets/application_priority-6cea4d3b05eb8819f4124ed9f769f076.css" />
+<link rel="stylesheet" media="all" href="//d29rg257idl8cu.cloudfront.net/assets/application-8f3f0ae8d7209f6ca65e77103d603926.css" />
+<script>
+  var homepageBackground = {
+  "mobile": "//d29rg257idl8cu.cloudfront.net/assets/brand/collaborate-compressed-mobile-105bbd7b480c90ab564033e712cc1d05.jpg",
+  "small": "//d29rg257idl8cu.cloudfront.net/assets/brand/collaborate-compressed-desktop-small-5ab51cf013ccc43b0996874a06c07cc0.jpg",
+  "large": "//d29rg257idl8cu.cloudfront.net/assets/brand/collaborate-compressed-desktop-large-updated-6825f30fe3917baf3bab442f6bf8cbc5.jpg"
+  };
+  var getHomepageBackground = function(){
+  if (document.documentElement.clientWidth <= 768)
+     return homepageBackground["mobile"];
+  else if (document.documentElement.clientWidth <= 1440)
+     return homepageBackground["small"];
+  else
+     return homepageBackground["large"];
+  };
+</script>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="BqGPNFCZ56BsbNZq9DyUo/oC4zbLVzHuX+Ah1jlp1UA4vzP0q4EF7dRtnUABhxmbL58wcJ7gKzpcYkiKXnNDGw==" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-30499841-1', 'auto', { 'name': 'NovoEdGlobalTracker'});
+</script>
+
+<script src="//d29rg257idl8cu.cloudfront.net/assets/prerender-fb37612218b80732cf476a0a6b005f5e.js"></script>
+</head>
+<body class='outclass flier  ' id='novoEdApp' ng-init='init({"catalogId":"startupcapital","isProgram":false,"course":{"id":59,"name":"Raising Startup Capital","have_board_members":false,"have_mentors":false,"isProgram":false,"collaboration_tools_enabled":false,"enable_online_presence":false,"novoedOfferingName":{"capitalizedPluralized":"Courses","capitalizedSingularized":"Course","downcasedSingularized":"course","downcasedPluralized":"courses","pluralizedTitleized":"Courses","singularizedTitleized":"Course"},"novoedLearnersName":{"capitalizedPluralized":"Students","capitalizedSingularized":"Student","downcasedSingularized":"student","downcasedPluralized":"students","pluralizedTitleized":"Students","singularizedTitleized":"Student"},"novoedAssignmentName":{"capitalizedPluralized":"Assignments","capitalizedSingularized":"Assignment","downcasedSingularized":"assignment","downcasedPluralized":"assignments","pluralizedTitleized":"Assignments","singularizedTitleized":"Assignment"},"novoedLectureName":{"capitalizedPluralized":"Lectures","capitalizedSingularized":"Lecture","downcasedSingularized":"lecture","downcasedPluralized":"lectures","pluralizedTitleized":"Lectures","singularizedTitleized":"Lecture"},"novoedStatementOfAccomplishmentName":{"capitalizedPluralized":"Statement of accomplishments","capitalizedSingularized":"Statement of accomplishment","downcasedSingularized":"statement of accomplishment","downcasedPluralized":"statement of accomplishments","pluralizedTitleized":"Statement Of Accomplishments","singularizedTitleized":"Statement Of Accomplishment"},"novoedTeachingTeamName":{"capitalizedPluralized":"Teaching teams","capitalizedSingularized":"Teaching team","downcasedSingularized":"teaching team","downcasedPluralized":"teaching teams","pluralizedTitleized":"Teaching Teams","singularizedTitleized":"Teaching Team"},"inArchiveMode":false,"ended":true,"has_premium_features":false,"groupTeamSetName":{"capitalizedPluralized":"Groups","capitalizedSingularized":"Group","downcasedSingularized":"group","downcasedPluralized":"groups","pluralizedTitleized":"Groups","singularizedTitleized":"Group"},"currentUserIsCourseAdmin":false,"novoedCourseAlias":{"capitalizedPluralized":"Courses","capitalizedSingularized":"Course","downcasedSingularized":"course","downcasedPluralized":"courses","pluralizedTitleized":"Courses","singularizedTitleized":"Course"}},"currentUser":"","numUnreadConversations":0,"googleApiSettings":{"client_id":"967886061122","developer_key":"AIzaSyCcl4XNPlncAl2pXZbXOwCI2N1j0wGh4QM"},"pusherApiKey":"55caf419f8a7e825fcfe","paperclipDefaults":{"storage":"s3","s3_protocol":"https","s3_credentials":{"path":"/var/www/novo/production/releases/20151101201019/config/s3.yml"},"bucket":"venture-lab","url":":s3_alias_url","s3_host_alias":"d2d6mu5qcvgbk5.cloudfront.net","s3_permissions":"private","s3_headers":{}},"fileUploadOptions":{"default_file_size":52428800,"tiny_file_size":1048576,"small_file_size":5242880,"medium_file_size":52428800,"large_file_size":6291456000,"permitted_extensions":["mp4","avi","flv","wmv","3gp","ogg","mov","doc","docx","txt","pdf","xls","xlsb","ppt","pptx","xlsx","csv","bmp","gif","jpeg","jpg","pjpeg","png","tiff","x-png"]},"assetPath":"","userCourse":"","redactorToolbarType":"Extended","activeStudentsPath":"","blockedList":"","fileTypeToContentType":{"presentation":["application/msword","text/plain","application/pdf","application/vnd.ms-powerpoint","application/vnd.openxmlformats-officedocument.presentationml.presentation","application/vnd.openxmlformats-officedocument.wordprocessingml.document","application/vnd.ms-powerpoint.presentation.macroenabled.12","application/vnd.ms-powerpoint.slideshow.macroenabled.12","application/vnd.openxmlformats-officedocument.presentationml.slideshow","application/vnd.ms-powerpoint.addin.macroenabled.12"]}})'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K9ZRP6');</script>
+
+<style>
+  #preloader{position: fixed;top: 120px;left: 50%;z-index: 9999; margin-left: -35px;}.spinner{margin:100px auto 0;width:70px;text-align:center}.spinner>div{width:18px;height:18px;background-color:#467b8c;border-radius:100%;display:inline-block;-webkit-animation:bouncedelay 1.4s infinite ease-in-out;animation:bouncedelay 1.4s infinite ease-in-out;-webkit-animation-fill-mode:both;animation-fill-mode:both}.spinner .bounce1{-webkit-animation-delay:-0.32s;animation-delay:-0.32s}.spinner .bounce2{-webkit-animation-delay:-0.16s;animation-delay:-0.16s}@-webkit-keyframes bouncedelay{0%,80%,100%{-webkit-transform:scale(0.0)}40%{-webkit-transform:scale(1.0)}}@keyframes bouncedelay{0%,80%,100%{transform:scale(0.0);-webkit-transform:scale(0.0)}40%{transform:scale(1.0);-webkit-transform:scale(1.0)}}
+</style>
+<div id='preloader'>
+<div class='spinner'>
+<div class='bounce1'></div>
+<div class='bounce2'></div>
+<div class='bounce3'></div>
+</div>
+</div>
+<script>
+  // not supported by some browsers yet but is in ecmascript 6. can remove later
+  if (!String.prototype.endsWith) {
+    String.prototype.endsWith = function(searchString, position) {
+        var subjectString = this.toString();
+        if (position === undefined || position > subjectString.length) {
+          position = subjectString.length;
+        }
+        position -= searchString.length;
+        var lastIndex = subjectString.indexOf(searchString, position);
+        return lastIndex !== -1 && lastIndex === position;
+    };
+  }
+  
+  window.isMobileBrowser = false;
+  window.isMobileEnabledPage = false;
+  
+  function isOePage() {
+    var url =  window.location.href.split('#')[0];
+    return url.endsWith("/oe/") || url.endsWith("/oe");
+  }
+  
+  function isMobileEnabledOePage() {
+    return (window.location.hash && window.location.hash.replace(/\//g, '') === '#!home') ||
+           (window.location.hash && window.location.hash.replace(/\//g, '') === '#!mycourses') ;
+  }
+  
+  if ( isMobileBrowser && (isMobileEnabledPage && ( !isOePage() || isMobileEnabledOePage()))) {
+    $('head').append('<meta name="viewport" content="width=device-width, initial-scale=1.0", name: "viewport">');
+  }
+  
+  if (isOePage() && !isMobileEnabledOePage()) {
+    $('body').removeClass('responsive');
+  }
+</script>
+
+<script src="//d29rg257idl8cu.cloudfront.net/assets/marketing-58ffe8d04f20b61fc0ec3fc9986ccbc8.js"></script>
+<div id='wrap'>
+<div id='main'>
+<div class='hidden-phone'>
+<div id='institution-header'>
+<!-- prepends specific selector to css selectors -->
+<div id='brandbar'>
+<div class='container'>
+   <a href="#">
+     <img src="https://d9c20z7pqhaxm.cloudfront.net/wmd/66f99d07051a5bf68874c3faac7c2246beefd55a.png?1376530686"></a>
+ 
+</div>
+</div>
+<style>#institution-header #brandbar {
+ background:#008770;
+ max-height:50px;
+}#institution-header 
+#brandbar img{
+max-height:50px;
+}</style>
+
+</div>
+</div>
+<div class='hidden-phone'>
+<header class='row-fluid coursepage deferred-content' style=''>
+
+<div class='container'>
+<div class='row-fluid'>
+<div class='span7'>
+<div class='row-fluid university-branding'>
+<img alt='Kauffman Fellows Academy Online' src='https://d2d6mu5qcvgbk5.cloudfront.net/institutions/logos/flyer/e14976025397572caa7416ded9b1ebb967a96479.png?1405981411'>
+</div>
+<div class='row-fluid course-title'>
+<h1>
+Raising Startup Capital
+</h1>
+<h5 class='thin'>
+Instructors:
+<div class='row-fluid'>
+<span class='instructor_name'>Clint Korver,</span>
+<span class='muted instructor_title'>COO of NovoEd</span>
+</div>
+<div class='row-fluid'>
+<span class='instructor_name'>Jenny Rooke,</span>
+<span class='muted instructor_title'>Former Senior Program Officer, Gates Foundation</span>
+</div>
+<div class='row-fluid'>
+<span class='instructor_name'>Bill Tobin</span>
+<span class='muted instructor_title'></span>
+</div>
+</h5>
+<figure class='pricetag'>
+You can take this course for $149.00.
+</figure>
+</div>
+</div>
+<div class='span5 course-video'>
+<iframe title="YouTube video player" width="380" height="213" src="https://www.youtube.com/embed/T3HsOWZ5wWU?vq=auto&rel=0&showinfo=0&autohide=1&wmode=transparent&origin=https://novoed.com" frameborder="0"></iframe>
+</div>
+</div>
+</div>
+</header>
+<div class='coursepage deferred-content'>
+<div class='container'>
+<section class='action-field'>
+<div class='row-fluid'>
+<div class='span8'>
+<div class='timeline inline-block'>
+<span data-convert-time-zone="" data-timezone-format="LL" data-timezone-converted="false" data-utc-time="2014-06-19T06:59:00Z" data-show-current-year-if-exists="true"></span>
+</div>
+-
+<div class='timeline inline-block'>
+<span data-convert-time-zone="" data-timezone-format="LL" data-timezone-converted="false" data-utc-time="2014-07-26T06:59:00Z" data-show-current-year-if-exists="true"></span>
+</div>
+
+&nbsp;
+</div>
+<div class='span4'>
+<div class='pull-right '>
+<div class='enrollment-info'>
+This course has concluded.
+</div>
+<div class='enrollment-info with-top-margin'>
+Already registered? 
+&nbsp;
+<a href="https://novoed.com/users/sign_in?class=startupcapital">Sign in. </a>
+</div>
+</div>
+</div>
+</div>
+
+<div class='row-fluid timeline-row' style='margin-top: 15px;'>
+<div class='span8'>
+<div class='timeline'>
+Future offerings
+</div>
+</div>
+<div class='span4'>
+<div class='pull-right'>
+<a class='btn action-btn novoed-primary' href='https://novoed.com/users/sign_up?class=startupcapital&amp;plan=true'>
+Add to Planner
+</a>
+
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+
+<script>
+  $(document).ready(function(){
+      window.addthis_share = {
+        url: "https://novoed.com/startupcapital",
+        title: "Raising Startup Capital",
+        passthrough: {
+          twitter: {
+            text: "I just enrolled in Raising Startup Capital, a course on NovoEd offered by Kauffman Fellows Academy."
+          }
+        }
+      };
+  });
+</script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53ef09b700165c5d" async="async"></script>
+
+</div>
+
+<div class='deferred-content novoed-gray-background row-fluid'>
+<div>
+<script src="//d29rg257idl8cu.cloudfront.net/assets/application-33e83de861e144c93738ad8a69821b17.js" defer="defer"></script>
+<script src="//d29rg257idl8cu.cloudfront.net/assets/novoed_angular_bootstrap-8ee9af8a14b6050a2281a21108d72e16.js" defer="defer"></script>
+</div>
+<div class='container main-container deferred-content'>
+<div class='content' style=''>
+
+<div class='row-fluid'>
+<style>
+  
+  .alert{
+    margin-bottom: 0px;
+  }
+</style>
+<div class='row-fluid' id='flash-holder' style='margin: 30px 0px;'>
+
+</div>
+<div class='hide j-pending_deletion_msg row-fluid'>
+<div class='span12'>
+<div class='alert alert-error'>
+<img src="//d29rg257idl8cu.cloudfront.net/assets/icons/ajax-loader-9447eadd609b1984d63b4c85c6d93f2c.gif" alt="Ajax loader" />
+Course deletion is in progress.
+<b>
+You
+</b>
+will receive an email as soon as all the data is deleted.
+</div>
+</div>
+</div>
+
+<div class='coursepage'>
+<section class='description'>
+<div class='container'>
+<div class='row-fluid'>
+<article class='span6'>
+<h3 class='bigger course'>
+The Course
+</h3>
+<h3><strong>Learn from Experienced Silicon Valley Entrepreneurs and Investors:</strong></h3>
+
+<p> </p>
+
+<p>If you want to raise funding for your startup, you probably already know there is more to it than creating an impressive investment pitch deck. In this course, instructors from the leading venture capital training program, the Kauffman Fellows Program, teach you how to manage the fundraising process--from identifying potential investors, to making your investment pitch, to driving a funding to closure. You learn by doing and will be asked to contact potential investors, and if possible, set up real meetings as part of the assignments. By the end of this course, you should have had one to three meetings with potential investors. While you might not be ready to raise money, these exploratory meetings will greatly enhance your knowledge of how to fundraise successfully. If you are raising capital, you will meet with investors and apply the principles of this course.</p>
+
+<p>In addition to entrepreneurs who are raising funds or who anticipate raising funds in the near future, this course is also for anyone who works with the venture community, including lawyers, accountants, angel investors, bankers, policy makers, regulators and educators.</p>
+
+<p><span style>In this online course, you will learn what type of investment is best for your startup: venture capital, angel capital, grant funding, friends-and-family funding or self-funding. You will learn from experienced Silicon Valley entrepreneurs and investors specific strategies for approaching investors and techniques for managing the fundraising process for success. Our goal in this course is for you to become more efficient and effective in raising </span><span style>capital for your startup and to take those all important first steps.</span></p>
+
+<p>This class focuses on venture capital fundraising in particular as it requires the most sophistication and planning. If you understand how to raise venture capital, you are in good shape for raising capital from other sources.</p>
+
+<p>Through this course you will understand:</p>
+
+<ul>
+<li><span style>The goals and investment criteria for venture capitalists, angels, friends and family, and philanthropic organizations.</span></li>
+	<li><span style>When you should raise funding from each source and the pros / cons of each.</span></li>
+	<li><span style>How to use your network to get a first real meeting with potential investors</span></li>
+	<li><span style>How to create forcing functions to drive a funding to closure.</span></li>
+	<li><span style>Common mistakes and how to avoid them.</span></li>
+	<li><span style>How to be more efficient in fundraising by minimizing time spent on low probability funding sources.</span></li>
+	<li><span style>How to be more effective in fundraising by making the best use of your limited time with investors.</span></li>
+</ul>
+<div class='row-fluid' style='display:none'>
+<div class='span12'>
+<div class='pull-right'>
+<a class="highlight-button" href="https://novoed.com/startupcapital/highlight">Check out course highlights »</a>
+</div>
+<br>
+</div>
+</div>
+
+<h3 class='big more-info'>
+More Information
+</h3>
+<div class='more-info-expandable' compile-once='&lt;p&gt;This class will be team-oriented and practice-based. Through videos and readings you’ll learn fundraising best practices. However, much of the learning in this class will take place as you work with other students, in virtual teams, to apply these practices to case studies and real startups.&lt;/p&gt;&#x000A;&#x000A;&lt;p&gt; &lt;/p&gt;&#x000A;&#x000A;&lt;h3&gt;&lt;strong style&gt;Course Syllabus&lt;/strong&gt;&lt;/h3&gt;&#x000A;&#x000A;&lt;p&gt; &lt;/p&gt;&#x000A;&#x000A;&lt;p style&gt;&lt;strong&gt;&lt;em&gt;Week 1: Pre Funding preparation/Optional: Grants&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&#x000A;&#x000A;&lt;ul&gt;&#x000A;&lt;li&gt;How to identify funding sources that fit your startup&lt;/li&gt;&#x000A;	&lt;li&gt;How much to raise&lt;/li&gt;&#x000A;	&lt;li&gt;When to raise&lt;/li&gt;&#x000A;	&lt;li&gt;Building relationships with investors&lt;/li&gt;&#x000A;	&lt;li&gt;Fund raising materials&lt;/li&gt;&#x000A;	&lt;li&gt;Creating an A &amp;amp; B target list&lt;/li&gt;&#x000A;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Optional Grant Funding Options&lt;/strong&gt;&lt;/p&gt;&#x000A;&#x000A;&lt;ul&gt;&#x000A;&lt;li&gt;Sources of grant funding&lt;/li&gt;&#x000A;	&lt;li&gt;Could/shouldyour startup get grand funding&lt;/li&gt;&#x000A;	&lt;li&gt;Pursuing grant funding&lt;/li&gt;&#x000A;	&lt;li&gt;Gates Foundation case study&lt;/li&gt;&#x000A;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;&lt;em style&gt;Week 2: Your Funding Options&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&#x000A;&#x000A;&lt;ul&gt;&#x000A;&lt;li&gt;&lt;span style&gt;Goals, investment criteria and typical form of investment for self-funding, friends and family, angels and venture capitalists&lt;/span&gt;&lt;/li&gt;&#x000A;	&lt;li&gt;&lt;span style&gt;The VC context&lt;/span&gt;&lt;/li&gt;&#x000A;	&lt;li&gt;&lt;span style&gt;Pros / cons of each investment type&lt;/span&gt;&lt;/li&gt;&#x000A;	&lt;li&gt;&lt;span style&gt;Getting that first meeting&lt;/span&gt;&lt;/li&gt;&#x000A;&lt;/ul&gt;&lt;p style&gt;&lt;strong&gt;&lt;em&gt;Week 3: The 1&lt;span style&gt;st&lt;/span&gt; Meeting&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&#x000A;&#x000A;&lt;ul&gt;&#x000A;&lt;li&gt;1&lt;span style&gt;st&lt;/span&gt; meeting goals&lt;/li&gt;&#x000A;	&lt;li&gt;The pitch&lt;/li&gt;&#x000A;	&lt;li&gt;1&lt;span style&gt;st&lt;/span&gt; meeting tips&lt;/li&gt;&#x000A;	&lt;li&gt;Warning signs for investors&lt;/li&gt;&#x000A;	&lt;li&gt;How to answer “What are your valuation expectations?&lt;/li&gt;&#x000A;&lt;/ul&gt;&lt;p&gt;&lt;em style&gt;&lt;strong&gt;Week 4: 1&lt;sup&gt;st&lt;/sup&gt; Meeting to Investmen&lt;/strong&gt;t&lt;/em&gt;&lt;/p&gt;&#x000A;&#x000A;&lt;ul&gt;&#x000A;&lt;li&gt;&lt;span style&gt;Typical process post 1&lt;sup&gt;st&lt;/sup&gt; meeting&lt;/span&gt;&lt;/li&gt;&#x000A;	&lt;li&gt;&lt;span style&gt;&lt;span style&gt;Managing radio silence&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#x000A;	&lt;li&gt;&lt;span style&gt;&lt;span style&gt;&lt;span style&gt;Managing rejection&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#x000A;	&lt;li&gt;&lt;span style&gt;&lt;span style&gt;&lt;span style&gt;&lt;span style&gt;Creating a forcing function&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#x000A;	&lt;li&gt;&lt;span style&gt;&lt;span style&gt;&lt;span style&gt;&lt;span style&gt;&lt;span style&gt;Negotiation thoughts&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#x000A;	&lt;li&gt;&lt;span style&gt;&lt;span style&gt;&lt;span style&gt;&lt;span style&gt;&lt;span style&gt;&lt;span style&gt;Choosing among investors&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#x000A;&lt;/ul&gt;&lt;h3&gt;&lt;strong&gt;More Information&lt;/strong&gt;&lt;/h3&gt;&#x000A;&#x000A;&lt;p&gt;&lt;strong style&gt;Workload:&lt;/strong&gt;&lt;span style&gt; 3 - 5 hours / week&lt;/span&gt;&lt;/p&gt;&#x000A;&#x000A;&lt;p&gt;&lt;span style&gt;&lt;strong style&gt;Prerequisites:&lt;/strong&gt;&lt;span style&gt; This is an introductory course and there are no prerequisites.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#x000A;&#x000A;&lt;p&gt;&lt;span style&gt;&lt;span style&gt;&lt;strong&gt;Technical Requirements:&lt;/strong&gt; You need a computer that allows you to watch the video lectures and provides the ability to upload your assignments, which will include text reports and images or video.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&#x000A;&#x000A;&lt;p&gt;&lt;strong&gt;Statement of Accomplishment:&lt;/strong&gt; Subject to satisfactory performance and course completion, you will receive a statement of accomplishment signed by the instructor. This statement will not stand in the place of a course taken at Stanford or an accredited institution.&lt;/p&gt;' expander-cutoff='500' oe-expander=''></div>
+</article>
+<aside class='span6'>
+<h3 class='bigger instructor'>
+The Instructors
+</h3>
+<!-- for each instructor, add an expandable bio -->
+<div class='row-fluid' style=''>
+<div class='span3'>
+<img alt="Clint Korver's picture" class='rounded person' src='https://d2d6mu5qcvgbk5.cloudfront.net/course/instructors/pictures/thumb/19ad8b85907e9937c9182148ea7f2934eb970c2a.png?AWSAccessKeyId=AKIAJYKAGJMEEGUSW7TQ&amp;Expires=1446452573&amp;Signature=3pu%2BbCB2yDavUPc%2FReKrXiwzNDo%3D'>
+</div>
+<div class='span9'>
+<h4 class='instructor-title' style='margin-top:0px'>Clint Korver</h4>
+<p>COO of NovoEd</p>
+</div>
+</div>
+<div class='row-fluid'>
+<div class='span12'>
+<div class='instructor-bio-expandable' compile-once='&lt;p&gt;&lt;p&gt;Clint Korver is the Chief Operating Officer at NovoEd and teaches entrepreneurship part time at Stanford University. Prior to NovoEd he was the director of the Kauffman Fellows Academy, where he partnered with Matt to create this course. He was a co-founder and partner at Ulu Ventures where he made over 50 early stage investments, including leading the seed round in NovoEd. He founded and led four Silicon Valley startups, and would have benefited tremendously from this course if it were available then. He co-authored the book Ethics for the Real World and has a PhD and MS in Management Science and Engineering from Stanford and a BA with honors in Mathematics from Grinnell College, where he currently serves as Chair of the Board of Trustees.&lt;/p&gt;&#x000A;&lt;/p&gt;' expander-cutoff='1000' oe-expander=''></div>
+</div>
+</div>
+<!-- for each instructor, add an expandable bio -->
+<div class='row-fluid' style='margin-top:30px;'>
+<div class='span3'>
+<img alt="Jenny Rooke's picture" class='rounded person' src='https://d2d6mu5qcvgbk5.cloudfront.net/course/instructors/pictures/thumb/b3f9df59b6fc134e612dcd295baf68b3c27de0cc.jpg?AWSAccessKeyId=AKIAJYKAGJMEEGUSW7TQ&amp;Expires=1446463411&amp;Signature=OaKhV8a%2BjzM9XsUsnIZY%2BQhI6D8%3D'>
+</div>
+<div class='span9'>
+<h4 class='instructor-title' style='margin-top:0px'>Jenny Rooke</h4>
+<p>Former Senior Program Officer, Gates Foundation</p>
+</div>
+</div>
+<div class='row-fluid'>
+<div class='span12'>
+<div class='instructor-bio-expandable' compile-once='&lt;p&gt;&lt;p&gt;Dr. Jenny Rooke drives innovation in the life sciences through investing and business building around brilliant scientists and engineers with novel technologies. Her investing experience includes roles at the Bill &amp;amp; Melinda Gates Foundation and at Fidelity Biosciences, a healthcare venture capital firm. Dr. Rooke held multiple executive roles at U.S. Genomics, a venture-backed biotech start-up advancing single molecule detection technologies for diagnostics, biodefense, and research tools. Previously, Dr. Rooke was a management consultant with McKinsey &amp;amp; Co., where she advised leading pharmaceutical and biotech companies on business strategy. Dr. Rooke earned her PhD in genetics from Yale University and her BS in physics from Georgia Tech.&lt;/p&gt;&#x000A;&lt;/p&gt;' expander-cutoff='1000' oe-expander=''></div>
+</div>
+</div>
+<!-- for each instructor, add an expandable bio -->
+<div class='row-fluid' style='margin-top:30px;'>
+<div class='span3'>
+<img alt="Bill Tobin's picture" class='rounded person' src='https://d2d6mu5qcvgbk5.cloudfront.net/course/instructors/pictures/thumb/709f2a81e12983c4fc16d465e6251a14677fc5df.png?AWSAccessKeyId=AKIAJYKAGJMEEGUSW7TQ&amp;Expires=1446463411&amp;Signature=5%2BAMzTOo2KS16%2FZZ7WvKQfnXEPo%3D'>
+</div>
+<div class='span9'>
+<h4 class='instructor-title' style='margin-top:0px'>Bill Tobin</h4>
+<p></p>
+</div>
+</div>
+<div class='row-fluid'>
+<div class='span12'>
+<div class='instructor-bio-expandable' compile-once='&lt;p&gt;&lt;/p&gt;' expander-cutoff='1000' oe-expander=''></div>
+</div>
+</div>
+<h3 class='bigger more-info'>
+Kauffman Fellows Academy
+</h3>
+<div>
+<p>Kauffman Fellows Academy is the online training partner of the Kauffman Fellows Program, the world's premiere venture capital training organization. Our mission is to be a catalyst for innovation worldwide through affordable, online access to the best in class education in venture capital and capital formation. Our faculty includes leading venture capital investors, experts from academia and government, experienced entrepreneurs, and other thought leaders in entrepreneurship and innovation.</p>
+</div>
+</aside>
+</div>
+<div class='row-fluid'>
+<div class='span12'>
+<div class='center'>
+<div class='powered-by' style='margin-top:30px;margin-bottom:30px'>
+<a href='https://novoed.com'>
+<img alt='powered by NovoED' src='//d29rg257idl8cu.cloudfront.net/assets/brand/powered-by-NovoEd-inline-1d32964de4c5839ba5a1657122f09837.png'>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class='row-fluid' style='margin-bottom: 30px;'>
+<div class='span12'>
+<div class='center'>
+<a class='btn action-btn' href='/courses' style='font-size:17px'>
+Browse NovoEd offerings
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+
+
+</div>
+
+</div>
+</div>
+</div>
+<div class='container-fluid'>
+
+</div>
+</div>
+
+</div>
+<div class='push margin-20' id='footer-holder'>
+<div id='footer' oe-dynamic-scroll-section-bottom='' vertical-position='FooterSection.top'>
+<footer id='novoed-footer'>
+<div class='container'>
+<div class='row-fluid'>
+<div class='span9 hidden-phone'>
+<ul class='nav nav-pills'>
+<li>
+<a data-no-turbolink='true' href='/'>© NovoEd, Inc.</a>
+</li>
+<li>
+<a href='/courses'>Offerings</a>
+</li>
+<li>
+<a href='/how-it-works'>About</a>
+</li>
+<li>
+<a data-no-turbolink='true' href='/careers'>
+Careers
+</a>
+</li>
+<li>
+<a href='/terms'>Terms</a>
+</li>
+<li>
+<a href='http://blog.novoed.com' target='_blank'>Blog</a>
+</li>
+<li>
+<a href="http://help.novoed.com">Help</a>
+</li>
+</ul>
+</div>
+<div class='span3 socialiconsholder'>
+<div class='socialicons'>
+<figure>
+<a class='white' href='http://www.facebook.com/NovoEdTeam'>
+<div class='circle-icon facebook'>
+<i class='fa fa-facebook'></i>
+</div>
+</a>
+</figure>
+<figure>
+<a class='white' href='http://twitter.com/GoNovoEd'>
+<div class='circle-icon twitter'>
+<i class='fa fa-twitter'></i>
+</div>
+</a>
+</figure>
+<figure>
+<a class='white' href='https://plus.google.com/107930508287507956204/posts'>
+<div class='circle-icon google'>
+<i class='fa fa-google-plus'></i>
+</div>
+</a>
+</figure>
+<figure>
+<a class='white' href='http://www.linkedin.com/company/novoed'>
+<div class='circle-icon linkedin'>
+<i class='fa fa-linkedin'></i>
+</div>
+</a>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+</div>
+</div>
+<script defer='defer' src='https://www.youtube.com/iframe_api' type='text/javascript'></script>
+<script async src='https://sadmin.brightcove.com/js/BrightcoveExperiences.js' type='text/javascript'></script>
+<!-- https://s3.amazonaws.com/novoed-assets/mathjax_custom/config/TeX-AMS_HTML-full.js -->
+<script type='text/x-mathjax-config'>
+MathJax.Hub.Config({
+messageStyle: "none",
+extensions: ["tex2jax.js"],
+jax: ["input/TeX", "output/HTML-CSS"],
+tex2jax: {
+inlineMath:[['\\beginMathInline','\\endMathInline'] , ['$$', '$$']],
+displayMath:[['\\beginMathBlock', '\\endMathBlock'] , ['\\$$', '\\$$']],
+processEscapes: true
+},
+"HTML-CSS": { availableFonts: ["TeX"] }
+});
+</script>
+<script>
+  $(document).ready(function(){
+    $.novoEd.user.time_zone = "";
+  
+    // PageView for Google Analytics
+    ga(function() {
+      if (true) {
+        ga('create', 'UA-50661700-1', 'auto', { 'name': 'kfa' });
+      }  
+      ga.getAll().forEach(function(tracker) {
+        ga(tracker.get('name') + '.send', 'pageview', {
+          'dimension1':  '',
+          'dimension2':  'startupcapital'
+        });
+      });
+    });
+  });
+  
+  $(window).load(function(){
+    // MathJax embedding
+    $.getScript('https://cdn.mathjax.org/mathjax/latest/MathJax.js').done(runMathJaxIfExists);
+    // Tagboard embedding
+    if (document.getElementsByClassName('tagboard-embed').length > 0) {
+      $.getScript('//static.tagboard.com/public/js/embed.js');
+    }
+  });
+</script>
+
+<script>
+  $(window).ready(function(){
+    $('#preloader').hide();
+    $('.deferred-content').css('visibility', 'visible');
+  });
+</script>
+</body>
+</html>

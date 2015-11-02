@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang='en-US' xmlns:fb='http://developers.facebook.com/schema/' xmlns:og='http://opengraphprotocol.org/schema/' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<!-- SEO & Facebook Details -->
+<meta content='In this five-week course, founders and managers learn to uncover and build on pockets of exemplary performance when scaling their venture.' name='Description'>
+<meta content='NovoEd - Online professional development and social learning' name='Author'>
+<meta name='Keywords'>
+<meta content='!' name='fragment'>
+<meta content='Scaling Up Your Venture Without Screwing Up' property='og:title'>
+<meta content='website' property='og:type'>
+<meta content='In this five-week course, founders and managers learn to uncover and build on pockets of exemplary performance when scaling their venture.' property='og:description'>
+<meta content='https://novoed.com/scaling-up-your-venture-without-screwing-up' property='og:url'>
+<meta content='https://img.youtube.com/vi/OtK9tf3dyzY/hqdefault.jpg' property='og:image'>
+<meta content='NovoEd' property='og:site_name'>
+<meta content='394850367201365' property='fb:app_id'>
+<link href='https://novoed.com/scaling-up-your-venture-without-screwing-up' rel='canonical'>
+<title>
+Scaling Up Your Venture Without Screwing Up | Stanford Graduate School of Business | NovoEd
+</title>
+<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Comfortaa:400,700|Nunito:300' rel='stylesheet' type='text/css'>
+<link href='//d29rg257idl8cu.cloudfront.net/assets/brand/favicon-96bd4f9f452ad4fea53906879d7b90cc.ico' rel='shortcut icon'>
+<!--[if !IE 7]>
+<style type="text/css">
+<div id='wrap'>{ style: "display:table;height:100%" }</div>
+</style>
+<![endif]-->
+<!--[if lte IE 7]>
+<script src="//d29rg257idl8cu.cloudfront.net/assets/json3.min-c4b14426ee921085314b0283b524ef3f.js"></script>
+<![endif]-->
+<!-- Frame killer -->
+<style> html{display:none;} </style>
+<script>
+  function shouldKeepIframe() {
+    if (self == top) {
+      return true;
+    }
+    
+    var topDomainSplit = top.document.domain.split('.');
+    var selfDomainSplit = self.document.domain.split('.');
+    var selfDomainLength = selfDomainSplit.length;
+  
+    return topDomainSplit[selfDomainLength - 1 ] == topDomainSplit[selfDomainLength - 1 ] &&
+      topDomainSplit[selfDomainLength - 2 ] == topDomainSplit[selfDomainLength - 2 ]
+  }
+  
+  if(shouldKeepIframe()) {
+    document.documentElement.style.display = 'block'; 
+  } else {
+    top.location = self.location;
+  }
+</script>
+<link rel="stylesheet" media="all" href="//d29rg257idl8cu.cloudfront.net/assets/application_priority-6cea4d3b05eb8819f4124ed9f769f076.css" />
+<link rel="stylesheet" media="all" href="//d29rg257idl8cu.cloudfront.net/assets/application-8f3f0ae8d7209f6ca65e77103d603926.css" />
+<script>
+  var homepageBackground = {
+  "mobile": "//d29rg257idl8cu.cloudfront.net/assets/brand/collaborate-compressed-mobile-105bbd7b480c90ab564033e712cc1d05.jpg",
+  "small": "//d29rg257idl8cu.cloudfront.net/assets/brand/collaborate-compressed-desktop-small-5ab51cf013ccc43b0996874a06c07cc0.jpg",
+  "large": "//d29rg257idl8cu.cloudfront.net/assets/brand/collaborate-compressed-desktop-large-updated-6825f30fe3917baf3bab442f6bf8cbc5.jpg"
+  };
+  var getHomepageBackground = function(){
+  if (document.documentElement.clientWidth <= 768)
+     return homepageBackground["mobile"];
+  else if (document.documentElement.clientWidth <= 1440)
+     return homepageBackground["small"];
+  else
+     return homepageBackground["large"];
+  };
+</script>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="8EbK5/+cbzzy5sat4Bblf1+UU6cA/pxHTz3lIOyXDb4SetRlMBSMv10KvA7jnHCdxtvLesyVx71R5U09TWDpRA==" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-30499841-1', 'auto', { 'name': 'NovoEdGlobalTracker'});
+</script>
+
+<script src="//d29rg257idl8cu.cloudfront.net/assets/prerender-fb37612218b80732cf476a0a6b005f5e.js"></script>
+</head>
+<body class='outclass flier  ' id='novoEdApp' ng-init='init({"catalogId":"scaling-up-your-venture-without-screwing-up","isProgram":false,"course":{"id":151,"name":"Scaling Up Your Venture Without Screwing Up","have_board_members":false,"have_mentors":false,"isProgram":false,"collaboration_tools_enabled":false,"enable_online_presence":false,"novoedOfferingName":{"capitalizedPluralized":"Courses","capitalizedSingularized":"Course","downcasedSingularized":"course","downcasedPluralized":"courses","pluralizedTitleized":"Courses","singularizedTitleized":"Course"},"novoedLearnersName":{"capitalizedPluralized":"Students","capitalizedSingularized":"Student","downcasedSingularized":"student","downcasedPluralized":"students","pluralizedTitleized":"Students","singularizedTitleized":"Student"},"novoedAssignmentName":{"capitalizedPluralized":"Activities","capitalizedSingularized":"Activity","downcasedSingularized":"activity","downcasedPluralized":"activities","pluralizedTitleized":"Activities","singularizedTitleized":"Activity"},"novoedLectureName":{"capitalizedPluralized":"Modules","capitalizedSingularized":"Module","downcasedSingularized":"module","downcasedPluralized":"modules","pluralizedTitleized":"Modules","singularizedTitleized":"Module"},"novoedStatementOfAccomplishmentName":{"capitalizedPluralized":"Statement of accomplishments","capitalizedSingularized":"Statement of accomplishment","downcasedSingularized":"statement of accomplishment","downcasedPluralized":"statement of accomplishments","pluralizedTitleized":"Statement Of Accomplishments","singularizedTitleized":"Statement Of Accomplishment"},"novoedTeachingTeamName":{"capitalizedPluralized":"Teaching teams","capitalizedSingularized":"Teaching team","downcasedSingularized":"teaching team","downcasedPluralized":"teaching teams","pluralizedTitleized":"Teaching Teams","singularizedTitleized":"Teaching Team"},"inArchiveMode":true,"ended":true,"has_premium_features":false,"groupTeamSetName":{"capitalizedPluralized":"Groups","capitalizedSingularized":"Group","downcasedSingularized":"group","downcasedPluralized":"groups","pluralizedTitleized":"Groups","singularizedTitleized":"Group"},"currentUserIsCourseAdmin":false,"novoedCourseAlias":{"capitalizedPluralized":"Courses","capitalizedSingularized":"Course","downcasedSingularized":"course","downcasedPluralized":"courses","pluralizedTitleized":"Courses","singularizedTitleized":"Course"}},"currentUser":"","numUnreadConversations":0,"googleApiSettings":{"client_id":"967886061122","developer_key":"AIzaSyCcl4XNPlncAl2pXZbXOwCI2N1j0wGh4QM"},"pusherApiKey":"55caf419f8a7e825fcfe","paperclipDefaults":{"storage":"s3","s3_protocol":"https","s3_credentials":{"path":"/var/www/novo/production/releases/20151101201019/config/s3.yml"},"bucket":"venture-lab","url":":s3_alias_url","s3_host_alias":"d2d6mu5qcvgbk5.cloudfront.net","s3_permissions":"private","s3_headers":{}},"fileUploadOptions":{"default_file_size":52428800,"tiny_file_size":1048576,"small_file_size":5242880,"medium_file_size":52428800,"large_file_size":6291456000,"permitted_extensions":["mp4","avi","flv","wmv","3gp","ogg","mov","doc","docx","txt","pdf","xls","xlsb","ppt","pptx","xlsx","csv","bmp","gif","jpeg","jpg","pjpeg","png","tiff","x-png"]},"assetPath":"","userCourse":"","redactorToolbarType":"Extended","activeStudentsPath":"","blockedList":"","fileTypeToContentType":{"presentation":["application/msword","text/plain","application/pdf","application/vnd.ms-powerpoint","application/vnd.openxmlformats-officedocument.presentationml.presentation","application/vnd.openxmlformats-officedocument.wordprocessingml.document","application/vnd.ms-powerpoint.presentation.macroenabled.12","application/vnd.ms-powerpoint.slideshow.macroenabled.12","application/vnd.openxmlformats-officedocument.presentationml.slideshow","application/vnd.ms-powerpoint.addin.macroenabled.12"]}})'>
+
+<style>
+  #preloader{position: fixed;top: 120px;left: 50%;z-index: 9999; margin-left: -35px;}.spinner{margin:100px auto 0;width:70px;text-align:center}.spinner>div{width:18px;height:18px;background-color:#467b8c;border-radius:100%;display:inline-block;-webkit-animation:bouncedelay 1.4s infinite ease-in-out;animation:bouncedelay 1.4s infinite ease-in-out;-webkit-animation-fill-mode:both;animation-fill-mode:both}.spinner .bounce1{-webkit-animation-delay:-0.32s;animation-delay:-0.32s}.spinner .bounce2{-webkit-animation-delay:-0.16s;animation-delay:-0.16s}@-webkit-keyframes bouncedelay{0%,80%,100%{-webkit-transform:scale(0.0)}40%{-webkit-transform:scale(1.0)}}@keyframes bouncedelay{0%,80%,100%{transform:scale(0.0);-webkit-transform:scale(0.0)}40%{transform:scale(1.0);-webkit-transform:scale(1.0)}}
+</style>
+<div id='preloader'>
+<div class='spinner'>
+<div class='bounce1'></div>
+<div class='bounce2'></div>
+<div class='bounce3'></div>
+</div>
+</div>
+<script>
+  // not supported by some browsers yet but is in ecmascript 6. can remove later
+  if (!String.prototype.endsWith) {
+    String.prototype.endsWith = function(searchString, position) {
+        var subjectString = this.toString();
+        if (position === undefined || position > subjectString.length) {
+          position = subjectString.length;
+        }
+        position -= searchString.length;
+        var lastIndex = subjectString.indexOf(searchString, position);
+        return lastIndex !== -1 && lastIndex === position;
+    };
+  }
+  
+  window.isMobileBrowser = false;
+  window.isMobileEnabledPage = false;
+  
+  function isOePage() {
+    var url =  window.location.href.split('#')[0];
+    return url.endsWith("/oe/") || url.endsWith("/oe");
+  }
+  
+  function isMobileEnabledOePage() {
+    return (window.location.hash && window.location.hash.replace(/\//g, '') === '#!home') ||
+           (window.location.hash && window.location.hash.replace(/\//g, '') === '#!mycourses') ;
+  }
+  
+  if ( isMobileBrowser && (isMobileEnabledPage && ( !isOePage() || isMobileEnabledOePage()))) {
+    $('head').append('<meta name="viewport" content="width=device-width, initial-scale=1.0", name: "viewport">');
+  }
+  
+  if (isOePage() && !isMobileEnabledOePage()) {
+    $('body').removeClass('responsive');
+  }
+</script>
+
+<script src="//d29rg257idl8cu.cloudfront.net/assets/marketing-58ffe8d04f20b61fc0ec3fc9986ccbc8.js"></script>
+<div id='wrap'>
+<div id='main'>
+<div class='hidden-phone'>
+<div id='institution-header'>
+<!-- prepends specific selector to css selectors -->
+<div id='brandbar'>
+<div class='container'>
+    <a href="http://www.stanford.edu">
+      <img src="https://www.stanford.edu/su-identity/images/brandbar-stanford-logo@2x.png" alt="Stanford University" width="152" height="23" style="margin-left: -10px;"></a>
+  
+</div>
+</div>
+<style>#institution-header body {
+  margin:0;
+  padding:0;
+}#institution-header 
+
+/*
+========================================================
+Custom base styles
+*/
+
+#brandbar .container,
+#global-footer .container {
+  margin:0 auto;
+}#institution-header 
+#brandbar .span2,
+#global-footer .span2 {
+  display: block;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}#institution-header 
+#brandbar .span10,
+#global-footer .span10 {
+  display: block;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}#institution-header 
+
+#brandbar .container:after,
+#global-footer .container:after {
+  clear:both;
+}#institution-header 
+#brandbar .row:after,
+#global-footer .row:after {
+  clear:both;
+}#institution-header 
+/* Background gradient */
+#brandbar {
+  background:#8c1515;
+  box-shadow:inset 0 -4px 8px -2px rgba(0, 0, 0, 0.2); /* Horizontal offset , vertical offset, blur, internal spacing */
+  min-height:30px;
+}#institution-header 
+#global-footer,
+#global-footer .container {
+  background:#8c1515;
+  color:#e3dfd5;
+  box-shadow:inset 0 4px 8px -2px rgba(0, 0, 0, 0.2); /* Horizontal offset , vertical offset, blur, internal spacing */
+}#institution-header 
+/* Prevent flush left */
+#brandbar .container img {
+  padding:4px 0 0 10px;
+}#institution-header 
+#global-footer a {
+  color:#e3dfd5;
+}#institution-header 
+#global-footer a:hover {
+  text-decoration:underline;
+}#institution-header 
+/* Prevent horizontal scroll bar */
+#global-footer .container {
+  padding:3px 7px 20px;
+}#institution-header 
+#global-footer .container .row {
+  margin:30px 0 0;
+}#institution-header 
+/* Align logo and text */
+#bottom-logo {
+  margin:0 0 10px;
+  padding:0;
+}#institution-header 
+#bottom-text {
+  margin-top:0;
+}#institution-header 
+#bottom-text ul {
+  margin:2px 0 0;
+  padding:0;
+  line-height:1em;
+}#institution-header 
+#bottom-text ul li {
+  display:block;
+  list-style:none;
+}#institution-header 
+#bottom-text ul li a {
+  font:13px 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+  text-decoration:none;
+}#institution-header 
+p.copyright {
+  font:11px 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+  margin:0;
+  padding:25px 0 0;
+  line-height:1.5em;
+  text-align:center;
+}#institution-header 
+/* Footer two columns */
+#global-footer .span2 {
+  width:48%;
+  float:left;
+}#institution-header 
+#global-footer .span10 {
+  width:48%;
+  float:right;
+}#institution-header 
+#global-footer img {
+  margin:0 auto;
+  display:block;
+}#institution-header 
+
+/* Clear the floats */
+#global-footer .clear {
+  clear:both;
+}#institution-header 
+
+/*
+========================================================
+Media queries
+*/
+
+@media screen and (min-width: 480px) {
+}#institution-header 
+
+@media screen and (min-width: 768px) {
+  /* Prevent double background gradient */
+  #global-footer .container }#institution-header 
+    background:none;
+    box-shadow:none;
+  {
+  #bottom-text }#institution-header 
+    margin-top:2px;
+  {
+  /* Remove left padding */
+  #brandbar .container img }#institution-header 
+    padding:4px 0 0;
+  {
+  /* Bootstrap style */
+  #brandbar .container,
+  #global-footer .container }#institution-header 
+    width:724px;
+  {
+  #global-footer .container .row }#institution-header 
+    margin:30px 0 0 -20px;
+  {
+  /* Footer single column */
+  #global-footer .span2 }#institution-header 
+    float:left;
+    width:104px;
+    padding-left:8px; /* Prevent flush left */
+  {
+  /* Bootstrap style */
+  #global-footer .span10 }#institution-header 
+    width:600px;
+    margin-left:20px;
+    margin:0 12px 0 20px;
+    float:left;
+  {
+  #global-footer img }#institution-header 
+    margin:0 auto;
+  {
+  #global-footer ul li.alt }#institution-header 
+  	clear:right;
+  {
+  /* Footer two column */
+  #global-footer ul }#institution-header 
+    width:100%;
+    float:left;
+  {
+  #global-footer ul li }#institution-header 
+  	width:auto;
+  	margin:0 13px 3px 0;
+  	padding:0;
+  	float:none;
+  	clear:left;
+    display:inline-block;
+  {
+  #bottom-logo }#institution-header 
+    margin:-5px 0 10px;
+  {
+  #global-footer .clear }#institution-header 
+    clear:none;
+  {
+  p.copyright }#institution-header 
+    text-align:left;
+    padding-left:17%;
+    padding-top:25px;
+  {
+}#institution-header 
+
+@media screen and (min-width: 980px) {
+  /* Bootstrap style */
+  #brandbar .container,
+  #global-footer .container }#institution-header 
+    width:940px;
+  {
+  #global-footer .span2 }#institution-header 
+    width:140px;
+  {
+  #global-footer .span10 }#institution-header 
+    width:780px;
+  {
+}#institution-header 
+
+@media screen and (min-width: 1200px) {
+  /* Bootstrap style */
+  #brandbar .container,
+  #global-footer .container }#institution-header 
+    width:1170px;
+  {
+  #global-footer .span2 }#institution-header 
+    width:170px;
+  {
+  #global-footer .span10 }#institution-header 
+    width:970px;
+  {
+  p.copyright }#institution-header 
+    padding-left:16%;
+  {
+}#institution-header 
+
+/*
+Sticky Footer Solution
+by Steve Hatcher 
+http://stever.ca
+http://www.cssstickyfooter.com
+*/
+
+html, body {
+	height: 100%;
+}#institution-header 
+#su-wrap {
+	min-height: 100%;
+}#institution-header 
+#su-content {
+	overflow:visible;
+	padding-bottom: 120px; /* must be same height as the footer */
+}#institution-header 
+#global-footer {
+	position: relative;
+	margin-top: -120px; /* negative value of footer height */
+	height: 120px;
+	clear:both;
+}#institution-header  
+
+/* IE6/7 uses media, */
+@media, {
+  #global-footer }#institution-header 
+    height: 219px;
+  {
+}#institution-header 
+
+/* IE8 uses \0/ */
+@media all {
+  #global-footer }#institution-header 
+    height: 196px\0/;
+  {
+}#institution-header 
+
+/*Opera Fix*/
+	body:before { /* thanks to Maleika (Kohoutec)*/
+	content:&quot;&quot;;
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+}</style>
+
+</div>
+</div>
+<div class='hidden-phone'>
+<header class='row-fluid coursepage deferred-content' style=''>
+
+<div class='container'>
+<div class='row-fluid'>
+<div class='span7'>
+<div class='row-fluid university-branding'>
+<img alt='Stanford Graduate School of Business Online' src='https://d2d6mu5qcvgbk5.cloudfront.net/institutions/logos/flyer/42990f7931790082dffb6c915039c97c988d20db.png?1405982307'>
+</div>
+<div class='row-fluid course-title'>
+<h1>
+Scaling Up Your Venture Without Screwing Up
+</h1>
+<h5 class='thin'>
+Instructors:
+<div class='row-fluid'>
+<span class='instructor_name'>Huggy Rao,</span>
+<span class='muted instructor_title'>Professor of Organizational Behavior, Stanford Graduate School of Business</span>
+</div>
+<div class='row-fluid'>
+<span class='instructor_name'>Robert Sutton,</span>
+<span class='muted instructor_title'>Professor of Management Science and Engineering, Stanford School of Engineering</span>
+</div>
+</h5>
+<figure class='pricetag'>
+A free course from Stanford Graduate School of Business
+</figure>
+</div>
+</div>
+<div class='span5 course-video'>
+<iframe title="YouTube video player" width="380" height="213" src="https://www.youtube.com/embed/OtK9tf3dyzY?vq=auto&rel=0&showinfo=0&autohide=1&wmode=transparent&origin=https://novoed.com" frameborder="0"></iframe>
+</div>
+</div>
+</div>
+</header>
+<div class='coursepage deferred-content'>
+<div class='container'>
+<section class='action-field'>
+<div class='row-fluid'>
+<div class='span8'>
+<div class='timeline inline-block'>
+<span data-convert-time-zone="" data-timezone-format="LL" data-timezone-converted="false" data-utc-time="2014-09-16T06:59:00Z" data-show-current-year-if-exists="true"></span>
+</div>
+-
+<div class='timeline inline-block'>
+<span data-convert-time-zone="" data-timezone-format="LL" data-timezone-converted="false" data-utc-time="2014-10-20T06:59:00Z" data-show-current-year-if-exists="true"></span>
+</div>
+
+&nbsp;
+</div>
+<div class='span4'>
+<div class='pull-right '>
+<div class='enrollment-info'>
+This course has concluded.
+</div>
+<div class='enrollment-info with-top-margin'>
+Already registered? 
+&nbsp;
+<a href="https://novoed.com/users/sign_in?class=scaling-up-your-venture-without-screwing-up">Sign in. </a>
+</div>
+</div>
+</div>
+</div>
+
+<div class='row-fluid timeline-row' style='margin-top: 15px;'>
+<div class='span8'>
+<div class='timeline'>
+Future offerings
+</div>
+</div>
+<div class='span4'>
+<div class='pull-right'>
+<a class='btn action-btn novoed-primary' href='https://novoed.com/users/sign_up?class=scaling-up-your-venture-without-screwing-up&amp;plan=true'>
+Add to Planner
+</a>
+
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+
+<script>
+  $(document).ready(function(){
+      window.addthis_share = {
+        url: "https://novoed.com/scaling-up-your-venture-without-screwing-up",
+        title: "Scaling Up Your Venture Without Screwing Up",
+        passthrough: {
+          twitter: {
+            text: "I just enrolled in Scaling Up Your Venture Without Screwing Up, a free course on NovoEd offered by Stanford Graduate School of Business."
+          }
+        }
+      };
+  });
+</script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53ef09b700165c5d" async="async"></script>
+
+</div>
+
+<div class='deferred-content novoed-gray-background row-fluid'>
+<div>
+<script src="//d29rg257idl8cu.cloudfront.net/assets/application-33e83de861e144c93738ad8a69821b17.js" defer="defer"></script>
+<script src="//d29rg257idl8cu.cloudfront.net/assets/novoed_angular_bootstrap-8ee9af8a14b6050a2281a21108d72e16.js" defer="defer"></script>
+</div>
+<div class='container main-container deferred-content'>
+<div class='content' style=''>
+
+<div class='row-fluid'>
+<style>
+  
+  .alert{
+    margin-bottom: 0px;
+  }
+</style>
+<div class='row-fluid' id='flash-holder' style='margin: 30px 0px;'>
+
+</div>
+<div class='hide j-pending_deletion_msg row-fluid'>
+<div class='span12'>
+<div class='alert alert-error'>
+<img src="//d29rg257idl8cu.cloudfront.net/assets/icons/ajax-loader-9447eadd609b1984d63b4c85c6d93f2c.gif" alt="Ajax loader" />
+Course deletion is in progress.
+<b>
+You
+</b>
+will receive an email as soon as all the data is deleted.
+</div>
+</div>
+</div>
+
+<div class='coursepage'>
+<section class='description'>
+<div class='container'>
+<div class='row-fluid'>
+<article class='span6'>
+<h3 class='bigger course'>
+The Course
+</h3>
+<p class="MsoNormal">The success of every venture depends on scaling: on sustaining and enhancing its effectiveness as it adds more employees, customers, and locations. The problem, however, is that scaling comes with inherent risk. Even the best founders and teams face setbacks, make mistakes, and must muddle through stretches of confusion and uncertainty.<br><br>
+Professors Huggy Rao and Bob Sutton devoted seven years to understanding the differences between organizations that scale well and those that scale badly. In the process, they have identified what leaders can do to increase their organization’s odds of success. They compiled the lessons they learned into the <em>Wall Street Journal</em> best-selling book <em><a href="http://scalingupexcellence.com/">Scaling Up Excellence: How to Get More Without Settling for Less</a></em>. In this course, you will learn the principles that will help you scale up your venture without screwing up.<br><br>
+You’ll address questions that cut to the heart of the scaling challenge:</p>
+
+<ol>
+<li class="MsoNormal">How can you avoid the illusion, impatience, and incompetence that are hallmarks for botched scaling efforts?</li>
+	<li class="MsoNormal">What should your strategy be? Should you be more “Catholic” and replicate one model as you grow? Or should you take a more “Buddhist” approach and encourage local customization as your footprint expands?</li>
+	<li class="MsoNormal"><span style>How can you avoid cognitive overload on yourself and those you lead, while at the same time, add necessary complexity as your team and organizations grows?</span></li>
+</ol><p class="MsoNormal"><br>
+The five-week course consists of assigned readings, lectures, exercises, and video interviews. Each week will present you with different questions, and assigned readings from <em>Scaling Up Excellence</em>. Additionally, lectures that extend the insights of the book have been prepared, and the video interviews provide rich practical advice. The video interviews feature some of the most successful venture capitalists and <span style>entrepreneurs </span>in Silicon Valley, such as:</p>
+
+<ul>
+<li class="MsoNormal">
+<a href="http://www.bhorowitz.com/">Ben Horowitz</a> of renowned venture capital firm Andreessen Horowitz</li>
+	<li class="MsoNormal">
+<a href="http://www.harrisonmetal.com/#people">Michael Dearing</a> - the early stage venture investing guru of Silicon Valley</li>
+	<li class="MsoNormal">Ankit Gupta and Akshay Kothari - two Stanford students whose class project turned into <a href="https://www.pulse.me/">Pulse</a>, a venture acquired by LinkedIn</li>
+	<li class="MsoNormal">
+<a href="http://hearsaysocial.com/about/management/">Clara Shih</a>, the founder of Hearsay Social, and a board member of Starbucks</li>
+	<li class="MsoNormal"><span style><a href="https://www.surveymonkey.com/mp/aboutus/management/">Selina Tobaccowala</a>, President and CTO of SurveyMonkey and co-founder of Evite</span></li>
+	<li class="MsoNormal">
+<span style>​</span><span style>Anthony Coles, former CEO of Onyx Pharmaceuticals, which his team grew and then sold to Amgen for 10 billion dollars</span>
+</li>
+	<li class="MsoNormal">Kaye<span style> Foster-Cheek, former Senior Vice President of Human Resources for</span><span style> Onyx Pharmaceuticals</span>
+</li>
+	<li class="MsoNormal">
+<a href="http://visionspring.org/staff/jordan-kassalow/" style target="_blank">Dr</a><a href="http://visionspring.org/staff/jordan-kassalow/" style target="_blank">. Jordan Kassalow</a>, founder and co-chairman of VisionSpring, an organization that gives individuals in the developing world access to eyeglasses</li>
+	<li class="MsoNormal">
+<a href="http://visionspring.org/staff/kevin-hassey/" style target="_blank">Kevin Hassey</a><span style>, CEO of </span>VisionSpring</li>
+	<li class="MsoNormal">
+<a href="http://chipconley.com/">Chip Conley</a>, founder and former CEO of Joie de Vivre boutique hotel company and current Head of Global Hospitality &amp; Strategy at Airbnb</li>
+</ul><p class="MsoNormal"><br>
+Through the exercises, you will be able to apply the learnings directly to develop your scaling plan. At the end of the course, there is a live webinar during which some of the best works from the class will be showcased.</p>
+<div class='row-fluid' style='display:none'>
+<div class='span12'>
+<div class='pull-right'>
+<a class="highlight-button" href="https://novoed.com/scaling-up-your-venture-without-screwing-up/highlight">Check out course highlights »</a>
+</div>
+<br>
+</div>
+</div>
+
+<h3 class='big more-info'>
+More Information
+</h3>
+<div class='more-info-expandable' compile-once='&lt;p class="MsoNormal"&gt;&lt;strong&gt;Any Questions?&lt;/strong&gt; Visit our &lt;a href="https://novoed.com/scaling-up-your-venture-without-screwing-up/course_info_pages/629"&gt;FAQ page&lt;/a&gt; (available to registered students starting Sept. 15). If you have technical problems signing up, &lt;a href="http://help.novoed.com/hc/en-us/requests/new"&gt;file a ticket with NovoEd&lt;/a&gt;.&lt;/p&gt;&#x000A;&#x000A;&lt;p class="MsoNormal"&gt;&lt;strong&gt;Recommended Textbook&lt;/strong&gt;: &lt;em&gt;&lt;a href="http://scalingupexcellence.com/buy-the-book/"&gt;Scaling Up Excellence&lt;/a&gt;&lt;/em&gt; by Robert Sutton and Huggy Rao. Random House, 2014. It is available in hardcover and e-book (iBook or Kindle) versions.&lt;/p&gt;&#x000A;&#x000A;&lt;p&gt;&lt;strong&gt;Workload&lt;/strong&gt;: Expect to spend between 4 - 6 hours per week on the course over the five-week period. This class is mostly asynchronous and does not meet at specific times. There will be one live webinar in the final week of the course that will be recorded for those who are unable to attend.&lt;/p&gt;&#x000A;&#x000A;&lt;p class="MsoNormal"&gt;&lt;strong&gt;Technical Requirements&lt;/strong&gt;: You need a computer that allows you to watch the video lectures, and the ability to upload your assignments, which will be images, videos, slides, and text. You should also be prepared to collaborate with teammates via email, Skype, and other free online tools.&lt;/p&gt;&#x000A;&#x000A;&lt;p class="MsoNormal"&gt;&lt;strong&gt;Prerequisites&lt;/strong&gt;: None&lt;/p&gt;&#x000A;&#x000A;&lt;p class="MsoNormal"&gt;&lt;strong&gt;Statement of Accomplishment&lt;/strong&gt;: Subject to satisfactory performance and course completion, you will receive a statement of accomplishment signed by the instructor. This statement will not stand in the place of a course taken at Stanford or an accredited institution.&lt;/p&gt;' expander-cutoff='500' oe-expander=''></div>
+</article>
+<aside class='span6'>
+<h3 class='bigger instructor'>
+The Instructors
+</h3>
+<!-- for each instructor, add an expandable bio -->
+<div class='row-fluid' style=''>
+<div class='span3'>
+<img alt="Huggy Rao's picture" class='rounded person' src='https://d2d6mu5qcvgbk5.cloudfront.net/course/instructors/pictures/thumb/6a34314e55884c42a640d2decef9003563c54249.jpg?AWSAccessKeyId=AKIAJYKAGJMEEGUSW7TQ&amp;Expires=1446475984&amp;Signature=b0u%2FATFqFiQVewLhV%2FsCPIurLxs%3D'>
+</div>
+<div class='span9'>
+<h4 class='instructor-title' style='margin-top:0px'>Huggy Rao</h4>
+<p>Professor of Organizational Behavior, Stanford Graduate School of Business</p>
+</div>
+</div>
+<div class='row-fluid'>
+<div class='span12'>
+<div class='instructor-bio-expandable' compile-once='&lt;p&gt;&lt;p class="MsoNormal"&gt;Huggy Rao (&lt;span style&gt;&lt;a href="https://twitter.com/huggyrao"&gt;@huggyrao&lt;/a&gt;) &lt;/span&gt;is a Professor of Organizational Behavior at Stanford Graduate School of Business. He is also the author of &lt;em&gt;Market Rebels&lt;/em&gt; (2009), numerous research articles, and has been awarded the Sidney Levy Award for Teaching Excellence, the W. Richard Scott Award for Distinguished Scholarship, and is a Fellow of the Center for Advanced Study in Behavioral Sciences, and the Sociological Research Association. His teaching specialties include leading organizational change, building customer-focused cultures, and organization design.&lt;/p&gt;&lt;/p&gt;' expander-cutoff='1000' oe-expander=''></div>
+</div>
+</div>
+<!-- for each instructor, add an expandable bio -->
+<div class='row-fluid' style='margin-top:30px;'>
+<div class='span3'>
+<img alt="Robert Sutton's picture" class='rounded person' src='https://d2d6mu5qcvgbk5.cloudfront.net/course/instructors/pictures/thumb/407181842e32f945529a70dbec979fc4d71bc928.jpg?AWSAccessKeyId=AKIAJYKAGJMEEGUSW7TQ&amp;Expires=1446475984&amp;Signature=4%2BUN5tMg5fxMXPap7lu%2B91i4hRU%3D'>
+</div>
+<div class='span9'>
+<h4 class='instructor-title' style='margin-top:0px'>Robert Sutton</h4>
+<p>Professor of Management Science and Engineering, Stanford School of Engineering</p>
+</div>
+</div>
+<div class='row-fluid'>
+<div class='span12'>
+<div class='instructor-bio-expandable' compile-once='&lt;p&gt;&lt;p class="MsoNormal"&gt;&lt;span style&gt;Bob Sutton (&lt;/span&gt;&lt;span style&gt;&lt;a href="https://twitter.com/work_matters"&gt;@work_matters&lt;/a&gt;) &lt;/span&gt;&lt;span style&gt;is a Professor of Management Science and Engineering in the Stanford Engineering School, where he is co-founder of the Center for Work, Technology, and Organization, the Stanford Technology Ventures Program, and the Stanford Design Institute or “d.school.” He has written numerous academic and applied articles and is author or co-author of six business books including &lt;/span&gt;&lt;i style&gt;The No Asshole Rule&lt;/i&gt;&lt;span style&gt; and &lt;/span&gt;&lt;i style&gt;Good Boss, Bad Boss&lt;/i&gt;&lt;span style&gt;, both New York Times bestsellers.&lt;/span&gt;&lt;/p&gt;&lt;/p&gt;&#x000A;&#x000A;&lt;p&gt;&lt;p&gt; &lt;/p&gt;&lt;/p&gt;&#x000A;&#x000A;&lt;p&gt;&lt;p&gt; &lt;/p&gt;&lt;/p&gt;&#x000A;&#x000A;&lt;p&gt;&lt;p class="MsoNormal"&gt; &lt;/p&gt;&lt;/p&gt;&#x000A;&#x000A;&lt;p&gt;&lt;p&gt; &lt;/p&gt;&lt;/p&gt;&#x000A;&#x000A;&lt;p&gt;&lt;p&gt; &lt;/p&gt;&lt;/p&gt;&#x000A;&#x000A;&lt;p&gt;&lt;p&gt; &lt;/p&gt;&lt;/p&gt;' expander-cutoff='1000' oe-expander=''></div>
+</div>
+</div>
+</aside>
+</div>
+<div class='row-fluid'>
+<div class='span12'>
+<div class='center'>
+<div class='powered-by' style='margin-top:30px;margin-bottom:30px'>
+<a href='https://novoed.com'>
+<img alt='powered by NovoED' src='//d29rg257idl8cu.cloudfront.net/assets/brand/powered-by-NovoEd-inline-1d32964de4c5839ba5a1657122f09837.png'>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class='row-fluid' style='margin-bottom: 30px;'>
+<div class='span12'>
+<div class='center'>
+<a class='btn action-btn' href='/courses' style='font-size:17px'>
+Browse NovoEd offerings
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+
+
+</div>
+
+</div>
+</div>
+</div>
+<div class='container-fluid'>
+
+</div>
+</div>
+
+</div>
+<div class='push margin-20' id='footer-holder'>
+<div id='footer' oe-dynamic-scroll-section-bottom='' vertical-position='FooterSection.top'>
+<footer id='novoed-footer'>
+<div class='container'>
+<div class='row-fluid'>
+<div class='span9 hidden-phone'>
+<ul class='nav nav-pills'>
+<li>
+<a data-no-turbolink='true' href='/'>© NovoEd, Inc.</a>
+</li>
+<li>
+<a href='/courses'>Offerings</a>
+</li>
+<li>
+<a href='/how-it-works'>About</a>
+</li>
+<li>
+<a data-no-turbolink='true' href='/careers'>
+Careers
+</a>
+</li>
+<li>
+<a href='/terms'>Terms</a>
+</li>
+<li>
+<a href='http://blog.novoed.com' target='_blank'>Blog</a>
+</li>
+<li>
+<a href="http://help.novoed.com">Help</a>
+</li>
+</ul>
+</div>
+<div class='span3 socialiconsholder'>
+<div class='socialicons'>
+<figure>
+<a class='white' href='http://www.facebook.com/NovoEdTeam'>
+<div class='circle-icon facebook'>
+<i class='fa fa-facebook'></i>
+</div>
+</a>
+</figure>
+<figure>
+<a class='white' href='http://twitter.com/GoNovoEd'>
+<div class='circle-icon twitter'>
+<i class='fa fa-twitter'></i>
+</div>
+</a>
+</figure>
+<figure>
+<a class='white' href='https://plus.google.com/107930508287507956204/posts'>
+<div class='circle-icon google'>
+<i class='fa fa-google-plus'></i>
+</div>
+</a>
+</figure>
+<figure>
+<a class='white' href='http://www.linkedin.com/company/novoed'>
+<div class='circle-icon linkedin'>
+<i class='fa fa-linkedin'></i>
+</div>
+</a>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+</div>
+</div>
+<script defer='defer' src='https://www.youtube.com/iframe_api' type='text/javascript'></script>
+<script async src='https://sadmin.brightcove.com/js/BrightcoveExperiences.js' type='text/javascript'></script>
+<!-- https://s3.amazonaws.com/novoed-assets/mathjax_custom/config/TeX-AMS_HTML-full.js -->
+<script type='text/x-mathjax-config'>
+MathJax.Hub.Config({
+messageStyle: "none",
+extensions: ["tex2jax.js"],
+jax: ["input/TeX", "output/HTML-CSS"],
+tex2jax: {
+inlineMath:[['\\beginMathInline','\\endMathInline'] , ['$$', '$$']],
+displayMath:[['\\beginMathBlock', '\\endMathBlock'] , ['\\$$', '\\$$']],
+processEscapes: true
+},
+"HTML-CSS": { availableFonts: ["TeX"] }
+});
+</script>
+<script>
+  $(document).ready(function(){
+    $.novoEd.user.time_zone = "";
+  
+    // PageView for Google Analytics
+    ga(function() {
+      if (true) {
+        ga('create', 'UA-53202110-1', 'auto', { 'name': 'gsb-stanford' });
+      }  
+      ga.getAll().forEach(function(tracker) {
+        ga(tracker.get('name') + '.send', 'pageview', {
+          'dimension1':  '',
+          'dimension2':  'scaling-up-your-venture-without-screwing-up'
+        });
+      });
+    });
+  });
+  
+  $(window).load(function(){
+    // MathJax embedding
+    $.getScript('https://cdn.mathjax.org/mathjax/latest/MathJax.js').done(runMathJaxIfExists);
+    // Tagboard embedding
+    if (document.getElementsByClassName('tagboard-embed').length > 0) {
+      $.getScript('//static.tagboard.com/public/js/embed.js');
+    }
+  });
+</script>
+
+<script>
+  $(window).ready(function(){
+    $('#preloader').hide();
+    $('.deferred-content').css('visibility', 'visible');
+  });
+</script>
+</body>
+</html>

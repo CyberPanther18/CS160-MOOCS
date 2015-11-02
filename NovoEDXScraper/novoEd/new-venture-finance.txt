@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang='en-US' xmlns:fb='http://developers.facebook.com/schema/' xmlns:og='http://opengraphprotocol.org/schema/' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"d4316c6d20","applicationID":"2417208","transactionName":"JQwLQ0RWDl9dQklaXRMRFlJFFhFbV0c=","queueTime":0,"applicationTime":108,"agent":"js-agent.newrelic.com/nr-768.min.js"}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwEDV1JXGwEEVVZQBwk="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:24,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:25,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t,e){function n(){return s}if(t[1]){var r=t[1];if("function"==typeof r){var s=a(r,"nr@wrapped",function(){return i(r,"fn-",n,r.name||"anonymous")});this.wrapped=t[1]=s,o.emit("initEventContext",[t,e],this.wrapped)}else"function"==typeof r.handleEvent&&i.inPlace(r,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:26,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:26,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:26,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){function r(){return a}this.ctx={};var a={"nr@context":this.ctx};o.emit("initTimerContext",[t,n],a),t[0]=i(t[0],"fn-",r,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:26,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,p,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:26,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1),u=window.XMLHttpRequest;t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof u&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:12,4:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:24,2:25,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:24,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],24:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],25:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],26:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:25,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);</script>
+<!-- SEO & Facebook Details -->
+<meta content='This course examines the range of financing options that a life science/healthcare company has at the startup phase of its life cycle. ' name='Description'>
+<meta content='NovoEd - Online professional development and social learning' name='Author'>
+<meta name='Keywords'>
+<meta content='!' name='fragment'>
+<meta content='Financing New Ventures' property='og:title'>
+<meta content='website' property='og:type'>
+<meta content='This course examines the range of financing options that a life science/healthcare company has at the startup phase of its life cycle. ' property='og:description'>
+<meta content='https://novoed.com/new-venture-finance' property='og:url'>
+<meta content='https://img.youtube.com/vi/1pKX_RZ6eIA/hqdefault.jpg' property='og:image'>
+<meta content='NovoEd' property='og:site_name'>
+<meta content='394850367201365' property='fb:app_id'>
+<link href='https://novoed.com/new-venture-finance' rel='canonical'>
+<title>
+Financing New Ventures | Entrepreneurship Center at UCSF | NovoEd
+</title>
+<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Comfortaa:400,700|Nunito:300' rel='stylesheet' type='text/css'>
+<link href='//d29rg257idl8cu.cloudfront.net/assets/brand/favicon-96bd4f9f452ad4fea53906879d7b90cc.ico' rel='shortcut icon'>
+<!--[if !IE 7]>
+<style type="text/css">
+<div id='wrap'>{ style: "display:table;height:100%" }</div>
+</style>
+<![endif]-->
+<!--[if lte IE 7]>
+<script src="//d29rg257idl8cu.cloudfront.net/assets/json3.min-c4b14426ee921085314b0283b524ef3f.js"></script>
+<![endif]-->
+<!-- Frame killer -->
+<style> html{display:none;} </style>
+<script>
+  function shouldKeepIframe() {
+    if (self == top) {
+      return true;
+    }
+    
+    var topDomainSplit = top.document.domain.split('.');
+    var selfDomainSplit = self.document.domain.split('.');
+    var selfDomainLength = selfDomainSplit.length;
+  
+    return topDomainSplit[selfDomainLength - 1 ] == topDomainSplit[selfDomainLength - 1 ] &&
+      topDomainSplit[selfDomainLength - 2 ] == topDomainSplit[selfDomainLength - 2 ]
+  }
+  
+  if(shouldKeepIframe()) {
+    document.documentElement.style.display = 'block'; 
+  } else {
+    top.location = self.location;
+  }
+</script>
+<link rel="stylesheet" media="all" href="//d29rg257idl8cu.cloudfront.net/assets/application_priority-6cea4d3b05eb8819f4124ed9f769f076.css" />
+<link rel="stylesheet" media="all" href="//d29rg257idl8cu.cloudfront.net/assets/application-8f3f0ae8d7209f6ca65e77103d603926.css" />
+<script>
+  var homepageBackground = {
+  "mobile": "//d29rg257idl8cu.cloudfront.net/assets/brand/collaborate-compressed-mobile-105bbd7b480c90ab564033e712cc1d05.jpg",
+  "small": "//d29rg257idl8cu.cloudfront.net/assets/brand/collaborate-compressed-desktop-small-5ab51cf013ccc43b0996874a06c07cc0.jpg",
+  "large": "//d29rg257idl8cu.cloudfront.net/assets/brand/collaborate-compressed-desktop-large-updated-6825f30fe3917baf3bab442f6bf8cbc5.jpg"
+  };
+  var getHomepageBackground = function(){
+  if (document.documentElement.clientWidth <= 768)
+     return homepageBackground["mobile"];
+  else if (document.documentElement.clientWidth <= 1440)
+     return homepageBackground["small"];
+  else
+     return homepageBackground["large"];
+  };
+</script>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="XGY79r0B9ulqDlxoWf38NHdciTv41qgMM7lCsfaTqdHGiEc1r6eRKymRXXsLGn0Nbic4IU9iGhKyLPhupENsGQ==" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-30499841-1', 'auto', { 'name': 'NovoEdGlobalTracker'});
+</script>
+
+<script src="//d29rg257idl8cu.cloudfront.net/assets/prerender-fb37612218b80732cf476a0a6b005f5e.js"></script>
+</head>
+<body class='outclass flier  ' id='novoEdApp' ng-init='init({"catalogId":"new-venture-finance","isProgram":false,"course":{"id":58,"name":"Financing New Ventures","have_board_members":false,"have_mentors":false,"isProgram":false,"collaboration_tools_enabled":false,"enable_online_presence":false,"novoedOfferingName":{"capitalizedPluralized":"Courses","capitalizedSingularized":"Course","downcasedSingularized":"course","downcasedPluralized":"courses","pluralizedTitleized":"Courses","singularizedTitleized":"Course"},"novoedLearnersName":{"capitalizedPluralized":"Students","capitalizedSingularized":"Student","downcasedSingularized":"student","downcasedPluralized":"students","pluralizedTitleized":"Students","singularizedTitleized":"Student"},"novoedAssignmentName":{"capitalizedPluralized":"Assignments","capitalizedSingularized":"Assignment","downcasedSingularized":"assignment","downcasedPluralized":"assignments","pluralizedTitleized":"Assignments","singularizedTitleized":"Assignment"},"novoedLectureName":{"capitalizedPluralized":"Lectures","capitalizedSingularized":"Lecture","downcasedSingularized":"lecture","downcasedPluralized":"lectures","pluralizedTitleized":"Lectures","singularizedTitleized":"Lecture"},"novoedStatementOfAccomplishmentName":{"capitalizedPluralized":"Statement of accomplishments","capitalizedSingularized":"Statement of accomplishment","downcasedSingularized":"statement of accomplishment","downcasedPluralized":"statement of accomplishments","pluralizedTitleized":"Statement Of Accomplishments","singularizedTitleized":"Statement Of Accomplishment"},"novoedTeachingTeamName":{"capitalizedPluralized":"Teaching teams","capitalizedSingularized":"Teaching team","downcasedSingularized":"teaching team","downcasedPluralized":"teaching teams","pluralizedTitleized":"Teaching Teams","singularizedTitleized":"Teaching Team"},"inArchiveMode":false,"ended":true,"has_premium_features":false,"groupTeamSetName":{"capitalizedPluralized":"Groups","capitalizedSingularized":"Group","downcasedSingularized":"group","downcasedPluralized":"groups","pluralizedTitleized":"Groups","singularizedTitleized":"Group"},"currentUserIsCourseAdmin":false,"novoedCourseAlias":{"capitalizedPluralized":"Courses","capitalizedSingularized":"Course","downcasedSingularized":"course","downcasedPluralized":"courses","pluralizedTitleized":"Courses","singularizedTitleized":"Course"}},"currentUser":"","numUnreadConversations":0,"googleApiSettings":{"client_id":"967886061122","developer_key":"AIzaSyCcl4XNPlncAl2pXZbXOwCI2N1j0wGh4QM"},"pusherApiKey":"55caf419f8a7e825fcfe","paperclipDefaults":{"storage":"s3","s3_protocol":"https","s3_credentials":{"path":"/var/www/novo/production/releases/20151101201019/config/s3.yml"},"bucket":"venture-lab","url":":s3_alias_url","s3_host_alias":"d2d6mu5qcvgbk5.cloudfront.net","s3_permissions":"private","s3_headers":{}},"fileUploadOptions":{"default_file_size":52428800,"tiny_file_size":1048576,"small_file_size":5242880,"medium_file_size":52428800,"large_file_size":6291456000,"permitted_extensions":["mp4","avi","flv","wmv","3gp","ogg","mov","doc","docx","txt","pdf","xls","xlsb","ppt","pptx","xlsx","csv","bmp","gif","jpeg","jpg","pjpeg","png","tiff","x-png"]},"assetPath":"","userCourse":"","redactorToolbarType":"Extended","activeStudentsPath":"","blockedList":"","fileTypeToContentType":{"presentation":["application/msword","text/plain","application/pdf","application/vnd.ms-powerpoint","application/vnd.openxmlformats-officedocument.presentationml.presentation","application/vnd.openxmlformats-officedocument.wordprocessingml.document","application/vnd.ms-powerpoint.presentation.macroenabled.12","application/vnd.ms-powerpoint.slideshow.macroenabled.12","application/vnd.openxmlformats-officedocument.presentationml.slideshow","application/vnd.ms-powerpoint.addin.macroenabled.12"]}})'>
+
+<style>
+  #preloader{position: fixed;top: 120px;left: 50%;z-index: 9999; margin-left: -35px;}.spinner{margin:100px auto 0;width:70px;text-align:center}.spinner>div{width:18px;height:18px;background-color:#467b8c;border-radius:100%;display:inline-block;-webkit-animation:bouncedelay 1.4s infinite ease-in-out;animation:bouncedelay 1.4s infinite ease-in-out;-webkit-animation-fill-mode:both;animation-fill-mode:both}.spinner .bounce1{-webkit-animation-delay:-0.32s;animation-delay:-0.32s}.spinner .bounce2{-webkit-animation-delay:-0.16s;animation-delay:-0.16s}@-webkit-keyframes bouncedelay{0%,80%,100%{-webkit-transform:scale(0.0)}40%{-webkit-transform:scale(1.0)}}@keyframes bouncedelay{0%,80%,100%{transform:scale(0.0);-webkit-transform:scale(0.0)}40%{transform:scale(1.0);-webkit-transform:scale(1.0)}}
+</style>
+<div id='preloader'>
+<div class='spinner'>
+<div class='bounce1'></div>
+<div class='bounce2'></div>
+<div class='bounce3'></div>
+</div>
+</div>
+<script>
+  // not supported by some browsers yet but is in ecmascript 6. can remove later
+  if (!String.prototype.endsWith) {
+    String.prototype.endsWith = function(searchString, position) {
+        var subjectString = this.toString();
+        if (position === undefined || position > subjectString.length) {
+          position = subjectString.length;
+        }
+        position -= searchString.length;
+        var lastIndex = subjectString.indexOf(searchString, position);
+        return lastIndex !== -1 && lastIndex === position;
+    };
+  }
+  
+  window.isMobileBrowser = false;
+  window.isMobileEnabledPage = false;
+  
+  function isOePage() {
+    var url =  window.location.href.split('#')[0];
+    return url.endsWith("/oe/") || url.endsWith("/oe");
+  }
+  
+  function isMobileEnabledOePage() {
+    return (window.location.hash && window.location.hash.replace(/\//g, '') === '#!home') ||
+           (window.location.hash && window.location.hash.replace(/\//g, '') === '#!mycourses') ;
+  }
+  
+  if ( isMobileBrowser && (isMobileEnabledPage && ( !isOePage() || isMobileEnabledOePage()))) {
+    $('head').append('<meta name="viewport" content="width=device-width, initial-scale=1.0", name: "viewport">');
+  }
+  
+  if (isOePage() && !isMobileEnabledOePage()) {
+    $('body').removeClass('responsive');
+  }
+</script>
+
+<script src="//d29rg257idl8cu.cloudfront.net/assets/marketing-58ffe8d04f20b61fc0ec3fc9986ccbc8.js"></script>
+<div id='wrap'>
+<div id='main'>
+<div class='hidden-phone'>
+<div id='institution-header'>
+<!-- prepends specific selector to css selectors -->
+<div id='brandbar'>
+<div class='container'>
+   <a href="#">
+     <img src="https://d9c20z7pqhaxm.cloudfront.net/wmd/a763e6000513ec2f4efd7888df9d30dabaf530e5.png?1376449035"></a>
+ 
+</div>
+</div>
+<style>#institution-header #brandbar {
+ background:#88bbbb;
+ max-height:50px;
+}#institution-header 
+#brandbar img{
+max-height:50px;
+}</style>
+
+</div>
+</div>
+<div class='hidden-phone'>
+<header class='row-fluid coursepage deferred-content' style=''>
+
+<div class='container'>
+<div class='row-fluid'>
+<div class='span7'>
+<div class='row-fluid university-branding'>
+<img alt="Financing New Ventures's Logo" src='https://d2d6mu5qcvgbk5.cloudfront.net/courses/logos/flyer/2e318dfa25f8ac07d2c68e8267a1e63fc80b23bd.png?1405984265'>
+</div>
+<div class='row-fluid course-title'>
+<h1>
+Financing New Ventures
+</h1>
+<h5 class='thin'>
+Instructors:
+<div class='row-fluid'>
+<span class='instructor_name'>Stephanie Marrus,</span>
+<span class='muted instructor_title'>Director, Entrepreneurship Center at UCSF</span>
+</div>
+<div class='row-fluid'>
+<span class='instructor_name'>Naeem Zafar,</span>
+<span class='muted instructor_title'>Teaching Fellow</span>
+</div>
+</h5>
+<figure class='pricetag'>
+A free course from Entrepreneurship Center at UCSF
+</figure>
+</div>
+</div>
+<div class='span5 course-video'>
+<iframe title="YouTube video player" width="380" height="213" src="https://www.youtube.com/embed/1pKX_RZ6eIA?vq=auto&rel=0&showinfo=0&autohide=1&wmode=transparent&origin=https://novoed.com" frameborder="0"></iframe>
+</div>
+</div>
+</div>
+</header>
+<div class='coursepage deferred-content'>
+<div class='container'>
+<section class='action-field'>
+<div class='row-fluid'>
+<div class='span8'>
+<div class='timeline inline-block'>
+<span data-convert-time-zone="" data-timezone-format="LL" data-timezone-converted="false" data-utc-time="2013-11-05T07:59:00Z" data-show-current-year-if-exists="true"></span>
+</div>
+-
+<div class='timeline inline-block'>
+<span data-convert-time-zone="" data-timezone-format="LL" data-timezone-converted="false" data-utc-time="2014-02-01T07:59:00Z" data-show-current-year-if-exists="true"></span>
+</div>
+
+&nbsp;
+</div>
+<div class='span4'>
+<div class='pull-right '>
+<div class='enrollment-info'>
+This course has concluded.
+</div>
+<div class='enrollment-info with-top-margin'>
+Already registered? 
+&nbsp;
+<a href="https://novoed.com/users/sign_in?class=new-venture-finance">Sign in. </a>
+</div>
+</div>
+</div>
+</div>
+
+<div class='row-fluid timeline-row' style='margin-top: 15px;'>
+<div class='span8'>
+<div class='timeline'>
+Future offerings
+</div>
+</div>
+<div class='span4'>
+<div class='pull-right'>
+<a class='btn action-btn novoed-primary' href='https://novoed.com/users/sign_up?class=new-venture-finance&amp;plan=true'>
+Add to Planner
+</a>
+
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+
+<script>
+  $(document).ready(function(){
+      window.addthis_share = {
+        url: "https://novoed.com/new-venture-finance",
+        title: "Financing New Ventures",
+        passthrough: {
+          twitter: {
+            text: "I just enrolled in Financing New Ventures, a free course on NovoEd offered by Entrepreneurship Center at UCSF."
+          }
+        }
+      };
+  });
+</script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53ef09b700165c5d" async="async"></script>
+
+</div>
+
+<div class='deferred-content novoed-gray-background row-fluid'>
+<div>
+<script src="//d29rg257idl8cu.cloudfront.net/assets/application-33e83de861e144c93738ad8a69821b17.js" defer="defer"></script>
+<script src="//d29rg257idl8cu.cloudfront.net/assets/novoed_angular_bootstrap-8ee9af8a14b6050a2281a21108d72e16.js" defer="defer"></script>
+</div>
+<div class='container main-container deferred-content'>
+<div class='content' style=''>
+
+<div class='row-fluid'>
+<style>
+  header.coursepage {
+  background: #fff;
+  }
+  header.registrations {
+  background: #fff;
+  }
+  .university-branding img{
+  height: 60px;
+  margin-top:10px;
+  }
+  .university-branding img {
+  height: 60px;
+  margin-top: 10px;
+  height: 100px;}
+  .alert{
+    margin-bottom: 0px;
+  }
+</style>
+<div class='row-fluid' id='flash-holder' style='margin: 30px 0px;'>
+
+</div>
+<div class='hide j-pending_deletion_msg row-fluid'>
+<div class='span12'>
+<div class='alert alert-error'>
+<img src="//d29rg257idl8cu.cloudfront.net/assets/icons/ajax-loader-9447eadd609b1984d63b4c85c6d93f2c.gif" alt="Ajax loader" />
+Course deletion is in progress.
+<b>
+You
+</b>
+will receive an email as soon as all the data is deleted.
+</div>
+</div>
+</div>
+
+<div class='coursepage'>
+<section class='description'>
+<div class='container'>
+<div class='row-fluid'>
+<article class='span6'>
+<h3 class='bigger course'>
+The Course
+</h3>
+<p>This course examines the range of financing options that a life science/healthcare company has at the startup phase of its life cycle. In this difficult financing environment, ventures need to look to any and all sources of capital that will allow them to create value inflection points, reduce risk and position themselves for additional investment. This course will cover a range of funding sources including grants, angels, seed and venture capital and non-traditional sources such as foundations and crowdfunding.</p>
+
+<p>Two perspectives, that of the entrepreneur and that of the investor, will be taken. Some of the takeaways will be navigating the investment world, determining appropriate capital sources for your venture, the investment criteria typical of a source, the inside story on venture capital, and non-dilutive funding such as grants. This course will also touch lightly on business planning, basic finance and creating an investor presentation. The course will provide information to help set a plan of action to fund a company.</p>
+<div class='row-fluid' style='display:none'>
+<div class='span12'>
+<div class='pull-right'>
+<a class="highlight-button" href="https://novoed.com/new-venture-finance/highlight">Check out course highlights »</a>
+</div>
+<br>
+</div>
+</div>
+
+</article>
+<aside class='span6'>
+<h3 class='bigger instructor'>
+The Instructors
+</h3>
+<!-- for each instructor, add an expandable bio -->
+<div class='row-fluid' style=''>
+<div class='span3'>
+<img alt="Stephanie Marrus's picture" class='rounded person' src='https://d2d6mu5qcvgbk5.cloudfront.net/course/instructors/pictures/thumb/70b440cdb90762c90b3e690b51104d10a0062326.jpg?AWSAccessKeyId=AKIAJYKAGJMEEGUSW7TQ&amp;Expires=1446495758&amp;Signature=E%2FuqP1Ee2GqpH8dG3nKvh1sX0Zk%3D'>
+</div>
+<div class='span9'>
+<h4 class='instructor-title' style='margin-top:0px'>Stephanie Marrus</h4>
+<p>Director, Entrepreneurship Center at UCSF</p>
+</div>
+</div>
+<div class='row-fluid'>
+<div class='span12'>
+<div class='instructor-bio-expandable' compile-once='&lt;p&gt;&lt;p&gt;Stephanie is Director of the Entrepreneurship Center at UCSF, which is part of Office of Innovation, Technology and Alliances. During a 25-year plus career, she has been involved as a corporate executive, business consultant and mentor with hundreds of companies in science and technology-based industries, many with their technological roots at MIT, Harvard, the University of California and Stanford. Her consulting clients have included venture capitalists, CEOs, National Science Foundation grantees and foreign government entities. She has been President of a medical research foundation and serves on the Advisory Board of a social venture startup accelerator.&lt;/p&gt;&lt;/p&gt;&#x000A;&#x000A;&lt;p&gt;&lt;p&gt;She has translated her business experience to the classroom and teaches experiential courses in entrepreneurship and bio-entrepreneurship. Her academic titles have included Faculty in the Center for Entrepreneurship in Technology at UC Berkeley, Entrepreneur-in-Residence at the Haas School of Business, UC Berkeley; Guest Lecturer, Stanford Technology Ventures Program; Adjunct Professor, St. Petersburg State University Graduate School of Management, Russia; and Entrepreneur-in-Residence, King Abdullah University of Science and Technology, Jeddah, Saudi Arabia.&lt;/p&gt;&lt;/p&gt;&#x000A;&#x000A;&lt;p&gt;&lt;p&gt;She is the author of a book on strategic planning, &lt;em&gt;Building the Strategic Plan&lt;/em&gt;, published by John Wiley and sold worldwide. Her views on entrepreneurship in emerging markets have been published in the Wall Street Journal, the Moscow News and AmericaEconomia.&lt;/p&gt;&lt;/p&gt;&#x000A;&#x000A;&lt;p&gt;&lt;p&gt;She holds an MBA from the Wharton School, University of Pennsylvania, a MA from Columbia University and an AB from Cornell University.&lt;/p&gt;&#x000A;&lt;/p&gt;' expander-cutoff='1000' oe-expander=''></div>
+</div>
+</div>
+<!-- for each instructor, add an expandable bio -->
+<div class='row-fluid' style='margin-top:30px;'>
+<div class='span3'>
+<img alt="Naeem Zafar's picture" class='rounded person' src='https://d2d6mu5qcvgbk5.cloudfront.net/course/instructors/pictures/thumb/c1b2d4ca6e2112c29cbb627cd9a83921285bf34b.jpeg?AWSAccessKeyId=AKIAJYKAGJMEEGUSW7TQ&amp;Expires=1446495758&amp;Signature=SdFlBMlCQsgnge%2BF9j%2FMCuntPgQ%3D'>
+</div>
+<div class='span9'>
+<h4 class='instructor-title' style='margin-top:0px'>Naeem Zafar</h4>
+<p>Teaching Fellow</p>
+</div>
+</div>
+<div class='row-fluid'>
+<div class='span12'>
+<div class='instructor-bio-expandable' compile-once='&lt;p&gt;&lt;p&gt;&lt;span style&gt;Naeem Zafar is the co-founder &amp;amp; CEO of Bitzer Mobile and on the faculty of Haas Business School at the UC Berkeley, where he teaches Entrepreneurship &amp;amp; Innovation. He educates and advises entrepreneurs on all aspects of starting and running a business. Naeem did six startups. He was the president &amp;amp; CEO at Pyxis, SDS and Veridicom. Naeem has an Sc.B. degree in EE from Brown University (magna cum laude), an MSEE from the Univ of Minnesota. He has published five eBooks which you can learn about &lt;a href="http://www.naeemzafar.com/"&gt;here&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;&#x000A;&lt;/p&gt;' expander-cutoff='1000' oe-expander=''></div>
+</div>
+</div>
+</aside>
+</div>
+<div class='row-fluid'>
+<div class='span12'>
+<div class='center'>
+<div class='powered-by' style='margin-top:30px;margin-bottom:30px'>
+<a href='https://novoed.com'>
+<img alt='powered by NovoED' src='//d29rg257idl8cu.cloudfront.net/assets/brand/powered-by-NovoEd-inline-1d32964de4c5839ba5a1657122f09837.png'>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class='row-fluid' style='margin-bottom: 30px;'>
+<div class='span12'>
+<div class='center'>
+<a class='btn action-btn' href='/courses' style='font-size:17px'>
+Browse NovoEd offerings
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+
+
+</div>
+
+</div>
+</div>
+</div>
+<div class='container-fluid'>
+
+</div>
+</div>
+
+</div>
+<div class='push margin-20' id='footer-holder'>
+<div id='footer' oe-dynamic-scroll-section-bottom='' vertical-position='FooterSection.top'>
+<footer id='novoed-footer'>
+<div class='container'>
+<div class='row-fluid'>
+<div class='span9 hidden-phone'>
+<ul class='nav nav-pills'>
+<li>
+<a data-no-turbolink='true' href='/'>© NovoEd, Inc.</a>
+</li>
+<li>
+<a href='/courses'>Offerings</a>
+</li>
+<li>
+<a href='/how-it-works'>About</a>
+</li>
+<li>
+<a data-no-turbolink='true' href='/careers'>
+Careers
+</a>
+</li>
+<li>
+<a href='/terms'>Terms</a>
+</li>
+<li>
+<a href='http://blog.novoed.com' target='_blank'>Blog</a>
+</li>
+<li>
+<a href="http://help.novoed.com">Help</a>
+</li>
+</ul>
+</div>
+<div class='span3 socialiconsholder'>
+<div class='socialicons'>
+<figure>
+<a class='white' href='http://www.facebook.com/NovoEdTeam'>
+<div class='circle-icon facebook'>
+<i class='fa fa-facebook'></i>
+</div>
+</a>
+</figure>
+<figure>
+<a class='white' href='http://twitter.com/GoNovoEd'>
+<div class='circle-icon twitter'>
+<i class='fa fa-twitter'></i>
+</div>
+</a>
+</figure>
+<figure>
+<a class='white' href='https://plus.google.com/107930508287507956204/posts'>
+<div class='circle-icon google'>
+<i class='fa fa-google-plus'></i>
+</div>
+</a>
+</figure>
+<figure>
+<a class='white' href='http://www.linkedin.com/company/novoed'>
+<div class='circle-icon linkedin'>
+<i class='fa fa-linkedin'></i>
+</div>
+</a>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+</div>
+</div>
+<script defer='defer' src='https://www.youtube.com/iframe_api' type='text/javascript'></script>
+<script async src='https://sadmin.brightcove.com/js/BrightcoveExperiences.js' type='text/javascript'></script>
+<!-- https://s3.amazonaws.com/novoed-assets/mathjax_custom/config/TeX-AMS_HTML-full.js -->
+<script type='text/x-mathjax-config'>
+MathJax.Hub.Config({
+messageStyle: "none",
+extensions: ["tex2jax.js"],
+jax: ["input/TeX", "output/HTML-CSS"],
+tex2jax: {
+inlineMath:[['\\beginMathInline','\\endMathInline'] , ['$$', '$$']],
+displayMath:[['\\beginMathBlock', '\\endMathBlock'] , ['\\$$', '\\$$']],
+processEscapes: true
+},
+"HTML-CSS": { availableFonts: ["TeX"] }
+});
+</script>
+<script>
+  $(document).ready(function(){
+    $.novoEd.user.time_zone = "";
+  
+    // PageView for Google Analytics
+    ga(function() {
+      if (false) {
+        ga('create', '', 'auto', { 'name': 'ucsf' });
+      }  
+      ga.getAll().forEach(function(tracker) {
+        ga(tracker.get('name') + '.send', 'pageview', {
+          'dimension1':  '',
+          'dimension2':  'new-venture-finance'
+        });
+      });
+    });
+  });
+  
+  $(window).load(function(){
+    // MathJax embedding
+    $.getScript('https://cdn.mathjax.org/mathjax/latest/MathJax.js').done(runMathJaxIfExists);
+    // Tagboard embedding
+    if (document.getElementsByClassName('tagboard-embed').length > 0) {
+      $.getScript('//static.tagboard.com/public/js/embed.js');
+    }
+  });
+</script>
+
+<script>
+  $(window).ready(function(){
+    $('#preloader').hide();
+    $('.deferred-content').css('visibility', 'visible');
+  });
+</script>
+</body>
+</html>

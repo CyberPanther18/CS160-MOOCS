@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang='en-US' xmlns:fb='http://developers.facebook.com/schema/' xmlns:og='http://opengraphprotocol.org/schema/' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<!-- SEO & Facebook Details -->
+<meta content='Aimed at a general business audience, the course provides an overview of a wide range of additive manufacturing technologies and offers a framework to help learners understand the business implications of additive manufacturing.' name='Description'>
+<meta content='NovoEd - Online professional development and social learning' name='Author'>
+<meta name='Keywords'>
+<meta content='!' name='fragment'>
+<meta content='3D Opportunity: Additive Manufacturing for Business Leaders' property='og:title'>
+<meta content='website' property='og:type'>
+<meta content='Aimed at a general business audience, the course provides an overview of a wide range of additive manufacturing technologies and offers a framework to help learners understand the business implications of additive manufacturing.' property='og:description'>
+<meta content='https://novoed.com/3d-opportunity' property='og:url'>
+<meta content='https://img.youtube.com/vi/AtM704ehhI8/hqdefault.jpg' property='og:image'>
+<meta content='NovoEd' property='og:site_name'>
+<meta content='394850367201365' property='fb:app_id'>
+<link href='https://novoed.com/3d-opportunity' rel='canonical'>
+<title>
+3D Opportunity: Additive Manufacturing for Business Leaders | Deloitte University Press | NovoEd
+</title>
+<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Comfortaa:400,700|Nunito:300' rel='stylesheet' type='text/css'>
+<link href='//d29rg257idl8cu.cloudfront.net/assets/brand/favicon-96bd4f9f452ad4fea53906879d7b90cc.ico' rel='shortcut icon'>
+<!--[if !IE 7]>
+<style type="text/css">
+<div id='wrap'>{ style: "display:table;height:100%" }</div>
+</style>
+<![endif]-->
+<!--[if lte IE 7]>
+<script src="//d29rg257idl8cu.cloudfront.net/assets/json3.min-c4b14426ee921085314b0283b524ef3f.js"></script>
+<![endif]-->
+<!-- Frame killer -->
+<style> html{display:none;} </style>
+<script>
+  function shouldKeepIframe() {
+    if (self == top) {
+      return true;
+    }
+    
+    var topDomainSplit = top.document.domain.split('.');
+    var selfDomainSplit = self.document.domain.split('.');
+    var selfDomainLength = selfDomainSplit.length;
+  
+    return topDomainSplit[selfDomainLength - 1 ] == topDomainSplit[selfDomainLength - 1 ] &&
+      topDomainSplit[selfDomainLength - 2 ] == topDomainSplit[selfDomainLength - 2 ]
+  }
+  
+  if(shouldKeepIframe()) {
+    document.documentElement.style.display = 'block'; 
+  } else {
+    top.location = self.location;
+  }
+</script>
+<link rel="stylesheet" media="all" href="//d29rg257idl8cu.cloudfront.net/assets/application_priority-6cea4d3b05eb8819f4124ed9f769f076.css" />
+<link rel="stylesheet" media="all" href="//d29rg257idl8cu.cloudfront.net/assets/application-8f3f0ae8d7209f6ca65e77103d603926.css" />
+<script>
+  var homepageBackground = {
+  "mobile": "//d29rg257idl8cu.cloudfront.net/assets/brand/collaborate-compressed-mobile-105bbd7b480c90ab564033e712cc1d05.jpg",
+  "small": "//d29rg257idl8cu.cloudfront.net/assets/brand/collaborate-compressed-desktop-small-5ab51cf013ccc43b0996874a06c07cc0.jpg",
+  "large": "//d29rg257idl8cu.cloudfront.net/assets/brand/collaborate-compressed-desktop-large-updated-6825f30fe3917baf3bab442f6bf8cbc5.jpg"
+  };
+  var getHomepageBackground = function(){
+  if (document.documentElement.clientWidth <= 768)
+     return homepageBackground["mobile"];
+  else if (document.documentElement.clientWidth <= 1440)
+     return homepageBackground["small"];
+  else
+     return homepageBackground["large"];
+  };
+</script>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Fc8Io/A7KaGN8Vi68gC/2u1yYf1HbID+yvLhvpCylv0Rz6dSGlg+M3/zC4kHGNkc08LNLC6gX0UDf+zF0cau8w==" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-30499841-1', 'auto', { 'name': 'NovoEdGlobalTracker'});
+</script>
+
+<script src="//d29rg257idl8cu.cloudfront.net/assets/prerender-fb37612218b80732cf476a0a6b005f5e.js"></script>
+</head>
+<body class='outclass flier  ' id='novoEdApp' ng-init='init({"catalogId":"3d-opportunity-2015","isProgram":false,"course":{"id":1110,"name":"3D Opportunity: Additive Manufacturing for Business Leaders","have_board_members":false,"have_mentors":false,"isProgram":false,"collaboration_tools_enabled":false,"enable_online_presence":false,"novoedOfferingName":{"capitalizedPluralized":"Courses","capitalizedSingularized":"Course","downcasedSingularized":"course","downcasedPluralized":"courses","pluralizedTitleized":"Courses","singularizedTitleized":"Course"},"novoedLearnersName":{"capitalizedPluralized":"Students","capitalizedSingularized":"Student","downcasedSingularized":"student","downcasedPluralized":"students","pluralizedTitleized":"Students","singularizedTitleized":"Student"},"novoedAssignmentName":{"capitalizedPluralized":"Assignments","capitalizedSingularized":"Assignment","downcasedSingularized":"assignment","downcasedPluralized":"assignments","pluralizedTitleized":"Assignments","singularizedTitleized":"Assignment"},"novoedLectureName":{"capitalizedPluralized":"Lectures","capitalizedSingularized":"Lecture","downcasedSingularized":"lecture","downcasedPluralized":"lectures","pluralizedTitleized":"Lectures","singularizedTitleized":"Lecture"},"novoedStatementOfAccomplishmentName":{"capitalizedPluralized":"Statement of accomplishments","capitalizedSingularized":"Statement of accomplishment","downcasedSingularized":"statement of accomplishment","downcasedPluralized":"statement of accomplishments","pluralizedTitleized":"Statement Of Accomplishments","singularizedTitleized":"Statement Of Accomplishment"},"novoedTeachingTeamName":{"capitalizedPluralized":"Teaching teams","capitalizedSingularized":"Teaching team","downcasedSingularized":"teaching team","downcasedPluralized":"teaching teams","pluralizedTitleized":"Teaching Teams","singularizedTitleized":"Teaching Team"},"inArchiveMode":false,"ended":true,"has_premium_features":false,"groupTeamSetName":{"capitalizedPluralized":"Groups","capitalizedSingularized":"Group","downcasedSingularized":"group","downcasedPluralized":"groups","pluralizedTitleized":"Groups","singularizedTitleized":"Group"},"currentUserIsCourseAdmin":false,"novoedCourseAlias":{"capitalizedPluralized":"Courses","capitalizedSingularized":"Course","downcasedSingularized":"course","downcasedPluralized":"courses","pluralizedTitleized":"Courses","singularizedTitleized":"Course"}},"currentUser":"","numUnreadConversations":0,"googleApiSettings":{"client_id":"967886061122","developer_key":"AIzaSyCcl4XNPlncAl2pXZbXOwCI2N1j0wGh4QM"},"pusherApiKey":"55caf419f8a7e825fcfe","paperclipDefaults":{"storage":"s3","s3_protocol":"https","s3_credentials":{"path":"/var/www/novo/production/releases/20151101201019/config/s3.yml"},"bucket":"venture-lab","url":":s3_alias_url","s3_host_alias":"d2d6mu5qcvgbk5.cloudfront.net","s3_permissions":"private","s3_headers":{}},"fileUploadOptions":{"default_file_size":52428800,"tiny_file_size":1048576,"small_file_size":5242880,"medium_file_size":52428800,"large_file_size":6291456000,"permitted_extensions":["mp4","avi","flv","wmv","3gp","ogg","mov","doc","docx","txt","pdf","xls","xlsb","ppt","pptx","xlsx","csv","bmp","gif","jpeg","jpg","pjpeg","png","tiff","x-png"]},"assetPath":"","userCourse":"","redactorToolbarType":"Extended","activeStudentsPath":"","blockedList":"","fileTypeToContentType":{"presentation":["application/msword","text/plain","application/pdf","application/vnd.ms-powerpoint","application/vnd.openxmlformats-officedocument.presentationml.presentation","application/vnd.openxmlformats-officedocument.wordprocessingml.document","application/vnd.ms-powerpoint.presentation.macroenabled.12","application/vnd.ms-powerpoint.slideshow.macroenabled.12","application/vnd.openxmlformats-officedocument.presentationml.slideshow","application/vnd.ms-powerpoint.addin.macroenabled.12"]}})'>
+
+<style>
+  #preloader{position: fixed;top: 120px;left: 50%;z-index: 9999; margin-left: -35px;}.spinner{margin:100px auto 0;width:70px;text-align:center}.spinner>div{width:18px;height:18px;background-color:#467b8c;border-radius:100%;display:inline-block;-webkit-animation:bouncedelay 1.4s infinite ease-in-out;animation:bouncedelay 1.4s infinite ease-in-out;-webkit-animation-fill-mode:both;animation-fill-mode:both}.spinner .bounce1{-webkit-animation-delay:-0.32s;animation-delay:-0.32s}.spinner .bounce2{-webkit-animation-delay:-0.16s;animation-delay:-0.16s}@-webkit-keyframes bouncedelay{0%,80%,100%{-webkit-transform:scale(0.0)}40%{-webkit-transform:scale(1.0)}}@keyframes bouncedelay{0%,80%,100%{transform:scale(0.0);-webkit-transform:scale(0.0)}40%{transform:scale(1.0);-webkit-transform:scale(1.0)}}
+</style>
+<div id='preloader'>
+<div class='spinner'>
+<div class='bounce1'></div>
+<div class='bounce2'></div>
+<div class='bounce3'></div>
+</div>
+</div>
+<script>
+  // not supported by some browsers yet but is in ecmascript 6. can remove later
+  if (!String.prototype.endsWith) {
+    String.prototype.endsWith = function(searchString, position) {
+        var subjectString = this.toString();
+        if (position === undefined || position > subjectString.length) {
+          position = subjectString.length;
+        }
+        position -= searchString.length;
+        var lastIndex = subjectString.indexOf(searchString, position);
+        return lastIndex !== -1 && lastIndex === position;
+    };
+  }
+  
+  window.isMobileBrowser = false;
+  window.isMobileEnabledPage = false;
+  
+  function isOePage() {
+    var url =  window.location.href.split('#')[0];
+    return url.endsWith("/oe/") || url.endsWith("/oe");
+  }
+  
+  function isMobileEnabledOePage() {
+    return (window.location.hash && window.location.hash.replace(/\//g, '') === '#!home') ||
+           (window.location.hash && window.location.hash.replace(/\//g, '') === '#!mycourses') ;
+  }
+  
+  if ( isMobileBrowser && (isMobileEnabledPage && ( !isOePage() || isMobileEnabledOePage()))) {
+    $('head').append('<meta name="viewport" content="width=device-width, initial-scale=1.0", name: "viewport">');
+  }
+  
+  if (isOePage() && !isMobileEnabledOePage()) {
+    $('body').removeClass('responsive');
+  }
+</script>
+
+<script src="//d29rg257idl8cu.cloudfront.net/assets/marketing-58ffe8d04f20b61fc0ec3fc9986ccbc8.js"></script>
+<div id='wrap'>
+<div id='main'>
+<div class='hidden-phone'>
+<div id='institution-header'>
+<!-- prepends specific selector to css selectors -->
+<div id='brandbar'>
+<div class='container'>
+    <a href="#">
+      <img src="https://d2d6mu5qcvgbk5.cloudfront.net/attachments/original/gxuietczbti96bt9-Deloitte+white+text.png"></a>
+  
+</div>
+</div>
+<style>#institution-header #brandbar {
+  background:#154E93;
+   height: 46px;
+max-height: 46px;
+}#institution-header 
+ #brandbar img {
+max-height: 22px;
+margin-top: 14px;
+margin-bottom: 10px;
+}</style>
+
+</div>
+</div>
+<div class='hidden-phone'>
+<header class='row-fluid coursepage deferred-content' style=''>
+
+<div class='container'>
+<div class='row-fluid'>
+<div class='span7'>
+<div class='row-fluid university-branding'>
+<img alt="3D Opportunity: Additive Manufacturing for Business Leaders's Logo" src='https://d2d6mu5qcvgbk5.cloudfront.net/courses/logos/flyer/c4350dd0e50f7d60bdc50d75fb6eee8c3a0ddbfc.png?1421349506'>
+</div>
+<div class='row-fluid course-title'>
+<h1>
+3D Opportunity: Additive Manufacturing for Business Leaders
+</h1>
+<h5 class='thin'>
+Instructor:
+<div class='row-fluid'>
+<span class='instructor_name'>Mark Cotteleer</span>
+<span class='muted instructor_title'></span>
+</div>
+</h5>
+<figure class='pricetag'>
+A free course from Deloitte University Press
+</figure>
+</div>
+</div>
+<div class='span5 course-video'>
+<iframe title="YouTube video player" width="380" height="213" src="https://www.youtube.com/embed/AtM704ehhI8?vq=auto&rel=0&showinfo=0&autohide=1&wmode=transparent&origin=https://novoed.com" frameborder="0"></iframe>
+</div>
+</div>
+</div>
+</header>
+<div class='coursepage deferred-content'>
+<div class='container'>
+<section class='action-field'>
+<div class='row-fluid'>
+<div class='span8'>
+<div class='timeline inline-block'>
+<span data-convert-time-zone="" data-timezone-format="LL" data-timezone-converted="false" data-utc-time="2015-02-09T08:01:00Z" data-show-current-year-if-exists="true"></span>
+</div>
+-
+<div class='timeline inline-block'>
+<span data-convert-time-zone="" data-timezone-format="LL" data-timezone-converted="false" data-utc-time="2015-03-30T07:59:00Z" data-show-current-year-if-exists="true"></span>
+</div>
+
+&nbsp;
+</div>
+<div class='span4'>
+<div class='pull-right '>
+<div class='enrollment-info'>
+This course has concluded.
+</div>
+<div class='enrollment-info with-top-margin'>
+Already registered? 
+&nbsp;
+<a href="https://novoed.com/users/sign_in?class=3d-opportunity-2015">Sign in. </a>
+</div>
+</div>
+</div>
+</div>
+
+<div class='row-fluid timeline-row' style='margin-top: 15px;'>
+<div class='span8'>
+<div class='timeline'>
+Future offerings
+</div>
+</div>
+<div class='span4'>
+<div class='pull-right'>
+<a class='btn action-btn novoed-primary' href='https://novoed.com/users/sign_up?class=3d-opportunity-2015&amp;plan=true'>
+Add to Planner
+</a>
+
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+
+<script>
+  $(document).ready(function(){
+      window.addthis_share = {
+        url: "https://novoed.com/3d-opportunity",
+        title: "3D Opportunity: Additive Manufacturing for Business Leaders",
+        passthrough: {
+          twitter: {
+            text: "I just enrolled in 3D Opportunity: Additive Manufacturing for Business Leaders, a free course on NovoEd offered by Deloitte University Press."
+          }
+        }
+      };
+  });
+</script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53ef09b700165c5d" async="async"></script>
+
+</div>
+
+<div class='deferred-content novoed-gray-background row-fluid'>
+<div>
+<script src="//d29rg257idl8cu.cloudfront.net/assets/application-33e83de861e144c93738ad8a69821b17.js" defer="defer"></script>
+<script src="//d29rg257idl8cu.cloudfront.net/assets/novoed_angular_bootstrap-8ee9af8a14b6050a2281a21108d72e16.js" defer="defer"></script>
+</div>
+<div class='container main-container deferred-content'>
+<div class='content' style=''>
+
+<div class='row-fluid'>
+<style>
+  header.coursepage {
+  background: #fff;
+  }
+  header.registrations {
+  background: #fff;
+  }
+  
+  header.coursepage .course-title h1 {
+  font-size: 30px;
+  }
+  .alert{
+    margin-bottom: 0px;
+  }
+</style>
+<div class='row-fluid' id='flash-holder' style='margin: 30px 0px;'>
+
+</div>
+<div class='hide j-pending_deletion_msg row-fluid'>
+<div class='span12'>
+<div class='alert alert-error'>
+<img src="//d29rg257idl8cu.cloudfront.net/assets/icons/ajax-loader-9447eadd609b1984d63b4c85c6d93f2c.gif" alt="Ajax loader" />
+Course deletion is in progress.
+<b>
+You
+</b>
+will receive an email as soon as all the data is deleted.
+</div>
+</div>
+</div>
+
+<div class='coursepage'>
+<section class='description'>
+<div class='container'>
+<div class='row-fluid'>
+<article class='span6'>
+<h3 class='bigger course'>
+The Course
+</h3>
+<p>Aimed at a general business audience, this course provides an overview of a wide range of additive manufacturing technologies and offers a framework to help learners understand the business implications of these technologies. The course is relevant for professionals working in product design, manufacturing, supply chain, strategy, and other disciplines. Through the course, participants will build a knowledge base on additive manufacturing to help them engage in discussions with colleagues, customers, and suppliers about how the technology applies to their business.</p>
+
+<p>Participants will explore many topics in this course including:</p>
+
+<ul>
+<li>What is additive manufacturing? Learn the processes and technologies that fall under the AM umbrella and gain an understanding of where they fit within the universe of manufacturing technologies.</li>
+	<li>How will AM impact my business? Explore a framework based on economic principles that helps explain how AM will influence product and supply chain evolution.</li>
+	<li>What is happening in key sectors impacted by AM? Understand the current and potential uses of AM in sectors including medical technology, automotive, and aerospace &amp; defense, and learn how you can analyze your own industry and company to define a path forward with AM</li>
+	<li>What factors influence the business case for AM? Explore the key dynamics and general factors you should consider when building a business case for AM.</li>
+</ul><p>The course consists of approximately 2.5 hours of video content divided into approximately six-minute mini lectures. Quizzes allow you to check and consolidate your knowledge. And assignments reviewed by peers can take you deeper and give you practical information to take back to your job.</p>
+
+<p>We would like to thank our collaborators: <a href="http://americamakes.us/">America Makes</a>, <a href="http://www.3dsystems.com/">3D Systems</a>, <a href="http://www.marquette.edu/">Marquette University</a>, and <a href="http://www.ornl.gov/">Oak Ridge National Laboratory</a>.</p>
+
+<p> </p>
+
+<p> </p>
+
+<div style="margin-left:10px; margin-right:-10px;margin-top:-37px;padding: 10px; background-color:#154E93">
+<h2 style="color:#FFFFFF">Student Endorsements</h2>
+</div>
+
+<p> </p>
+
+<ul>
+<li>"I am new to the [additive manufacturing] industry and I wanted to be able to service my clients in a responsible and knowledgeable way--thank you for this opportunity."</li>
+</ul><p> </p>
+
+<ul>
+<li>"It was wonderful to hear from you about the history of additive manufacturing processes and the its future prospects. I really believe we are at the threshold of another industrial revolution!"</li>
+</ul>
+<div class='row-fluid' style='display:none'>
+<div class='span12'>
+<div class='pull-right'>
+<a class="highlight-button" href="https://novoed.com/3d-opportunity-2015/highlight">Check out course highlights »</a>
+</div>
+<br>
+</div>
+</div>
+
+<h3 class='big more-info'>
+More Information
+</h3>
+<div class='more-info-expandable' compile-once='&lt;p&gt;Each week for four weeks we will post a new course module. Each module presents a few lectures, practice quizzes and a module assessment.&lt;/p&gt;&#x000A;&#x000A;&lt;p&gt;The lectures are 6-7 minutes long, on average. The module assessments are multiple choice and optionally include a "take-home" assignment to be reviewed by your peers.&lt;/p&gt;&#x000A;&#x000A;&lt;p&gt;You will have the opportunity to interact with and learn from your peers and your professor on course forums.&lt;/p&gt;&#x000A;&#x000A;&lt;p&gt;Please join us!&lt;/p&gt;' expander-cutoff='500' oe-expander=''></div>
+</article>
+<aside class='span6'>
+<h3 class='bigger instructor'>
+The Instructor
+</h3>
+<!-- for each instructor, add an expandable bio -->
+<div class='row-fluid' style=''>
+<div class='span3'>
+<img alt="Mark Cotteleer's picture" class='rounded person' src='https://d2d6mu5qcvgbk5.cloudfront.net/course/instructors/pictures/thumb/5dd1e67e4e7cad4876e6aca617658cf5e585ddf9.jpg?AWSAccessKeyId=AKIAJYKAGJMEEGUSW7TQ&amp;Expires=1446475748&amp;Signature=ddGQTtAG%2FpUC%2B5EwCPJWyLYjuf8%3D'>
+</div>
+<div class='span9'>
+<h4 class='instructor-title' style='margin-top:0px'>Mark Cotteleer</h4>
+<p></p>
+</div>
+</div>
+<div class='row-fluid'>
+<div class='span12'>
+<div class='instructor-bio-expandable' compile-once='&lt;p&gt;&lt;p&gt;&lt;span style="color: rgb(34, 34, 34); line-height: normal"&gt;Mark Cotteleer is a research director with Deloitte Services, LP.  His research focuses on issues related to performance and performance improvement and covers a wide range of topics including advanced manufacturing, supply chain, distribution, and business analytics.&lt;/span&gt;&lt;br style="color: rgb(34, 34, 34); line-height: normal"&gt;&lt;br style="color: rgb(34, 34, 34); line-height: normal"&gt;&lt;span style="color: rgb(34, 34, 34); line-height: normal"&gt;Prior to joining Deloitte, Mark was a professor at Marquette University where he taught and conducted research on technology and supply chain management and co-led the Marquette University Center for Supply Chain Management.  He was also a visiting associate professor of operations management at the University of Chicago’s Booth School of Business.  His research is widely published in top management and academic journals such as the Harvard Business Review, Production and Operations Management, MIS Quarterly, and others.  In addition, he has published numerous practitioner articles and best-selling case studies.&lt;/span&gt;&lt;br style="color: rgb(34, 34, 34); line-height: normal"&gt;&lt;br style="color: rgb(34, 34, 34); line-height: normal"&gt;&lt;span style="color: rgb(34, 34, 34); line-height: normal"&gt;Mark holds a bachelor’s degree in Finance from Marquette University, an MBA and a master’s degree in Industrial and Operations Engineering from the University of Michigan, and a doctorate in Technology and Operations Management from Harvard Business School.  Mark lives in Franklin, Wisconsin, with his wife and their three children, and Wally, the family dog.&lt;/span&gt;&lt;/p&gt;&lt;/p&gt;' expander-cutoff='1000' oe-expander=''></div>
+</div>
+</div>
+<h3 class='bigger more-info'>
+Deloitte University Press
+</h3>
+<div>
+<p><a href="http://dupress.com">Deloitte University Press</a> publishes original articles, reports and periodicals that provide insights for businesses, the public sector and NGOs. Our goal is to draw upon research and experience from throughout our professional services organization, and that of coauthors in academia and business, to advance the conversation on a broad spectrum of topics of interest to executives and government leaders.<br><br>
+Deloitte University Press is an imprint of <a href="http://deloitte.com">Deloitte Development LLC</a>.</p>
+</div>
+</aside>
+</div>
+<div class='row-fluid'>
+<div class='span12'>
+<div class='center'>
+<div class='powered-by' style='margin-top:30px;margin-bottom:30px'>
+<a href='https://novoed.com'>
+<img alt='powered by NovoED' src='//d29rg257idl8cu.cloudfront.net/assets/brand/powered-by-NovoEd-inline-1d32964de4c5839ba5a1657122f09837.png'>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class='row-fluid' style='margin-bottom: 30px;'>
+<div class='span12'>
+<div class='center'>
+<a class='btn action-btn' href='/courses' style='font-size:17px'>
+Browse NovoEd offerings
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+
+
+</div>
+
+</div>
+</div>
+</div>
+<div class='container-fluid'>
+
+</div>
+</div>
+
+</div>
+<div class='push margin-20' id='footer-holder'>
+<div id='footer' oe-dynamic-scroll-section-bottom='' vertical-position='FooterSection.top'>
+<footer id='novoed-footer'>
+<div class='container'>
+<div class='row-fluid'>
+<div class='span9 hidden-phone'>
+<ul class='nav nav-pills'>
+<li>
+<a data-no-turbolink='true' href='/'>© NovoEd, Inc.</a>
+</li>
+<li>
+<a href='/courses'>Offerings</a>
+</li>
+<li>
+<a href='/how-it-works'>About</a>
+</li>
+<li>
+<a data-no-turbolink='true' href='/careers'>
+Careers
+</a>
+</li>
+<li>
+<a href='/terms'>Terms</a>
+</li>
+<li>
+<a href='http://blog.novoed.com' target='_blank'>Blog</a>
+</li>
+<li>
+<a href="http://help.novoed.com">Help</a>
+</li>
+</ul>
+</div>
+<div class='span3 socialiconsholder'>
+<div class='socialicons'>
+<figure>
+<a class='white' href='http://www.facebook.com/NovoEdTeam'>
+<div class='circle-icon facebook'>
+<i class='fa fa-facebook'></i>
+</div>
+</a>
+</figure>
+<figure>
+<a class='white' href='http://twitter.com/GoNovoEd'>
+<div class='circle-icon twitter'>
+<i class='fa fa-twitter'></i>
+</div>
+</a>
+</figure>
+<figure>
+<a class='white' href='https://plus.google.com/107930508287507956204/posts'>
+<div class='circle-icon google'>
+<i class='fa fa-google-plus'></i>
+</div>
+</a>
+</figure>
+<figure>
+<a class='white' href='http://www.linkedin.com/company/novoed'>
+<div class='circle-icon linkedin'>
+<i class='fa fa-linkedin'></i>
+</div>
+</a>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+</div>
+</div>
+<script defer='defer' src='https://www.youtube.com/iframe_api' type='text/javascript'></script>
+<script async src='https://sadmin.brightcove.com/js/BrightcoveExperiences.js' type='text/javascript'></script>
+<!-- https://s3.amazonaws.com/novoed-assets/mathjax_custom/config/TeX-AMS_HTML-full.js -->
+<script type='text/x-mathjax-config'>
+MathJax.Hub.Config({
+messageStyle: "none",
+extensions: ["tex2jax.js"],
+jax: ["input/TeX", "output/HTML-CSS"],
+tex2jax: {
+inlineMath:[['\\beginMathInline','\\endMathInline'] , ['$$', '$$']],
+displayMath:[['\\beginMathBlock', '\\endMathBlock'] , ['\\$$', '\\$$']],
+processEscapes: true
+},
+"HTML-CSS": { availableFonts: ["TeX"] }
+});
+</script>
+<script>
+  $(document).ready(function(){
+    $.novoEd.user.time_zone = "";
+  
+    // PageView for Google Analytics
+    ga(function() {
+      if (true) {
+        ga('create', 'UA-50923220-1', 'auto', { 'name': 'Deloitte' });
+      }  
+      ga.getAll().forEach(function(tracker) {
+        ga(tracker.get('name') + '.send', 'pageview', {
+          'dimension1':  '',
+          'dimension2':  '3d-opportunity-2015'
+        });
+      });
+    });
+  });
+  
+  $(window).load(function(){
+    // MathJax embedding
+    $.getScript('https://cdn.mathjax.org/mathjax/latest/MathJax.js').done(runMathJaxIfExists);
+    // Tagboard embedding
+    if (document.getElementsByClassName('tagboard-embed').length > 0) {
+      $.getScript('//static.tagboard.com/public/js/embed.js');
+    }
+  });
+</script>
+
+<script>
+  $(window).ready(function(){
+    $('#preloader').hide();
+    $('.deferred-content').css('visibility', 'visible');
+  });
+</script>
+</body>
+</html>

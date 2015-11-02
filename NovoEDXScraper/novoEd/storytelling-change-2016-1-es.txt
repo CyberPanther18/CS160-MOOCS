@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang='en-US' xmlns:fb='http://developers.facebook.com/schema/' xmlns:og='http://opengraphprotocol.org/schema/' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<!-- SEO & Facebook Details -->
+<meta content='Este curso práctico le ayudará a desarrollar sus habilidades para narrar historias. La narración es una herramienta de liderazgo eficaz para establecer una mayor cercanía con sus oyentes e inspirarlos para crear un cambio, ya sea en una reunión con una persona o una presentación magistral.' name='Description'>
+<meta content='NovoEd - Online professional development and social learning' name='Author'>
+<meta name='Keywords'>
+<meta content='!' name='fragment'>
+<meta content='Contar Historias para el Cambio' property='og:title'>
+<meta content='website' property='og:type'>
+<meta content='Este curso práctico le ayudará a desarrollar sus habilidades para narrar historias. La narración es una herramienta de liderazgo eficaz para establecer una mayor cercanía con sus oyentes e inspirarlos para crear un cambio, ya sea en una reunión con una persona o una presentación magistral.' property='og:description'>
+<meta content='https://novoed.com/storytelling-change-q3-2015-es' property='og:url'>
+<meta content='https://d2d6mu5qcvgbk5.cloudfront.net/courses/promo_pictures/335ca54dd8135f05b8889771c261c207254594e5.jpg?1445378437' property='og:image'>
+<meta content='NovoEd' property='og:site_name'>
+<meta content='394850367201365' property='fb:app_id'>
+<link href='https://novoed.com/storytelling-change-q3-2015-es' rel='canonical'>
+<title>
+Contar Historias para el Cambio | Acumen | NovoEd
+</title>
+<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Comfortaa:400,700|Nunito:300' rel='stylesheet' type='text/css'>
+<link href='//d29rg257idl8cu.cloudfront.net/assets/brand/favicon-96bd4f9f452ad4fea53906879d7b90cc.ico' rel='shortcut icon'>
+<!--[if !IE 7]>
+<style type="text/css">
+<div id='wrap'>{ style: "display:table;height:100%" }</div>
+</style>
+<![endif]-->
+<!--[if lte IE 7]>
+<script src="//d29rg257idl8cu.cloudfront.net/assets/json3.min-c4b14426ee921085314b0283b524ef3f.js"></script>
+<![endif]-->
+<!-- Frame killer -->
+<style> html{display:none;} </style>
+<script>
+  function shouldKeepIframe() {
+    if (self == top) {
+      return true;
+    }
+    
+    var topDomainSplit = top.document.domain.split('.');
+    var selfDomainSplit = self.document.domain.split('.');
+    var selfDomainLength = selfDomainSplit.length;
+  
+    return topDomainSplit[selfDomainLength - 1 ] == topDomainSplit[selfDomainLength - 1 ] &&
+      topDomainSplit[selfDomainLength - 2 ] == topDomainSplit[selfDomainLength - 2 ]
+  }
+  
+  if(shouldKeepIframe()) {
+    document.documentElement.style.display = 'block'; 
+  } else {
+    top.location = self.location;
+  }
+</script>
+<link rel="stylesheet" media="all" href="//d29rg257idl8cu.cloudfront.net/assets/application_priority-6cea4d3b05eb8819f4124ed9f769f076.css" />
+<link rel="stylesheet" media="all" href="//d29rg257idl8cu.cloudfront.net/assets/application-8f3f0ae8d7209f6ca65e77103d603926.css" />
+<script>
+  var homepageBackground = {
+  "mobile": "//d29rg257idl8cu.cloudfront.net/assets/brand/collaborate-compressed-mobile-105bbd7b480c90ab564033e712cc1d05.jpg",
+  "small": "//d29rg257idl8cu.cloudfront.net/assets/brand/collaborate-compressed-desktop-small-5ab51cf013ccc43b0996874a06c07cc0.jpg",
+  "large": "//d29rg257idl8cu.cloudfront.net/assets/brand/collaborate-compressed-desktop-large-updated-6825f30fe3917baf3bab442f6bf8cbc5.jpg"
+  };
+  var getHomepageBackground = function(){
+  if (document.documentElement.clientWidth <= 768)
+     return homepageBackground["mobile"];
+  else if (document.documentElement.clientWidth <= 1440)
+     return homepageBackground["small"];
+  else
+     return homepageBackground["large"];
+  };
+</script>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="mZS2vlD2aI1Iea0ZeqbPuWiSM9qLxYUq5xdpsQmHN8RqT6juAkM/IEl+Q/M+agSwP8btSUx3dzS+R73R8K0jjw==" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-30499841-1', 'auto', { 'name': 'NovoEdGlobalTracker'});
+</script>
+
+<script src="//d29rg257idl8cu.cloudfront.net/assets/prerender-fb37612218b80732cf476a0a6b005f5e.js"></script>
+</head>
+<body class='outclass flier  ' id='novoEdApp' ng-init='init({"catalogId":"storytelling-change-2016-1-es","isProgram":false,"course":{"id":1594,"name":"Contar Historias para el Cambio","have_board_members":false,"have_mentors":false,"isProgram":false,"collaboration_tools_enabled":false,"enable_online_presence":false,"novoedOfferingName":{"capitalizedPluralized":"Courses","capitalizedSingularized":"Course","downcasedSingularized":"course","downcasedPluralized":"courses","pluralizedTitleized":"Courses","singularizedTitleized":"Course"},"novoedLearnersName":{"capitalizedPluralized":"Students","capitalizedSingularized":"Student","downcasedSingularized":"student","downcasedPluralized":"students","pluralizedTitleized":"Students","singularizedTitleized":"Student"},"novoedAssignmentName":{"capitalizedPluralized":"Tareas","capitalizedSingularized":"Tarea","downcasedSingularized":"tarea","downcasedPluralized":"tareas","pluralizedTitleized":"Tareas","singularizedTitleized":"Tarea"},"novoedLectureName":{"capitalizedPluralized":"Lecturas","capitalizedSingularized":"Lectura","downcasedSingularized":"lectura","downcasedPluralized":"lecturas","pluralizedTitleized":"Lecturas","singularizedTitleized":"Lectura"},"novoedStatementOfAccomplishmentName":{"capitalizedPluralized":"Statement of accomplishments","capitalizedSingularized":"Statement of accomplishment","downcasedSingularized":"statement of accomplishment","downcasedPluralized":"statement of accomplishments","pluralizedTitleized":"Statement Of Accomplishments","singularizedTitleized":"Statement Of Accomplishment"},"novoedTeachingTeamName":{"capitalizedPluralized":"Teaching teams","capitalizedSingularized":"Teaching team","downcasedSingularized":"teaching team","downcasedPluralized":"teaching teams","pluralizedTitleized":"Teaching Teams","singularizedTitleized":"Teaching Team"},"inArchiveMode":true,"ended":false,"has_premium_features":false,"groupTeamSetName":{"capitalizedPluralized":"Groups","capitalizedSingularized":"Group","downcasedSingularized":"group","downcasedPluralized":"groups","pluralizedTitleized":"Groups","singularizedTitleized":"Group"},"currentUserIsCourseAdmin":false,"novoedCourseAlias":{"capitalizedPluralized":"Courses","capitalizedSingularized":"Course","downcasedSingularized":"course","downcasedPluralized":"courses","pluralizedTitleized":"Courses","singularizedTitleized":"Course"}},"currentUser":"","numUnreadConversations":0,"googleApiSettings":{"client_id":"967886061122","developer_key":"AIzaSyCcl4XNPlncAl2pXZbXOwCI2N1j0wGh4QM"},"pusherApiKey":"55caf419f8a7e825fcfe","paperclipDefaults":{"storage":"s3","s3_protocol":"https","s3_credentials":{"path":"/var/www/novo/production/releases/20151101201019/config/s3.yml"},"bucket":"venture-lab","url":":s3_alias_url","s3_host_alias":"d2d6mu5qcvgbk5.cloudfront.net","s3_permissions":"private","s3_headers":{}},"fileUploadOptions":{"default_file_size":52428800,"tiny_file_size":1048576,"small_file_size":5242880,"medium_file_size":52428800,"large_file_size":6291456000,"permitted_extensions":["mp4","avi","flv","wmv","3gp","ogg","mov","doc","docx","txt","pdf","xls","xlsb","ppt","pptx","xlsx","csv","bmp","gif","jpeg","jpg","pjpeg","png","tiff","x-png"]},"assetPath":"","userCourse":"","redactorToolbarType":"Extended","activeStudentsPath":"","blockedList":"","fileTypeToContentType":{"presentation":["application/msword","text/plain","application/pdf","application/vnd.ms-powerpoint","application/vnd.openxmlformats-officedocument.presentationml.presentation","application/vnd.openxmlformats-officedocument.wordprocessingml.document","application/vnd.ms-powerpoint.presentation.macroenabled.12","application/vnd.ms-powerpoint.slideshow.macroenabled.12","application/vnd.openxmlformats-officedocument.presentationml.slideshow","application/vnd.ms-powerpoint.addin.macroenabled.12"]}})'>
+
+<style>
+  #preloader{position: fixed;top: 120px;left: 50%;z-index: 9999; margin-left: -35px;}.spinner{margin:100px auto 0;width:70px;text-align:center}.spinner>div{width:18px;height:18px;background-color:#467b8c;border-radius:100%;display:inline-block;-webkit-animation:bouncedelay 1.4s infinite ease-in-out;animation:bouncedelay 1.4s infinite ease-in-out;-webkit-animation-fill-mode:both;animation-fill-mode:both}.spinner .bounce1{-webkit-animation-delay:-0.32s;animation-delay:-0.32s}.spinner .bounce2{-webkit-animation-delay:-0.16s;animation-delay:-0.16s}@-webkit-keyframes bouncedelay{0%,80%,100%{-webkit-transform:scale(0.0)}40%{-webkit-transform:scale(1.0)}}@keyframes bouncedelay{0%,80%,100%{transform:scale(0.0);-webkit-transform:scale(0.0)}40%{transform:scale(1.0);-webkit-transform:scale(1.0)}}
+</style>
+<div id='preloader'>
+<div class='spinner'>
+<div class='bounce1'></div>
+<div class='bounce2'></div>
+<div class='bounce3'></div>
+</div>
+</div>
+<script>
+  // not supported by some browsers yet but is in ecmascript 6. can remove later
+  if (!String.prototype.endsWith) {
+    String.prototype.endsWith = function(searchString, position) {
+        var subjectString = this.toString();
+        if (position === undefined || position > subjectString.length) {
+          position = subjectString.length;
+        }
+        position -= searchString.length;
+        var lastIndex = subjectString.indexOf(searchString, position);
+        return lastIndex !== -1 && lastIndex === position;
+    };
+  }
+  
+  window.isMobileBrowser = false;
+  window.isMobileEnabledPage = false;
+  
+  function isOePage() {
+    var url =  window.location.href.split('#')[0];
+    return url.endsWith("/oe/") || url.endsWith("/oe");
+  }
+  
+  function isMobileEnabledOePage() {
+    return (window.location.hash && window.location.hash.replace(/\//g, '') === '#!home') ||
+           (window.location.hash && window.location.hash.replace(/\//g, '') === '#!mycourses') ;
+  }
+  
+  if ( isMobileBrowser && (isMobileEnabledPage && ( !isOePage() || isMobileEnabledOePage()))) {
+    $('head').append('<meta name="viewport" content="width=device-width, initial-scale=1.0", name: "viewport">');
+  }
+  
+  if (isOePage() && !isMobileEnabledOePage()) {
+    $('body').removeClass('responsive');
+  }
+</script>
+
+<script src="//d29rg257idl8cu.cloudfront.net/assets/marketing-58ffe8d04f20b61fc0ec3fc9986ccbc8.js"></script>
+<div id='wrap'>
+<div id='main'>
+<div class='hidden-phone'>
+<div id='institution-header'>
+<!-- prepends specific selector to css selectors -->
+<div id='brandbar'>
+<div class='container'>
+     <img src="https://d2d6mu5qcvgbk5.cloudfront.net/attachments/original/k21pbzsfrcgi7ldi-Acumen.png" alt="Acumen">
+</div>
+</div>
+<style>#institution-header #brandbar {
+ background:#0093bb;
+ height: 28px;
+}#institution-header 
+#brandbar img{
+height: 20px;
+margin-top: 4px;
+}</style>
+
+</div>
+</div>
+<div class='hidden-phone'>
+<header class='row-fluid coursepage deferred-content' style=''>
+
+<div class='container'>
+<div class='row-fluid'>
+<div class='span7'>
+<div class='row-fluid university-branding'>
+<img alt="Contar Historias para el Cambio's Logo" src='https://d2d6mu5qcvgbk5.cloudfront.net/courses/logos/flyer/56cd8fa926bb20b91b5c8fa7f6e6f5701dd81b96.jpg?1445378437'>
+</div>
+<div class='row-fluid course-title'>
+<h1>
+Contar Historias para el Cambio
+</h1>
+<h5 class='thin'>
+Instructor:
+<div class='row-fluid'>
+<span class='instructor_name'>Richard Richards,</span>
+<span class='muted instructor_title'>Instructor</span>
+</div>
+</h5>
+<figure class='pricetag'>
+A free course from Acumen
+</figure>
+</div>
+</div>
+<div class='span5 course-video'>
+<img height='213px' src='https://d2d6mu5qcvgbk5.cloudfront.net/courses/promo_pictures/751802fa4669f93484238503bc0eb96822828558.jpg?1445378437' width='320px'>
+</div>
+</div>
+</div>
+</header>
+<div class='coursepage deferred-content'>
+<div class='container'>
+<section class='action-field'>
+<div class='row-fluid'>
+<div class='span8'>
+<div class='timeline inline-block'>
+Starting Spring 2016
+</div>
+
+&nbsp;
+</div>
+<div class='span4'>
+<div class='pull-right '>
+<a href='https://novoed.com/users/sign_up?class=storytelling-change-2016-1-es'>
+<div class='action-btn btn novoed-primary'>
+Sign Up
+</div>
+</a>
+
+</div>
+</div>
+</div>
+
+</section>
+</div>
+</div>
+
+<script>
+  $(document).ready(function(){
+      window.addthis_share = {
+        url: "https://novoed.com/storytelling-change-q3-2015-es",
+        title: "Contar Historias para el Cambio",
+        passthrough: {
+          twitter: {
+            text: "I just enrolled in Contar Historias para el Cambio, a free course on NovoEd offered by Acumen."
+          }
+        }
+      };
+  });
+</script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53ef09b700165c5d" async="async"></script>
+
+</div>
+
+<div class='deferred-content novoed-gray-background row-fluid'>
+<div>
+<script src="//d29rg257idl8cu.cloudfront.net/assets/application-33e83de861e144c93738ad8a69821b17.js" defer="defer"></script>
+<script src="//d29rg257idl8cu.cloudfront.net/assets/novoed_angular_bootstrap-8ee9af8a14b6050a2281a21108d72e16.js" defer="defer"></script>
+</div>
+<div class='container main-container deferred-content'>
+<div class='content' style=''>
+
+<div class='row-fluid'>
+<style>
+  .university-branding img{height:70px;}
+  
+  
+  header.coursepage {background: #fff;}
+  header.registrations {background: #fff;}
+  .alert{
+    margin-bottom: 0px;
+  }
+</style>
+<div class='row-fluid' id='flash-holder' style='margin: 30px 0px;'>
+
+</div>
+<div class='hide j-pending_deletion_msg row-fluid'>
+<div class='span12'>
+<div class='alert alert-error'>
+<img src="//d29rg257idl8cu.cloudfront.net/assets/icons/ajax-loader-9447eadd609b1984d63b4c85c6d93f2c.gif" alt="Ajax loader" />
+Course deletion is in progress.
+<b>
+You
+</b>
+will receive an email as soon as all the data is deleted.
+</div>
+</div>
+</div>
+
+<div class='coursepage'>
+<section class='description'>
+<div class='container'>
+<div class='row-fluid'>
+<article class='span6'>
+<h3 class='bigger course'>
+The Course
+</h3>
+<h3><strong><span style="color:rgb(0,147,187); font-size: 22px" trebuchet="" data-redactor-tag="span">Descripción del Curso:</span></strong></h3><div>
+	<p class="ex" style="margin-left: 15px">
+		<strong>IMPORTANTE</strong>: Para inscribirse, favor de pulsar "Sign Up" en la sección arriba y llenar su información. Tiene que crear una cuenta primero si no es un usuario de NovoEd. Después de inscribirse, recibirá un correo electrónico con más instrucciones. Este curso es gratis y se dicta en español.
+	</p>
+	<p class="ex" style="margin-left: 15px">
+		<a href="http://acumen.org/">Acumen</a> y <a href="http://www.arielgroup.com/">El Grupo Ariel</a> han desarrollado este curso práctico para ayudarle a desarrollar sus habilidades para narrar historias. Independientemente de que usted trabaje en una oficina haciendo presentaciones en la sala de juntas, sea profesor de 30 o 300 alumnos, interactúe con clientes, o se relacione con personas a nivel individual, el uso de los elementos narrativos le permitirá establecer una mayor cercanía con sus oyentes. La narración de historias hace que su mensaje sea memorable, quienes lo escuchan encontrarán un medio para relacionarse con usted y, lo más importante, atraerá la atención de sus oyentes, los motivará e inspirará en formas sin precedentes. Una historia aprovecha más de un elemento de la comunicación. Los cuentacuentos avezados son magníficos comunicadores y líderes efectivos.
+	</p>
+	<p class="ex" style="margin-left: 15px">
+		Acumen considera que la narrativa es una herramienta esencial para cambiar la manera en se combate la pobreza en el mundo porque comienza por cambiar las conversaciones acerca de lo que vemos, sentimos, y sabemos que es verdad en nuestro entorno. Los líderes del cambio reconocen el potencial del mundo y cuentan historias poderosas que inspiran a la acción.
+	</p>
+	<h3><strong><span style="color:rgb(0,147,187); font-size: 22px" trebuchet="" data-redactor-tag="span">Resultados Claves del Aprendizaje:</span></strong></h3>
+	<p class="ex">
+		Al finalizar este curso usted:
+	</p>
+	<ul style="margin-left: 50px">
+<li class="ex">Se sentirá seguro al utilizar historias, especialmente historias personales, como parte de su caja de herramientas comunicacional.</li>
+		<li class="ex">Sabrá como contar historias y utilizar un conjunto específico de habilidades narrativas para conectarse con los oídos y las mentes de quienes lo escuchan.</li>
+		<li class="ex">Habrá desarrollado, ensayado y recibido retroalimentación a una historia personal que le servirá de modelo replicable, de manera que usted podrá desarrollar su “biblioteca" personal o historias para tener a la mano que podrá utilizar en diversas situaciones</li>
+		<li class="ex">Estará en capacidad de utilizar un proceso que consta de cinco pasos para integrar la historia en presentaciones dirigidas al cambio, al trabajo o a una diversidad de circunstancias</li>
+	</ul>
+<h3><strong><span style="color:rgb(0,147,187); font-size: 22px" trebuchet="" data-redactor-tag="span">¿Más preguntas?</span></strong></h3>
+	<p class="ex" style="margin-left: 15px">
+		<strong>COSTO: </strong>El curso es gratis.
+	</p>
+	<p class="ex" style="margin-left: 15px">
+		<strong>IDIOMA Y MODO:</strong> Se dicta en español y es un curso virtual y a distancia. Pero sugerimos que forme un grupo con otros individuals para tomar el curso juntos.
+	</p>
+	<p class="ex" style="margin-left: 15px">
+		<strong>HORARIO: </strong>Nuestros cursos de distancia ofrecen la ventaja que todos pueden estudiar a su propio ritmo. Pero hemos preparado una Reseña del Curso que tiene un programa sugerido con fechas.
+	</p>
+	<p class="ex" style="margin-left: 15px">
+		Para mayor información por favor visite nuestra página web: <a href="http://plusacumen.org/courses/storytelling-for-change/" style="font-size: 14px">+Acumen</a><span style="font-size: 14px">. Les invitamos a los participantes a conformar grupos para trabajar juntos. Si desea un grupo, favor de mandar este link a sus amigos o colegas para inscribirse.</span>
+	</p>
+	<p class="ex" style="margin-left: 15px">
+		<a href="http://novoed.com/storytelling-change-2016-1-es">http://novoed.com/storytelling-change-2016-1-es</a>
+	</p>
+	<p class="ex" style="margin-left: 15px">
+		<span style="font-size: 14px"></span>
+	</p>
+	<p class="ex" style="margin-left: 15px">
+		Si no tiene un grupo, no hay problema. Dentro de la plataforma habrá una opción para formar un grupo. O también podrían participar de manera individual e interactuar con otros en el foro del curso.
+	</p>
+	<p class="ex" style="margin-left: 15px">
+		<br>
+Favor de mandar cualquier pregunta a 
+		<a href="http://mailto:courses@plusacumen.org">courses@plusacumen.org</a>
+	</p>
+	<h3><strong><span style="color:rgb(0,147,187); font-size: 22px" trebuchet="" data-redactor-tag="span">Este curso es para usted si:</span></strong></h3>
+	<ul style="margin-left: 50px">
+<li class="ex">Usted hace muchas presentaciones o desea mejorar sus habilidades para hacer presentaciones</li>
+		<li class="ex">Usted es profesor, facilitador o instructor</li>
+		<li class="ex">Piensa que no tiene historias (Bueno, ¡las encontraremos por usted!)</li>
+		<li class="ex">Desea una forma diferente de conectarse con la gente (¡estupendo para formar redes!)</li>
+		<li class="ex">Está asistiendo a entrevistas para encontrar empleo y quiere presentarse de una forma impactante</li>
+		<li class="ex">Desea cambiar su estilo de comunicarse</li>
+		<li class="ex">¡Simplemente quiere divertirse!</li>
+	</ul>
+</div>
+<div class='row-fluid' style='display:none'>
+<div class='span12'>
+<div class='pull-right'>
+<a class="highlight-button" href="https://novoed.com/storytelling-change-2016-1-es/highlight">Check out course highlights »</a>
+</div>
+<br>
+</div>
+</div>
+
+<h3 class='big more-info'>
+More Information
+</h3>
+<div class='more-info-expandable' compile-once='&lt;h3&gt;&lt;span style&gt;&lt;strong&gt;&lt;span style="color: rgb(0, 147, 187); font-size: 22px" trebuchet=""&gt;Horas de Trabajo:&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p class="ex" style="margin-left: 15px"&gt;Aproximadamente 3-4 horas/semana&lt;/p&gt;&lt;ul&gt;&lt;/ul&gt;&lt;h3&gt;&lt;strong&gt;&lt;span style="color:rgb(0,147,187); font-size: 22px" trebuchet="" data-redactor-tag="span"&gt;Requisitos Técnicos:&lt;/span&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;p class="ex" style="margin-left: 15px"&gt;Necesitará un computador que le permita ver las video conferencias y cargar al sistema todas sus tareas.&lt;/p&gt;&lt;h3&gt;&lt;strong&gt;&lt;span style="color:rgb(0,147,187); font-size: 22px" trebuchet="" data-redactor-tag="span"&gt;Certificado de Cumplimiento:&lt;/span&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;p class="ex" style="margin-left: 15px"&gt;Sujeto a la culminación exitosa del programa (cumplir con todas las asignaturas), usted recibirá un Certificado de Cumplimiento firmado conjuntamente por +Acumen y el Grupo Ariel.&lt;/p&gt;' expander-cutoff='500' oe-expander=''></div>
+</article>
+<aside class='span6'>
+<h3 class='bigger instructor'>
+The Instructor
+</h3>
+<!-- for each instructor, add an expandable bio -->
+<div class='row-fluid' style=''>
+<div class='span3'>
+<img alt="Richard Richards's picture" class='rounded person' src='https://d2d6mu5qcvgbk5.cloudfront.net/course/instructors/pictures/thumb/60d20602ffab033f9db273deb9e715b73d2c98ba.png?AWSAccessKeyId=AKIAJYKAGJMEEGUSW7TQ&amp;Expires=1446436150&amp;Signature=3oORsKIeJR91i2Eyxal6h0qjQmg%3D'>
+</div>
+<div class='span9'>
+<h4 class='instructor-title' style='margin-top:0px'>Richard Richards</h4>
+<p>Instructor</p>
+</div>
+</div>
+<div class='row-fluid'>
+<div class='span12'>
+<div class='instructor-bio-expandable' compile-once='&lt;p&gt;Richard Richards has worked in leadership and training roles in both corporate and non-profit arenas, all of them overseas. Once the Ariel Group’s Vice President of Learning Design, he now works independently with leaders at the top and bottom of the “pyramid”. He has a BSc (Hons) from the University of Surrey in the UK and an MA in Applied Learning, from DePaul University in Chicago. He has been a professional actor (were he honed his skills as a storyteller) and owned an art gallery. His last job was as a learning consultant and faculty member for "El Instituto de Liderazgo de Las Segovias” in Nicaragua.&lt;/p&gt;&#x000A;&#x000A;&lt;p&gt;Richard Richards ha trabajado en funciones de liderazgo y capacitación, tanto en el ámbito corporativo como en organizaciones sin fines de lucro, siempre en el exterior. En el pasado se desempeñó como Vicepresidente de Diseño del Aprendizaje del Grupo Ariel y en la actualidad trabaja de forma independiente con líderes en la cima y en la base de la “pirámide”. Obtuvo una licenciatura con honores (BSc (Hons) ) de la Universidad de Surrey en el Reino Unido y una maestría en Aprendizaje Aplicado de la Universidad DePaul en Chicago. Ha sido actor profesional (donde perfeccionó sus habilidades como narrador de historias) y fue dueño de una galería de arte. En su último empleo se desempeñó como consultor de aprendizaje y miembro del cuerpo de profesores de "El Instituto de Liderazgo de Las Segovias” en Nicaragua.&lt;/p&gt;' expander-cutoff='1000' oe-expander=''></div>
+</div>
+</div>
+<h3 class='bigger more-info'>
+Acumen
+</h3>
+<div>
+<p><a href="http://acumen.org/" target="_blank">Acumen</a> is changing the way the world tackles poverty by investing in companies, leaders and ideas. We invest patient capital in businesses whose products and services are enabling the poor to transform their lives. Founded by Jacqueline Novogratz in 2001, Acumen has invested more than $86 million in 77 companies across Africa, Latin America and South Asia. We are also developing a global community of emerging leaders with the knowledge, skills and determination to create a more inclusive world. In 2015, Acumen was named one of Fast Company's Top 10 Most Innovative Not-for-Profit Companies. Learn more at <a href="http://www.acumen.org/" target="_blank">www.acumen.org</a> and on Twitter <a href="https://twitter.com/plusacumen" target="_blank">@acumen</a>. <br></p><p><a href="http://plusacumen.org/" target="_blank">+Acumen</a> is a global learning community for social change makers. Be an effective force for change with Acumen's free online courses and chapters. L<a href="http://plusacumen.org/" target="_blank"></a>earn more at <a href="http://plusacumen.org/" target="_blank">http://plusacumen.org/</a>and on Twitter<a href="https://twitter.com/plusacumen" target="_blank">@plusacumen</a>.</p>
+</div>
+</aside>
+</div>
+<div class='row-fluid'>
+<div class='span12'>
+<div class='center'>
+<div class='powered-by' style='margin-top:30px;margin-bottom:30px'>
+<a href='https://novoed.com'>
+<img alt='powered by NovoED' src='//d29rg257idl8cu.cloudfront.net/assets/brand/powered-by-NovoEd-inline-1d32964de4c5839ba5a1657122f09837.png'>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class='row-fluid' style='margin-bottom: 30px;'>
+<div class='span12'>
+<div class='center'>
+<a class='btn action-btn' href='/courses' style='font-size:17px'>
+Browse NovoEd offerings
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+
+
+</div>
+
+</div>
+</div>
+</div>
+<div class='container-fluid'>
+
+</div>
+</div>
+
+</div>
+<div class='push margin-20' id='footer-holder'>
+<div id='footer' oe-dynamic-scroll-section-bottom='' vertical-position='FooterSection.top'>
+<footer id='novoed-footer'>
+<div class='container'>
+<div class='row-fluid'>
+<div class='span9 hidden-phone'>
+<ul class='nav nav-pills'>
+<li>
+<a data-no-turbolink='true' href='/'>© NovoEd, Inc.</a>
+</li>
+<li>
+<a href='/courses'>Offerings</a>
+</li>
+<li>
+<a href='/how-it-works'>About</a>
+</li>
+<li>
+<a data-no-turbolink='true' href='/careers'>
+Careers
+</a>
+</li>
+<li>
+<a href='/terms'>Terms</a>
+</li>
+<li>
+<a href='http://blog.novoed.com' target='_blank'>Blog</a>
+</li>
+<li>
+<a href="http://help.novoed.com">Help</a>
+</li>
+</ul>
+</div>
+<div class='span3 socialiconsholder'>
+<div class='socialicons'>
+<figure>
+<a class='white' href='http://www.facebook.com/NovoEdTeam'>
+<div class='circle-icon facebook'>
+<i class='fa fa-facebook'></i>
+</div>
+</a>
+</figure>
+<figure>
+<a class='white' href='http://twitter.com/GoNovoEd'>
+<div class='circle-icon twitter'>
+<i class='fa fa-twitter'></i>
+</div>
+</a>
+</figure>
+<figure>
+<a class='white' href='https://plus.google.com/107930508287507956204/posts'>
+<div class='circle-icon google'>
+<i class='fa fa-google-plus'></i>
+</div>
+</a>
+</figure>
+<figure>
+<a class='white' href='http://www.linkedin.com/company/novoed'>
+<div class='circle-icon linkedin'>
+<i class='fa fa-linkedin'></i>
+</div>
+</a>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+</div>
+</div>
+<script defer='defer' src='https://www.youtube.com/iframe_api' type='text/javascript'></script>
+<script async src='https://sadmin.brightcove.com/js/BrightcoveExperiences.js' type='text/javascript'></script>
+<!-- https://s3.amazonaws.com/novoed-assets/mathjax_custom/config/TeX-AMS_HTML-full.js -->
+<script type='text/x-mathjax-config'>
+MathJax.Hub.Config({
+messageStyle: "none",
+extensions: ["tex2jax.js"],
+jax: ["input/TeX", "output/HTML-CSS"],
+tex2jax: {
+inlineMath:[['\\beginMathInline','\\endMathInline'] , ['$$', '$$']],
+displayMath:[['\\beginMathBlock', '\\endMathBlock'] , ['\\$$', '\\$$']],
+processEscapes: true
+},
+"HTML-CSS": { availableFonts: ["TeX"] }
+});
+</script>
+<script>
+  $(document).ready(function(){
+    $.novoEd.user.time_zone = "";
+  
+    // PageView for Google Analytics
+    ga(function() {
+      if (true) {
+        ga('create', 'UA-31615056-1', 'auto', { 'name': 'acumen' });
+      }  
+      ga.getAll().forEach(function(tracker) {
+        ga(tracker.get('name') + '.send', 'pageview', {
+          'dimension1':  '',
+          'dimension2':  'storytelling-change-2016-1-es'
+        });
+      });
+    });
+  });
+  
+  $(window).load(function(){
+    // MathJax embedding
+    $.getScript('https://cdn.mathjax.org/mathjax/latest/MathJax.js').done(runMathJaxIfExists);
+    // Tagboard embedding
+    if (document.getElementsByClassName('tagboard-embed').length > 0) {
+      $.getScript('//static.tagboard.com/public/js/embed.js');
+    }
+  });
+</script>
+
+<script>
+  $(window).ready(function(){
+    $('#preloader').hide();
+    $('.deferred-content').css('visibility', 'visible');
+  });
+</script>
+</body>
+</html>

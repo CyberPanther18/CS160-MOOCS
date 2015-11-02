@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang='en-US' xmlns:fb='http://developers.facebook.com/schema/' xmlns:og='http://opengraphprotocol.org/schema/' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<!-- SEO & Facebook Details -->
+<meta content='' name='Description'>
+<meta content='NovoEd - Online professional development and social learning' name='Author'>
+<meta name='Keywords'>
+<meta content='!' name='fragment'>
+<meta content='Using Communication-Focused Activities in Designated English Language Development Lessons' property='og:title'>
+<meta content='website' property='og:type'>
+<meta content='' property='og:description'>
+<meta content='https://novoed.com/eld-communication' property='og:url'>
+<meta content='https://novoed.com/assets/media.png' property='og:image'>
+<meta content='NovoEd' property='og:site_name'>
+<meta content='394850367201365' property='fb:app_id'>
+<link href='https://novoed.com/eld-communication' rel='canonical'>
+<title>
+Using Communication-Focused Activities in Designated English Language Development Lessons | Stanford University Graduate School of Education | NovoEd
+</title>
+<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Comfortaa:400,700|Nunito:300' rel='stylesheet' type='text/css'>
+<link href='//d29rg257idl8cu.cloudfront.net/assets/brand/favicon-96bd4f9f452ad4fea53906879d7b90cc.ico' rel='shortcut icon'>
+<!--[if !IE 7]>
+<style type="text/css">
+<div id='wrap'>{ style: "display:table;height:100%" }</div>
+</style>
+<![endif]-->
+<!--[if lte IE 7]>
+<script src="//d29rg257idl8cu.cloudfront.net/assets/json3.min-c4b14426ee921085314b0283b524ef3f.js"></script>
+<![endif]-->
+<!-- Frame killer -->
+<style> html{display:none;} </style>
+<script>
+  function shouldKeepIframe() {
+    if (self == top) {
+      return true;
+    }
+    
+    var topDomainSplit = top.document.domain.split('.');
+    var selfDomainSplit = self.document.domain.split('.');
+    var selfDomainLength = selfDomainSplit.length;
+  
+    return topDomainSplit[selfDomainLength - 1 ] == topDomainSplit[selfDomainLength - 1 ] &&
+      topDomainSplit[selfDomainLength - 2 ] == topDomainSplit[selfDomainLength - 2 ]
+  }
+  
+  if(shouldKeepIframe()) {
+    document.documentElement.style.display = 'block'; 
+  } else {
+    top.location = self.location;
+  }
+</script>
+<link rel="stylesheet" media="all" href="//d29rg257idl8cu.cloudfront.net/assets/application_priority-6cea4d3b05eb8819f4124ed9f769f076.css" />
+<link rel="stylesheet" media="all" href="//d29rg257idl8cu.cloudfront.net/assets/application-8f3f0ae8d7209f6ca65e77103d603926.css" />
+<script>
+  var homepageBackground = {
+  "mobile": "//d29rg257idl8cu.cloudfront.net/assets/brand/collaborate-compressed-mobile-105bbd7b480c90ab564033e712cc1d05.jpg",
+  "small": "//d29rg257idl8cu.cloudfront.net/assets/brand/collaborate-compressed-desktop-small-5ab51cf013ccc43b0996874a06c07cc0.jpg",
+  "large": "//d29rg257idl8cu.cloudfront.net/assets/brand/collaborate-compressed-desktop-large-updated-6825f30fe3917baf3bab442f6bf8cbc5.jpg"
+  };
+  var getHomepageBackground = function(){
+  if (document.documentElement.clientWidth <= 768)
+     return homepageBackground["mobile"];
+  else if (document.documentElement.clientWidth <= 1440)
+     return homepageBackground["small"];
+  else
+     return homepageBackground["large"];
+  };
+</script>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="q9Due1d3hlUn98FAEfsT2B/XqgUUyDEDwOzyLQiMmUgxp9PIP45URmNBsfB7ag8j9eXNjBpHE29xMJYQodK8Eg==" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-30499841-1', 'auto', { 'name': 'NovoEdGlobalTracker'});
+</script>
+
+<script src="//d29rg257idl8cu.cloudfront.net/assets/prerender-fb37612218b80732cf476a0a6b005f5e.js"></script>
+</head>
+<body class='outclass flier  ' id='novoEdApp' ng-init='init({"catalogId":"eld-communication","isProgram":false,"course":{"id":1236,"name":"Using Communication-Focused Activities in Designated English Language Development Lessons","have_board_members":false,"have_mentors":false,"isProgram":false,"collaboration_tools_enabled":false,"enable_online_presence":false,"novoedOfferingName":{"capitalizedPluralized":"Courses","capitalizedSingularized":"Course","downcasedSingularized":"course","downcasedPluralized":"courses","pluralizedTitleized":"Courses","singularizedTitleized":"Course"},"novoedLearnersName":{"capitalizedPluralized":"Participants","capitalizedSingularized":"Participant","downcasedSingularized":"participant","downcasedPluralized":"participants","pluralizedTitleized":"Participants","singularizedTitleized":"Participant"},"novoedAssignmentName":{"capitalizedPluralized":"Assignments","capitalizedSingularized":"Assignment","downcasedSingularized":"assignment","downcasedPluralized":"assignments","pluralizedTitleized":"Assignments","singularizedTitleized":"Assignment"},"novoedLectureName":{"capitalizedPluralized":"Sessions","capitalizedSingularized":"Session","downcasedSingularized":"session","downcasedPluralized":"sessions","pluralizedTitleized":"Sessions","singularizedTitleized":"Session"},"novoedStatementOfAccomplishmentName":{"capitalizedPluralized":"Statement of accomplishments","capitalizedSingularized":"Statement of accomplishment","downcasedSingularized":"statement of accomplishment","downcasedPluralized":"statement of accomplishments","pluralizedTitleized":"Statement Of Accomplishments","singularizedTitleized":"Statement Of Accomplishment"},"novoedTeachingTeamName":{"capitalizedPluralized":"Teaching teams","capitalizedSingularized":"Teaching team","downcasedSingularized":"teaching team","downcasedPluralized":"teaching teams","pluralizedTitleized":"Teaching Teams","singularizedTitleized":"Teaching Team"},"inArchiveMode":false,"ended":false,"has_premium_features":true,"groupTeamSetName":{"capitalizedPluralized":"Groups","capitalizedSingularized":"Group","downcasedSingularized":"group","downcasedPluralized":"groups","pluralizedTitleized":"Groups","singularizedTitleized":"Group"},"currentUserIsCourseAdmin":false,"novoedCourseAlias":{"capitalizedPluralized":"Courses","capitalizedSingularized":"Course","downcasedSingularized":"course","downcasedPluralized":"courses","pluralizedTitleized":"Courses","singularizedTitleized":"Course"}},"currentUser":"","numUnreadConversations":0,"googleApiSettings":{"client_id":"967886061122","developer_key":"AIzaSyCcl4XNPlncAl2pXZbXOwCI2N1j0wGh4QM"},"pusherApiKey":"55caf419f8a7e825fcfe","paperclipDefaults":{"storage":"s3","s3_protocol":"https","s3_credentials":{"path":"/var/www/novo/production/releases/20151101201019/config/s3.yml"},"bucket":"venture-lab","url":":s3_alias_url","s3_host_alias":"d2d6mu5qcvgbk5.cloudfront.net","s3_permissions":"private","s3_headers":{}},"fileUploadOptions":{"default_file_size":52428800,"tiny_file_size":1048576,"small_file_size":5242880,"medium_file_size":52428800,"large_file_size":6291456000,"permitted_extensions":["mp4","avi","flv","wmv","3gp","ogg","mov","doc","docx","txt","pdf","xls","xlsb","ppt","pptx","xlsx","csv","bmp","gif","jpeg","jpg","pjpeg","png","tiff","x-png"]},"assetPath":"","userCourse":"","redactorToolbarType":"Extended","activeStudentsPath":"","blockedList":"","fileTypeToContentType":{"presentation":["application/msword","text/plain","application/pdf","application/vnd.ms-powerpoint","application/vnd.openxmlformats-officedocument.presentationml.presentation","application/vnd.openxmlformats-officedocument.wordprocessingml.document","application/vnd.ms-powerpoint.presentation.macroenabled.12","application/vnd.ms-powerpoint.slideshow.macroenabled.12","application/vnd.openxmlformats-officedocument.presentationml.slideshow","application/vnd.ms-powerpoint.addin.macroenabled.12"]}})'>
+
+<style>
+  #preloader{position: fixed;top: 120px;left: 50%;z-index: 9999; margin-left: -35px;}.spinner{margin:100px auto 0;width:70px;text-align:center}.spinner>div{width:18px;height:18px;background-color:#467b8c;border-radius:100%;display:inline-block;-webkit-animation:bouncedelay 1.4s infinite ease-in-out;animation:bouncedelay 1.4s infinite ease-in-out;-webkit-animation-fill-mode:both;animation-fill-mode:both}.spinner .bounce1{-webkit-animation-delay:-0.32s;animation-delay:-0.32s}.spinner .bounce2{-webkit-animation-delay:-0.16s;animation-delay:-0.16s}@-webkit-keyframes bouncedelay{0%,80%,100%{-webkit-transform:scale(0.0)}40%{-webkit-transform:scale(1.0)}}@keyframes bouncedelay{0%,80%,100%{transform:scale(0.0);-webkit-transform:scale(0.0)}40%{transform:scale(1.0);-webkit-transform:scale(1.0)}}
+</style>
+<div id='preloader'>
+<div class='spinner'>
+<div class='bounce1'></div>
+<div class='bounce2'></div>
+<div class='bounce3'></div>
+</div>
+</div>
+<script>
+  // not supported by some browsers yet but is in ecmascript 6. can remove later
+  if (!String.prototype.endsWith) {
+    String.prototype.endsWith = function(searchString, position) {
+        var subjectString = this.toString();
+        if (position === undefined || position > subjectString.length) {
+          position = subjectString.length;
+        }
+        position -= searchString.length;
+        var lastIndex = subjectString.indexOf(searchString, position);
+        return lastIndex !== -1 && lastIndex === position;
+    };
+  }
+  
+  window.isMobileBrowser = false;
+  window.isMobileEnabledPage = false;
+  
+  function isOePage() {
+    var url =  window.location.href.split('#')[0];
+    return url.endsWith("/oe/") || url.endsWith("/oe");
+  }
+  
+  function isMobileEnabledOePage() {
+    return (window.location.hash && window.location.hash.replace(/\//g, '') === '#!home') ||
+           (window.location.hash && window.location.hash.replace(/\//g, '') === '#!mycourses') ;
+  }
+  
+  if ( isMobileBrowser && (isMobileEnabledPage && ( !isOePage() || isMobileEnabledOePage()))) {
+    $('head').append('<meta name="viewport" content="width=device-width, initial-scale=1.0", name: "viewport">');
+  }
+  
+  if (isOePage() && !isMobileEnabledOePage()) {
+    $('body').removeClass('responsive');
+  }
+</script>
+
+<script src="//d29rg257idl8cu.cloudfront.net/assets/marketing-58ffe8d04f20b61fc0ec3fc9986ccbc8.js"></script>
+<div id='wrap'>
+<div id='main'>
+<div class='hidden-phone'>
+<div id='institution-header'>
+<!-- prepends specific selector to css selectors -->
+<div id='brandbar'>
+<div class='container'>
+    <a href="http://www.stanford.edu">
+      <img src="https://www.stanford.edu/su-identity/images/brandbar-stanford-logo@2x.png" alt="Stanford University" width="152" height="23" style="margin-left: -10px;"></a>
+  
+</div>
+</div>
+<style>#institution-header body {
+  margin:0;
+  padding:0;
+}#institution-header 
+
+/*
+========================================================
+Custom base styles
+*/
+
+#brandbar .container,
+#global-footer .container {
+  margin:0 auto;
+}#institution-header 
+#brandbar .span2,
+#global-footer .span2 {
+  display: block;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}#institution-header 
+#brandbar .span10,
+#global-footer .span10 {
+  display: block;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}#institution-header 
+
+#brandbar .container:after,
+#global-footer .container:after {
+  clear:both;
+}#institution-header 
+#brandbar .row:after,
+#global-footer .row:after {
+  clear:both;
+}#institution-header 
+/* Background gradient */
+#brandbar {
+  background:#8c1515;
+  box-shadow:inset 0 -4px 8px -2px rgba(0, 0, 0, 0.2); /* Horizontal offset , vertical offset, blur, internal spacing */
+  min-height:30px;
+}#institution-header 
+#global-footer,
+#global-footer .container {
+  background:#8c1515;
+  color:#e3dfd5;
+  box-shadow:inset 0 4px 8px -2px rgba(0, 0, 0, 0.2); /* Horizontal offset , vertical offset, blur, internal spacing */
+}#institution-header 
+/* Prevent flush left */
+#brandbar .container img {
+  padding:4px 0 0 10px;
+}#institution-header 
+#global-footer a {
+  color:#e3dfd5;
+}#institution-header 
+#global-footer a:hover {
+  text-decoration:underline;
+}#institution-header 
+/* Prevent horizontal scroll bar */
+#global-footer .container {
+  padding:3px 7px 20px;
+}#institution-header 
+#global-footer .container .row {
+  margin:30px 0 0;
+}#institution-header 
+/* Align logo and text */
+#bottom-logo {
+  margin:0 0 10px;
+  padding:0;
+}#institution-header 
+#bottom-text {
+  margin-top:0;
+}#institution-header 
+#bottom-text ul {
+  margin:2px 0 0;
+  padding:0;
+  line-height:1em;
+}#institution-header 
+#bottom-text ul li {
+  display:block;
+  list-style:none;
+}#institution-header 
+#bottom-text ul li a {
+  font:13px 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+  text-decoration:none;
+}#institution-header 
+p.copyright {
+  font:11px 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+  margin:0;
+  padding:25px 0 0;
+  line-height:1.5em;
+  text-align:center;
+}</style>
+
+</div>
+</div>
+<div class='hidden-phone'>
+<header class='row-fluid coursepage deferred-content' style=''>
+
+<div class='container'>
+<div class='row-fluid'>
+<div class='span12'>
+<div class='row-fluid university-branding'>
+<img alt='' src='/assets/trans.png'>
+</div>
+<div class='row-fluid course-title'>
+<h1>
+Using Communication-Focused Activities in Designated English Language Development Lessons
+</h1>
+<h5 class='thin'>
+Instructors:
+<div class='row-fluid'>
+<span class='instructor_name'>Jeff Zwiers,</span>
+<span class='muted instructor_title'>Senior Researcher in the Stanford Graduate School of Education</span>
+</div>
+<div class='row-fluid'>
+<span class='instructor_name'>Elsa Billings,</span>
+<span class='muted instructor_title'>Consultant at Understanding Language Initiative, Stanford Univeristy</span>
+</div>
+<div class='row-fluid'>
+<span class='instructor_name'>Sara Rutherford-Quach,</span>
+<span class='muted instructor_title'>Lecturer in the Stanford Graduate School of Education</span>
+</div>
+<div class='row-fluid'>
+<span class='instructor_name'>Steven Weiss,</span>
+<span class='muted instructor_title'>Project Manager, Stanford ELL Leadership Network</span>
+</div>
+</h5>
+<figure class='pricetag'>
+A free course from Stanford University Graduate School of Education
+</figure>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div class='coursepage deferred-content'>
+<div class='container'>
+<section class='action-field'>
+<div class='row-fluid'>
+<div class='span8'>
+<div class='timeline inline-block'>
+<span data-convert-time-zone="" data-timezone-format="LL" data-timezone-converted="false" data-utc-time="2015-10-01T07:01:00Z" data-show-current-year-if-exists="true"></span>
+</div>
+-
+<div class='timeline inline-block'>
+<span data-convert-time-zone="" data-timezone-format="LL" data-timezone-converted="false" data-utc-time="2016-01-21T07:59:00Z" data-show-current-year-if-exists="true"></span>
+</div>
+
+&nbsp;
+</div>
+<div class='span4'>
+<div class='pull-right '>
+<a href='https://novoed.com/users/sign_up?class=eld-communication'>
+<div class='action-btn btn novoed-primary'>
+Sign Up
+</div>
+</a>
+
+</div>
+</div>
+</div>
+
+</section>
+</div>
+</div>
+
+<script>
+  $(document).ready(function(){
+      window.addthis_share = {
+        url: "https://novoed.com/eld-communication",
+        title: "Using Communication-Focused Activities in Designated English Language Development Lessons",
+        passthrough: {
+          twitter: {
+            text: "I just enrolled in Using Communication-Focused Activities in Designated English Language Development Lessons, a free course on NovoEd offered by Stanford University Graduate School of Education."
+          }
+        }
+      };
+  });
+</script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53ef09b700165c5d" async="async"></script>
+
+</div>
+
+<div class='deferred-content novoed-gray-background row-fluid'>
+<div>
+<script src="//d29rg257idl8cu.cloudfront.net/assets/application-33e83de861e144c93738ad8a69821b17.js" defer="defer"></script>
+<script src="//d29rg257idl8cu.cloudfront.net/assets/novoed_angular_bootstrap-8ee9af8a14b6050a2281a21108d72e16.js" defer="defer"></script>
+</div>
+<div class='container main-container deferred-content'>
+<div class='content' style=''>
+
+<div class='row-fluid'>
+<style>
+  
+  .alert{
+    margin-bottom: 0px;
+  }
+</style>
+<div class='row-fluid' id='flash-holder' style='margin: 30px 0px;'>
+
+</div>
+<div class='hide j-pending_deletion_msg row-fluid'>
+<div class='span12'>
+<div class='alert alert-error'>
+<img src="//d29rg257idl8cu.cloudfront.net/assets/icons/ajax-loader-9447eadd609b1984d63b4c85c6d93f2c.gif" alt="Ajax loader" />
+Course deletion is in progress.
+<b>
+You
+</b>
+will receive an email as soon as all the data is deleted.
+</div>
+</div>
+</div>
+
+<div class='coursepage'>
+<section class='description'>
+<div class='container'>
+<div class='row-fluid'>
+<article class='span6'>
+<h3 class='bigger course'>
+The Course
+</h3>
+<p><strong>Course description:</strong><br></p><p>English language development (a.k.a. English as a Second Language; English as a New Language, "Designated ELD," Focused Language Study) takes a variety of forms in present-day schools. In many schools, teachers teach ELD for a set amount of time (e.g., 30 minutes) a day. Other ELD/ESL teachers have multiple classes each day. In many cases, teachers emphasize grammar and vocabulary. However, the grammar and vocabulary route isn't the most effective for lasting and engaging language learning.. Language was created to get things done, to communicate—and this is how students best learn it. This is where this MOOC starts. It focuses on how to design and teach activities that are saturated with communication, and, where needed, strategically develop grammar and vocabulary to support communication.<br> <br>Each session presents the focal area to work on for the following month (e.g., listening and watching, reading and viewing, writing/multimedia output, speaking, writing, and conversation), along with model activities and lessons that emphasize the focus, analyses of the models and non-models, lessons to be strengthened by participants, and a sample "expert" modifications of lessons. Whenever possible, we include samples of activities from two levels: beginning and intermediate. </p><p><br></p><p><strong>Course organization:</strong></p><p>Session 1 – Course Overview &amp; Communication-Focused Listening &amp; Watching (October 1 - October 21)</p><p>Session 2 – Communication-Focused Reading &amp; Viewing (October 21 - November 11)</p><p>Session 3 – Communication-Focused Speaking (November 12 - December 9)</p><p>Session 4 – Communication-Focused Writing (December 10 - December 28)</p><p>Session 5 – Communication-Focused Conversations (December 29 - January 20)<br></p><p><br></p>
+<div class='row-fluid' style='display:none'>
+<div class='span12'>
+<div class='pull-right'>
+<a class="highlight-button" href="https://novoed.com/eld-communication/highlight">Check out course highlights »</a>
+</div>
+<br>
+</div>
+</div>
+
+<h3 class='big more-info'>
+More Information
+</h3>
+<div class='more-info-expandable' compile-once="&lt;h3&gt;Frequently Asked Questions&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;1. How much does the course cost?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The course is offered free of charge.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;2. Are any materials or textbooks needed for this course?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;You will be asked to complete readings as part of the course, but all required readings will be available for free via the course website. Several of the optional readings will also be free to participants and available online. To access additional optional readings online, participants may need to pay a small fee for copyright royalties to authors and publishers. Details about how to access these optional readings will be available via the course website.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;3. How do I show my school that I completed this course?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Every participant who completes the course requirements will receive a free statement of accomplishment signed by the instructors. As to whether this free statement of accomplishment may be used for professional development units in your specific context, you would need to check with your employer. Specific requirements for receiving a statement of accomplishment will be available when the course begins.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;4. Do I have to be a teacher to take this course? Who else might be participating in this course?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;You do not have to be a teacher to take this course. The course may also be valuable to ELL coaches, teacher educators, and site and district administrators, among others. In order to fully participate in the course, however, you do need to have access to a classroom in which you can obtain student language samples and implement lessons (or collaborate with classroom teachers to obtain student language samples and implement lessons). This is because several of the course assignments require submitting language samples - either samples of student writing or brief transcriptions of students' oral language - and reflecting on lessons.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;5. Are there any tests or assignments?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The course will be organized into five sessions. Within each session, you will have one assignment to complete. In general, the course follows a cycle of inquiry approach in which you gather data about student language (specifically, samples of language students used when constructing a claim supported by evidence) implement a lesson based on your insights about student language, reflect on that lesson, and repeat the cycle again. In addition, you will provide feedback to your peers about their work. &lt;/p&gt;&lt;p&gt;&lt;strong&gt;6. Is the course self-paced? Can I work ahead?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Some aspects of the course, such as readings and lecture videos, you can complete at your own pace. Within each of the five course sessions you can largely work at your own pace, but you cannot work ahead on future sessions. Because several assignments center around providing feedback to peers and collaboratively creating a lesson plan with your team, you will need to coordinate some aspects of your work with your teammates.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;7. &lt;/strong&gt;&lt;strong&gt;How long should I plan on spending in the course and on coursework each week?&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;The course will be organized into five sessions, each spanning approximately three weeks. We anticipate that each session will take approximately 7-8 hours to complete, spread out over the approximately three week time span.&lt;br&gt;&lt;/p&gt;" expander-cutoff='500' oe-expander=''></div>
+</article>
+<aside class='span6'>
+<h3 class='bigger instructor'>
+The Instructors
+</h3>
+<!-- for each instructor, add an expandable bio -->
+<div class='row-fluid' style=''>
+<div class='span3'>
+<img alt="Jeff Zwiers's picture" class='rounded person' src='https://d2d6mu5qcvgbk5.cloudfront.net/course/instructors/pictures/thumb/5c36d53d621a7e839ecc008123960e78ceb2cdaa.png?AWSAccessKeyId=AKIAJYKAGJMEEGUSW7TQ&amp;Expires=1446520493&amp;Signature=My%2BORbwM6vquh7Y%2FzRQLoSuKdkU%3D'>
+</div>
+<div class='span9'>
+<h4 class='instructor-title' style='margin-top:0px'>Jeff Zwiers</h4>
+<p>Senior Researcher in the Stanford Graduate School of Education</p>
+</div>
+</div>
+<div class='row-fluid'>
+<div class='span12'>
+<div class='instructor-bio-expandable' compile-once='&lt;p&gt;&lt;p&gt;Jeff Zwiers is a senior researcher at the Stanford Graduate School of Education and director of professional development for the Understanding Language Initiative, a research and professional learning project focused on improving the education of academic English learners. He has consulted for national and international teacher development projects and has published articles and books on literacy, cognition, discourse, and academic language. His current research focuses on improving professional learning models and developing classroom instruction that fosters high-quality oral language and constructive conversations across disciplines.&lt;br&gt;&lt;/p&gt;&lt;/p&gt;' expander-cutoff='1000' oe-expander=''></div>
+</div>
+</div>
+<!-- for each instructor, add an expandable bio -->
+<div class='row-fluid' style='margin-top:30px;'>
+<div class='span3'>
+<img alt="Elsa Billings's picture" class='rounded person' src='https://d2d6mu5qcvgbk5.cloudfront.net/course/instructors/pictures/thumb/d95334bb1eedc572ee30c237ad10316b6ef7d7a1.JPG?AWSAccessKeyId=AKIAJYKAGJMEEGUSW7TQ&amp;Expires=1446454552&amp;Signature=139kdAYB%2BBIpuQRQdZbCk9FEHYY%3D'>
+</div>
+<div class='span9'>
+<h4 class='instructor-title' style='margin-top:0px'>Elsa Billings</h4>
+<p>Consultant at Understanding Language Initiative, Stanford Univeristy</p>
+</div>
+</div>
+<div class='row-fluid'>
+<div class='span12'>
+<div class='instructor-bio-expandable' compile-once="&lt;p&gt;&lt;p&gt; Elsa Billings is a consultant for the Understanding Language Initiative.Elsa holds a Ph.D. and two M.A.'s from Stanford University.Her work as an educator and researcher seeks to address one of the nation's most pressing issues; informing and improving educational access and opportunities for linguistically and culturally diverse students.Elsa has extensive experience and expertise in teaching, curriculum development, professional development of teachers and coaches, and working with schools to improve instructional practices for English language learners (ELLs).Elsa has published numerous book chapters and articles in peer-reviewed journals. Her corpus of work includes investigations of the pedagogical practices in serving ELLs in the classroom, and the ways that technological innovations can support teaching and learning. Elsa's current research agenda seeks to extend this work by more closely examining the professional development (PD) provided teachers around the new Common Core State Standards and Next Generation Science Standards, with a specific focus on ways that this PD targets gaps in teachers' understandings of how to implement effective instruction for their ELLs.&lt;br&gt;&lt;/p&gt;&lt;/p&gt;" expander-cutoff='1000' oe-expander=''></div>
+</div>
+</div>
+<!-- for each instructor, add an expandable bio -->
+<div class='row-fluid' style='margin-top:30px;'>
+<div class='span3'>
+<img alt="Sara Rutherford-Quach's picture" class='rounded person' src='https://d2d6mu5qcvgbk5.cloudfront.net/course/instructors/pictures/thumb/92af2aa5cb2960c1124d8494f2de5ac43caeff1e.png?AWSAccessKeyId=AKIAJYKAGJMEEGUSW7TQ&amp;Expires=1446436843&amp;Signature=gYAD3XBPGGclZI%2FK8%2BYtabnDeCo%3D'>
+</div>
+<div class='span9'>
+<h4 class='instructor-title' style='margin-top:0px'>Sara Rutherford-Quach</h4>
+<p>Lecturer in the Stanford Graduate School of Education</p>
+</div>
+</div>
+<div class='row-fluid'>
+<div class='span12'>
+<div class='instructor-bio-expandable' compile-once='&lt;p&gt;&lt;p&gt;&lt;span style="color:rgb(88,87,84);font-size:13px;line-height:20px;text-align:justify"&gt;Sara Rutherford-Quach is the Director of Academic Programs &amp;amp; Research for Understanding Language and a Lecturer in the Stanford Graduate School of Education. A former bilingual elementary teacher, Sara has more than 13 years of experience working with linguistically diverse students and their teachers and has conducted extensive research on instructional practices for English learners. Sara was previously awarded a National Academy of Education Spencer Foundation Dissertation Fellowship for her work on the role of silence and speech in an elementary classroom serving language-minority students. Her areas of interest include classroom discourse and interaction analysis; language, culture, and instruction in multilingual and multicultural educational environments; institutional, policy and curricular change; and educational equity.&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style="color: rgb(88, 87, 84); line-height: 20px; text-align: justify"&gt;&lt;/span&gt;&lt;/div&gt;&lt;/p&gt;' expander-cutoff='1000' oe-expander=''></div>
+</div>
+</div>
+<!-- for each instructor, add an expandable bio -->
+<div class='row-fluid' style='margin-top:30px;'>
+<div class='span3'>
+<img alt="Steven Weiss's picture" class='rounded person' src='https://d2d6mu5qcvgbk5.cloudfront.net/course/instructors/pictures/thumb/5992add20c2bb39d0a4dd41c1262498529493fa8.png?AWSAccessKeyId=AKIAJYKAGJMEEGUSW7TQ&amp;Expires=1446454552&amp;Signature=Ubfxxfc0DODJM48PWMIH0QQHW5k%3D'>
+</div>
+<div class='span9'>
+<h4 class='instructor-title' style='margin-top:0px'>Steven Weiss</h4>
+<p>Project Manager, Stanford ELL Leadership Network</p>
+</div>
+</div>
+<div class='row-fluid'>
+<div class='span12'>
+<div class='instructor-bio-expandable' compile-once='&lt;p&gt;&lt;p&gt;&lt;span style="color: rgb(88, 87, 84); line-height: 20px; text-align: justify"&gt;Steven Weiss is a Senior Research Associate at Stanford&#x0027;s Understanding Language/SCALE and the Project Manager for the Stanford ELL Leadership Network, a collaboration between seven small to medium sized school districts in Northern California focused on developing leadership capacity around English Language Learners. Prior to joining Understanding Language, he worked at the Quality Teaching for English Learners (QTEL) program at WestEd, where he was a professional developer and instructional coach for secondary teachers and administrators in urban school districts such as New York City, Austin, San Diego and San Jose. He has also worked as a K-8 school administrator, a bilingual/ESL resource teacher, and a high school Spanish/History/ESL teacher. Steven is bilingual in Spanish. He holds an M.Ed. from U.C.L.A., an M.A. in Educational Administration from San Francisco State University, and an M.A. in Spanish from Middlebury College.&lt;/span&gt;&lt;/p&gt;&lt;/p&gt;' expander-cutoff='1000' oe-expander=''></div>
+</div>
+</div>
+</aside>
+</div>
+<div class='row-fluid'>
+<div class='span12'>
+<div class='center'>
+<div class='powered-by' style='margin-top:30px;margin-bottom:30px'>
+<a href='https://novoed.com'>
+<img alt='powered by NovoED' src='//d29rg257idl8cu.cloudfront.net/assets/brand/powered-by-NovoEd-inline-1d32964de4c5839ba5a1657122f09837.png'>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class='row-fluid' style='margin-bottom: 30px;'>
+<div class='span12'>
+<div class='center'>
+<a class='btn action-btn' href='http://online.stanford.edu/courses' style='font-size:17px'>
+See more Stanford Online Courses
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+
+
+</div>
+
+</div>
+</div>
+</div>
+<div class='container-fluid'>
+
+</div>
+</div>
+
+</div>
+<div class='push margin-20' id='footer-holder'>
+<div id='footer' oe-dynamic-scroll-section-bottom='' vertical-position='FooterSection.top'>
+<footer id='novoed-footer'>
+<div class='container'>
+<div class='row-fluid'>
+<div class='span9 hidden-phone'>
+<ul class='nav nav-pills'>
+<li>
+<a data-no-turbolink='true' href='/'>© NovoEd, Inc.</a>
+</li>
+<li>
+<a href='/courses'>Offerings</a>
+</li>
+<li>
+<a href='/how-it-works'>About</a>
+</li>
+<li>
+<a data-no-turbolink='true' href='/careers'>
+Careers
+</a>
+</li>
+<li>
+<a href='/terms'>Terms</a>
+</li>
+<li>
+<a href='http://blog.novoed.com' target='_blank'>Blog</a>
+</li>
+<li>
+<a href="http://help.novoed.com">Help</a>
+</li>
+</ul>
+</div>
+<div class='span3 socialiconsholder'>
+<div class='socialicons'>
+<figure>
+<a class='white' href='http://www.facebook.com/NovoEdTeam'>
+<div class='circle-icon facebook'>
+<i class='fa fa-facebook'></i>
+</div>
+</a>
+</figure>
+<figure>
+<a class='white' href='http://twitter.com/GoNovoEd'>
+<div class='circle-icon twitter'>
+<i class='fa fa-twitter'></i>
+</div>
+</a>
+</figure>
+<figure>
+<a class='white' href='https://plus.google.com/107930508287507956204/posts'>
+<div class='circle-icon google'>
+<i class='fa fa-google-plus'></i>
+</div>
+</a>
+</figure>
+<figure>
+<a class='white' href='http://www.linkedin.com/company/novoed'>
+<div class='circle-icon linkedin'>
+<i class='fa fa-linkedin'></i>
+</div>
+</a>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+</div>
+</div>
+<script defer='defer' src='https://www.youtube.com/iframe_api' type='text/javascript'></script>
+<script async src='https://sadmin.brightcove.com/js/BrightcoveExperiences.js' type='text/javascript'></script>
+<!-- https://s3.amazonaws.com/novoed-assets/mathjax_custom/config/TeX-AMS_HTML-full.js -->
+<script type='text/x-mathjax-config'>
+MathJax.Hub.Config({
+messageStyle: "none",
+extensions: ["tex2jax.js"],
+jax: ["input/TeX", "output/HTML-CSS"],
+tex2jax: {
+inlineMath:[['\\beginMathInline','\\endMathInline'] , ['$$', '$$']],
+displayMath:[['\\beginMathBlock', '\\endMathBlock'] , ['\\$$', '\\$$']],
+processEscapes: true
+},
+"HTML-CSS": { availableFonts: ["TeX"] }
+});
+</script>
+<script>
+  $(document).ready(function(){
+    $.novoEd.user.time_zone = "";
+  
+    // PageView for Google Analytics
+    ga(function() {
+      if (true) {
+        ga('create', 'UA-50319204-1', 'auto', { 'name': 'stanford-gse' });
+      }  
+      ga.getAll().forEach(function(tracker) {
+        ga(tracker.get('name') + '.send', 'pageview', {
+          'dimension1':  '',
+          'dimension2':  'eld-communication'
+        });
+      });
+    });
+  });
+  
+  $(window).load(function(){
+    // MathJax embedding
+    $.getScript('https://cdn.mathjax.org/mathjax/latest/MathJax.js').done(runMathJaxIfExists);
+    // Tagboard embedding
+    if (document.getElementsByClassName('tagboard-embed').length > 0) {
+      $.getScript('//static.tagboard.com/public/js/embed.js');
+    }
+  });
+</script>
+
+<script>
+  $(window).ready(function(){
+    $('#preloader').hide();
+    $('.deferred-content').css('visibility', 'visible');
+  });
+</script>
+</body>
+</html>

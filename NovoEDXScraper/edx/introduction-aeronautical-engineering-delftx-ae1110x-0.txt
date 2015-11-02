@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7" lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lte-ie9 lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lte-ie9 lt-ie9 lt-ie8" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lte-ie9 lt-ie9" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 9]><html class="lte-ie9" lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema# schema: http://schema.org/"><!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="https://www.edx.org/sites/default/files/theme/favicon.png" type="image/png" />
+<meta property="og:video" content="http://www.youtube.com/v/jaMWrQXh2PQ?version=3&amp;amp;autohide=1" />
+<meta name="baidu-site-verification" content="EFko2ro3j2"><meta property="p:domain_verify" content="bdbd8b6ab694e5932239f34d4b1d4c72"><meta name="msvalidate.01" content="07CBD8E5BAC466A73DDB737BA2A510E6"><meta name="google-site-verification" content="hTskDgeRw9elUBLNEW-_iUwJJj7KBS9Xypnc38kRIJ8"><meta name="description" content="Discover the fascinating world of aviation by investigating aeronautics, aerodynamics and flight mechanics." />
+<meta name="keywords" content="Introduction to Aeronautical Engineering, free online course" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.edx.org/course/introduction-aeronautical-engineering-delftx-ae1110x-0" />
+<link rel="shortlink" href="https://www.edx.org/node/9966" />
+<meta property="og:site_name" content="edX" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Introduction to Aeronautical Engineering" />
+<meta property="og:url" content="https://www.edx.org/course/introduction-aeronautical-engineering-delftx-ae1110x-0" />
+<meta property="og:description" content="Discover the fascinating world of aviation by investigating aeronautics, aerodynamics and flight mechanics." />
+<meta property="og:updated_time" content="2015-10-09T15:36:59-04:00" />
+<meta property="og:image" content="https://www.edx.org/sites/default/files/course/image/featured-card/ae1110x_aeronautical_course_featured380x168.jpg" />
+<meta property="og:image:secure_url" content="https://www.edx.org/sites/default/files/course/image/featured-card/ae1110x_aeronautical_course_featured380x168.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@edXOnline" />
+<meta name="twitter:creator" content="@edXOnline" />
+<meta name="twitter:site:id" content="567360618" />
+<meta name="twitter:creator:id" content="567360618" />
+<meta name="twitter:title" content="Introduction to Aeronautical Engineering" />
+<meta name="twitter:url" content="https://www.edx.org/course/introduction-aeronautical-engineering-delftx-ae1110x-0" />
+<meta name="twitter:description" content="Discover the fascinating world of aviation by investigating aeronautics, aerodynamics and flight mechanics." />
+<meta name="twitter:image:src" content="https://www.edx.org/sites/default/files/course/image/promoted/ae1110x_378x225_0.jpg" />
+<meta property="og:video:width" content="1280" />
+<meta property="og:video:height" content="720" />
+<meta property="og:video:type" content="application/x-shockwave-flash" />
+<meta property="article:published_time" content="2015-04-30T10:15:35-04:00" />
+<meta property="article:modified_time" content="2015-10-09T15:36:59-04:00" />
+<title>Introduction to Aeronautical Engineering | edX</title>
+<link type="text/css" rel="stylesheet" href="https://www.edx.org/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.edx.org/sites/default/files/css/css_IUOjHWikHKhkenNrNUgobqmwxUA871uY4FFiA2HryoA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.edx.org/sites/default/files/css/css_6VYWVNdrd18R79ga66aRR8Z0zJuNOPOFc86eurKPhKw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.edx.org/sites/default/files/css/css_ladrhb93W8QA_JWKOICq5-CJEmhmigQtQUwPngA7j14.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="https://www.edx.org/sites/default/files/css/css_hzJyp4BQzFcVYOw7_mdv5tjQ-Zb79spsLMDBUdx7jP8.css" media="all" />
+
+      <!--[if IE 9]>
+        <script type="text/javascript" src="/sites/all/themes/atedx/scripts/vendor/xdomain.min.js" slave="https://courses.edx.org/xdomain_proxy.html"></script>
+      <![endif]-->
+    <script src="https://www.edx.org/sites/default/files/js/js_-z-2lAhufzBeVjYseT6cTzSICUy9vnoLBpu1sF_zZrs.js"></script>
+<script src="https://www.edx.org/sites/default/files/js/js_6RfqyQ6dGB15EZV8a7SPpd5EOSSerQR7s-GxPVyVTqA.js"></script>
+<script src="https://www.edx.org/sites/default/files/js/js_2KlXA4Z5El1IQFVPxDN1aX5mIoMSFWGv3vwsP77K9yk.js"></script>
+<script src="https://cdn.optimizely.com/js/1743970571.js"></script>
+<script>var addthis_config = {
+      data_track_addressbar: false,
+      pubid: "ra-532208d8373cadff",
+      ui_use_css: false
+    };</script>
+<script>var addthis_share = {
+      templates: {
+        twitter: Drupal.t(
+          "I just registered for @title - join me on @edxonline #mooc {{url}}",
+          { "@title": "Introduction to Aeronautical Engineering"}
+        )
+      }};</script>
+<script src="//s7.addthis.com/js/300/addthis_widget.js#async=1"></script>
+<script src="https://d3q6qq2zt8nhwv.cloudfront.net/s/js/widgets/edx-review-widgets.js"></script>
+<script src="https://www.edx.org/sites/default/files/js/js_Je90nNRLJk5jqct2wtKPXBcY47kCBlZfx-grEmcunRk.js"></script>
+<script src="https://www.edx.org/sites/all/themes/atedx/scripts/vendor/require.js?nww0sq"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"atedx","theme_token":"HQCHFixs-krRia905vEgI6X7AsxNW7MX-J-gLx-ETHg","js":{"0":1,"1":1,"sites\/all\/themes\/atedx\/scripts\/site_footer.js":1,"sites\/all\/themes\/atedx\/scripts\/vendor\/common\/backbone-min.js":1,"sites\/all\/themes\/atedx\/scripts\/dist\/course_details\/course_details.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/environment_indicator\/tinycon.min.js":1,"sites\/all\/modules\/contrib\/environment_indicator\/environment_indicator.js":1,"sites\/all\/modules\/contrib\/environment_indicator\/color.js":1,"sites\/all\/modules\/dynamic_banner\/js\/banner.js":1,"https:\/\/cdn.optimizely.com\/js\/1743970571.js":1,"2":1,"3":1,"\/\/s7.addthis.com\/js\/300\/addthis_widget.js#async=1":1,"https:\/\/d3q6qq2zt8nhwv.cloudfront.net\/s\/js\/widgets\/edx-review-widgets.js":1,"sites\/all\/themes\/atedx\/scripts\/global-scripts.js":1,"sites\/all\/themes\/atedx\/scripts\/vendor\/polyfill-classlist.js":1,"sites\/all\/themes\/atedx\/scripts\/vendor\/polyfill-matchmedia.js":1,"sites\/all\/themes\/atedx\/scripts\/vendor\/polyfill-matchmedia.addListener.js":1,"sites\/all\/themes\/atedx\/scripts\/vendor\/jquery.html5-placeholder-shim.js":1,"sites\/all\/themes\/atedx\/scripts\/vendor\/lodash.min.js":1,"sites\/all\/themes\/atedx\/scripts\/vendor\/chosen.jquery.min.js":1,"sites\/all\/themes\/atedx\/scripts\/vendor\/jquery.reveal.js":1,"sites\/all\/themes\/atedx\/scripts\/vendor\/ftellipsis.min.js":1,"sites\/all\/themes\/atedx\/scripts\/vendor\/enquire.min.js":1,"sites\/all\/themes\/atedx\/scripts\/vendor\/require.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/environment_indicator\/environment_indicator.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/dynamic_banner\/css\/banner.css":1,"sites\/all\/themes\/adaptivetheme\/at_core\/css\/at.layout.css":1,"sites\/all\/themes\/atedx\/css\/edx.css":1,"public:\/\/adaptivetheme\/atedx_files\/atedx.default.layout.css":1,"public:\/\/css_injector\/css_injector_1.css":1,"public:\/\/css_injector\/css_injector_6.css":1,"public:\/\/css_injector\/css_injector_16.css":1,"public:\/\/css_injector\/css_injector_31.css":1}},"ft_enabled_features":{"coursetalk_reviews":"coursetalk_reviews","xseries_in_search":"xseries_in_search","xseries_details_page_v2":"xseries_details_page_v2","include_expired":"include_expired","discovery_cards_schools":"discovery_cards_schools","discovery_cards_subjects":"discovery_cards_subjects","main_menu_hover_tabs":"main_menu_hover_tabs","course_details_archived_auto":"course_details_archived_auto"},"myvarname":760,"lmsBaseUrl":"https:\/\/courses.edx.org"});</script>
+<!--[if lt IE 9]>
+<script src="https://www.edx.org/sites/all/themes/adaptivetheme/at_core/scripts/html5.js?nww0sq"></script>
+<![endif]-->
+<link href="https://plus.google.com/+edXOnline" rel="publisher"><script type="application/ld+json">
+{ "@context" : "http://schema.org",
+  "@type" : "Organization",
+  "name" : "edX",
+  "url" : "https://www.edx.org",
+  "logo": "https://www.edx.org/sites/default/files/theme/edx-logo-header.png",
+  "sameAs" : [ "https://www.facebook.com/edX",
+	"https://twitter.com/edXOnline",
+	"https://www.linkedin.com/company/edx",
+	"https://plus.google.com/+edXOnline",
+	"http://www.instagram.com/edxonline",
+	"https://www.youtube.com/user/edxonline"]
+}
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-9966 node-type-course site-name-hidden">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="page">
+
+  <!-- region: Leaderboard -->
+  
+  <!-- Messages -->
+  
+  
+<!-- start: Identity, branding and menus -->
+  
+    <header class="region region-identity edx-header" role="banner" aria-label="Main" data-menu-content="[{&quot;id&quot;:&quot;courses&quot;,&quot;title&quot;:&quot;Courses&quot;,&quot;url&quot;:&quot;\/course&quot;,&quot;classList&quot;:&quot;&quot;,&quot;html&quot;:&quot;\u003Cheader class=\u0022tab-header\u0022\u003E\r\n\u003Ch2\u003ECourses by Subject\u003C\/h2\u003E\r\n\u003Ca class=\u0022btn btn-blue\u0022 href=\u0022\/courses\u0022\u003EView All Courses\u003C\/a\u003E\u003C\/header\u003E\r\n\r\n\u003Cdiv class=\u0022tab-content\u0022\u003E\r\n\u003Cdiv class=\u0022item-list\u0022\u003E\r\n\u003Cul class=\u0022col-ul\u0022\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/architecture\u0022\u003EArchitecture\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/art-culture\u0022\u003EArt \u0026amp; Culture\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/biology-life-sciences\u0022\u003EBiology \u0026amp; Life Sciences\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/business-management\u0022\u003EBusiness \u0026amp; Management\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/chemistry\u0022\u003EChemistry\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/communication\u0022\u003ECommunication\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/computer-science\u0022\u003EComputer Science\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/data-analysis-statistics\u0022\u003EData Analysis \u0026amp; Statistics\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/design\u0022\u003EDesign\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/economics-finance\u0022\u003EEconomics \u0026amp; Finance\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/education\u0022\u003EEducation \u0026amp; Teacher Training\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/electronics\u0022\u003EElectronics\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/energy-earth-sciences\u0022\u003EEnergy \u0026amp; Earth Sciences\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/engineering\u0022\u003EEngineering\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/environmental-studies\u0022\u003EEnvironmental Studies\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/ethics\u0022\u003EEthics\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/food-nutrition\u0022\u003EFood \u0026amp; Nutrition\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/health-safety\u0022\u003EHealth \u0026amp; Safety\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/history\u0022\u003EHistory\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/humanities\u0022\u003EHumanities\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/language\u0022\u003ELanguage\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/law\u0022\u003ELaw\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/literature\u0022\u003ELiterature\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/math\u0022\u003EMath\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/medicine\u0022\u003EMedicine\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/music\u0022\u003EMusic\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/philanthropy\u0022\u003EPhilanthropy\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/philosophy-ethics\u0022\u003EPhilosophy \u0026amp; Ethics\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/physics\u0022\u003EPhysics\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/science\u0022\u003EScience\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli class=\u0022col-li\u0022\u003E\u003Ca href=\u0022\/course\/subject\/social-sciences\u0022\u003ESocial Sciences\u003C\/a\u003E\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n\u003C\/div\u003E\r\n\u003C\/div\u003E\r\n&quot;},{&quot;id&quot;:&quot;how-it-works&quot;,&quot;title&quot;:&quot;How It Works&quot;,&quot;url&quot;:&quot;\/how-it-works&quot;,&quot;classList&quot;:&quot;&quot;,&quot;html&quot;:&quot;\u003Cheader class=\u0022tab-header\u0022\u003E\r\n\u003Ch2\u003EHow It Works\u003C\/h2\u003E\r\n\u003Ca class=\u0022btn btn-blue\u0022 href=\u0022\/courses\u0022\u003EView All Courses\u003C\/a\u003E\u003C\/header\u003E\r\n\r\n\u003Cdiv class=\u0022tab-content\u0022\u003E\r\n\u003Cdiv class=\u0022icon-callout col-8\u0022\u003E\r\n\u003Cdiv class=\u0022edx-icon lg cert\u0022\u003E\u0026nbsp;\u003C\/div\u003E\r\n\u003Ca class=\u0022edx-link-blk heading icon-title\u0022 href=\u0022\/verified-certificate\u0022\u003EEarn a Valuable Certificate \u00bb\u003C\/a\u003E\r\n\r\n\u003Cp\u003EReceive an official credential from the institution and signed by the instructor. The certificate verifies your achievement and can be used to highlight skills on your resume or LinkedIn profile.\u003C\/p\u003E\r\n\u003C\/div\u003E\r\n\r\n\u003Cul class=\u0022icon-list col-4 col-last\u0022\u003E\r\n\t\u003Cli\u003E\r\n\t\u003Cdiv class=\u0022edx-icon high-school\u0022\u003E\u0026nbsp;\u003C\/div\u003E\r\n\t\u003Ca class=\u0022edx-link-blk\u0022 href=\u0022\/high-school-initiative\u0022\u003EExcel in High School \u00bb\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli\u003E\r\n\t\u003Cdiv class=\u0022edx-icon credit\u0022\u003E\u0026nbsp;\u003C\/div\u003E\r\n\t\u003Ca class=\u0022edx-link-blk\u0022 href=\u0022\/gfa\u0022\u003EEarn University Credit \u00bb\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli\u003E\r\n\t\u003Cdiv class=\u0022edx-icon subject\u0022\u003E\u0026nbsp;\u003C\/div\u003E\r\n\t\u003Ca class=\u0022edx-link-blk\u0022 href=\u0022\/xseries\u0022\u003EExplore an XSeries Program \u00bb\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli\u003E\r\n\t\u003Cdiv class=\u0022edx-icon career\u0022\u003E\u0026nbsp;\u003C\/div\u003E\r\n\t\u003Ca class=\u0022edx-link-blk\u0022 href=\u0022\/professional-education\u0022\u003EAdvance your Career \u00bb\u003C\/a\u003E\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n\u003C\/div\u003E\r\n&quot;},{&quot;id&quot;:&quot;schools--partners&quot;,&quot;title&quot;:&quot;Schools \u0026 Partners&quot;,&quot;url&quot;:&quot;\/schools-partners&quot;,&quot;classList&quot;:&quot;&quot;,&quot;html&quot;:&quot;&quot;},{&quot;id&quot;:&quot;about&quot;,&quot;title&quot;:&quot;About&quot;,&quot;url&quot;:&quot;\/about-us&quot;,&quot;classList&quot;:&quot;&quot;,&quot;html&quot;:&quot;\u003Cdiv class=\u0022tab-content\u0022\u003E\r\n\u003Cdiv class=\u0022two-thirds-block col-8\u0022\u003E\r\n\u003Cheader class=\u0022tab-header\u0022\u003E\r\n\u003Ch2\u003EOffering the best in education to the world\u003C\/h2\u003E\r\n\r\n\u003Cp class=\u0022copy\u0022\u003E\u0027At edX, we take our mission of increasing global access to quality education seriously. We connect learners to the best universities and institutions from around the world. Join us!\u0027, \u003Ca class=\u0022link\u0022 href=\u0022\/about-us\u0022\u003EMore about edX \u00bb\u003C\/a\u003E\u003C\/p\u003E\r\n\u003C\/header\u003E\r\n\r\n\u003Cdiv class=\u0022menu-testimonial\u0022\u003E\u003Cimg alt=\u0022\u0022 aria-hidden=\u0022true\u0022 class=\u0022round\u0022 src=\u0022\/sites\/all\/themes\/atedx\/images\/people\/about-dropdown-portrait.jpg\u0022 \/\u003E\r\n\u003Cdiv class=\u0022text\u0022\u003E\r\n\u003Cp class=\u0022quote\u0022\u003E\u201cWith the skills I\u2019ve been able to develop on my own, I\u2019ve got paid internships, beating out other college kids, because they don\u2019t usually have the same skill-sets I do when it comes to iOS app development.\u201d\u003C\/p\u003E\r\n\r\n\u003Cp class=\u0022source\u0022\u003EAakash Thumaty, California, USA\u003C\/p\u003E\r\n\u003C\/div\u003E\r\n\u003C\/div\u003E\r\n\u003C\/div\u003E\r\n\r\n\u003Cdiv class=\u0022sidebar col-4 col-last\u0022\u003E\r\n\u003Ch2\u003EWhy edX?\u003C\/h2\u003E\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Ca href=\u0022\/courses?availability=Self-paced\u0022\u003EOn your schedule \u00bb\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli\u003E\u003Ca href=\u0022\/courses\u0022\u003ECourses for everyone \u00bb\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli\u003E\u003Ca href=\u0022\/verified-certificate\u0022\u003EValuable Credentials \u00bb\u003C\/a\u003E\u003C\/li\u003E\r\n\t\u003Cli\u003E\u003Ca href=\u0022http:\/\/blog.edx.org\/learner-stories\/\u0022\u003EGlobal Community \u00bb\u003C\/a\u003E\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n\u003C\/div\u003E\r\n\u003C\/div\u003E\r\n&quot;}]">
+      <div class="region-inner clearfix">
+        <div class="region-container container">
+          <div class="region-container-inner header-search">
+                          <!-- start: Branding -->
+              <div id="branding" class="branding-elements">
+                                  <div id="logo" class="edx-logo">
+                    <a href="/" title="Home page" itemprop="url"><img class="site-logo image-style-none" itemprop="logo" typeof="foaf:Image" src="https://www.edx.org/sites/default/files/theme/edx-logo-header.png" alt="edX Home" /></a>                  </div>
+                                              </div><!-- /end #branding -->
+                        <!-- Primary navigation elements -->
+            <div id="primary-menu-bar" class="nav"><nav  role="navigation" class="primary-menu-wrapper menu-wrapper clearfix"><h2 class="element-invisible">Main menu</h2><ul class="menu primary-menu clearfix"><li class="menu-11976 first"><a href="/course">Courses</a></li><li class="menu-10077"><a href="/how-it-works">How It Works</a></li><li class="menu-10346"><a href="/schools-partners">Schools &amp; Partners</a></li><li class="menu-7492"><a href="https://courses.edx.org/register" class="visible-mobile">Register</a></li><li class="menu-13716 last"><a href="/about-us">About</a></li></ul></nav></div>
+            <div class="js-edx-header-ui edx-header-ui"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+  <!-- /end #Identity, branding and menus -->
+
+  <!-- region: Header -->
+  
+  <!-- region: Banner -->
+  
+  <!-- region: Spotlight -->
+  
+  <!-- Breadcrumbs -->
+  
+  <!-- Help -->
+  
+  <!-- region: Secondary Content -->
+  
+  <div class="region-column-wrapper">
+    <div class="region-columns region-container container">
+        <div class="region-container-inner">
+      <div id="columns" class="columns clearfix">
+        <div id="content-column" class="content-column">
+          <div class="content-inner">
+
+            <!-- region: Highlighted -->
+            
+            <section id="main-content">
+
+              
+                              <header id="main-content-header" class="clearfix">
+                                                    </header>
+              
+              <!-- region: Main Content -->
+                              <div id="content" class="region">
+                  <div itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+                    <div class="region-container-inner"><div id="block-system-main" class="block block-system no-title" >  
+  
+      <!-- regular node view template HTML here -->
+    <main role="main" id="course-info-page" data-course-lms-url="https://courses.edx.org" data-webview="false" data-course-id="course-v1:DelftX+AE1110x+2T2015" >
+      <div class="content-placeholder"></div>
+    </main>
+
+  </div></div>                  </div>
+                </div>
+              
+              <!-- Feed icons (RSS, Atom icons etc -->
+              
+              
+            </section><!-- /end #main-content -->
+
+            <!-- region: Content Aside -->
+            
+          </div><!-- /end .content-inner -->
+        </div><!-- /end #content-column -->
+
+        <!-- regions: Sidebar first and Sidebar second -->
+                
+      </div><!-- /end #columns -->
+        </div><!-- /end .region-container-inner -->
+    </div><!-- /end #region-columns -->
+  </div><!-- /end #region-column-wrapper -->
+
+  <!-- region: Tertiary Content -->
+  
+  <!-- region: Tertiary Content -->
+  
+  <!-- Secondary Navigation elements -->
+  
+  <!-- region: Footer -->
+  
+<footer id="edx-branding-footer" data-base-url=https://courses.edx.org></footer>
+
+</div>
+  <script>window.analytics.load("8fncv13bt5");</script>
+<script>window.analytics.page();</script>
+<script src="https://www.edx.org/sites/default/files/js/js_7lBERWulILh4tvuDYUTN54nLRRmvhKk1J3kWNWsPYhw.js"></script>
+<script src="https://www.edx.org/sites/all/themes/atedx/scripts/vendor/common/backbone-min.js?nww0sq"></script>
+<script src="https://www.edx.org/sites/all/themes/atedx/scripts/dist/course_details/course_details.js?nww0sq"></script>
+</body>
+</html>
