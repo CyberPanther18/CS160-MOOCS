@@ -1,3 +1,14 @@
+# IntelliJ files
+.idea/
+out/
+*.iml
+
+# Netbeans files
+build/
+nbproject/
+build.xml
+manifest.mf
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
