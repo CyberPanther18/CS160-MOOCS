@@ -1,19 +1,41 @@
 import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
 /**
  * The NovoEDXScraper.
  */
 public class NovoEDXScraper {
     public static void main(String[] args) {
+        // generate cached .txt files
         //save("novoEd");
         //System.out.println();
         //save("edx");
 
-        /*NovoEdScraper novoEdScraper = new NovoEdScraper();
-        novoEdScraper.start();*/
+        // generate NovoEd course to professor list map
+        NovoEdScraper novoEdScraper = new NovoEdScraper();
+        Map<Course, List<Professor>> novoEdCourseToProfessorListMap =  novoEdScraper.start();
 
+        // generate edx course to professor list map
         EDXScraper edxScraper = new EDXScraper();
-        edxScraper.start();
+        Map<Course, List<Professor>> edxCourseToProfessorListMap = edxScraper.start();
+
+        // combine maps
+        Map<Course, List<Professor>> courseToProfessorListMap = new TreeMap<>();
+        courseToProfessorListMap.putAll(novoEdCourseToProfessorListMap);
+        courseToProfessorListMap.putAll(edxCourseToProfessorListMap);
+
+        // database code goes here
+        // go through maps
+        int courseID = 0;
+        for(Course course : courseToProfessorListMap.keySet()) {
+            System.out.println(String.format("%3d", courseID) + " " + course);
+            for(Professor professor : courseToProfessorListMap.get(course)) {
+                System.out.println("        " + professor);
+            }
+            System.out.println();
+            courseID++;
+        }
     }
 
     /**

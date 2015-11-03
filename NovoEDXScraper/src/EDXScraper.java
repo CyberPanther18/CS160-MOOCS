@@ -14,19 +14,18 @@ import java.util.*;
  * The EDXScraper.
  */
 public class EDXScraper {
-    public void start() {
-        try {
-            // professors and courses
-            List<Professor> professorList = new ArrayList<>();
-            List<Course> courseList = new ArrayList<>();
+    public Map<Course, List<Professor>> start() {
+        Map<Course, List<Professor>> courseToProfessorListMap = new TreeMap<>();
 
+        try {
             File folder = new File("edx");
             for(File file : folder.listFiles()) {
-                //String filename = "how-writers-write-fiction-2015.txt";
+                List<Professor> professorList = new ArrayList<>();
+
                 String filename = file.getName();
                 File input = new File("edx/" + filename);
                 Document doc = Jsoup.parse(input, "UTF-8", "");
-                System.out.println("https://www.edx.org/course/" + filename.replace(".txt", ""));
+                //System.out.println("https://www.edx.org/course/" + filename.replace(".txt", ""));
 
                 // professors
                 // get prof names
@@ -54,7 +53,7 @@ public class EDXScraper {
                     // add new professor
                     Professor professor = new Professor(profNameList.get(i), profImage);
                     professorList.add(professor);
-                    System.out.println(professor);
+                    //System.out.println(professor);
                 }
                 // no professor image
                 if(profImageElements.size() == 0) {
@@ -62,7 +61,7 @@ public class EDXScraper {
                         // add new professor
                         Professor professor = new Professor(profName, "");
                         professorList.add(professor);
-                        System.out.println(professor);
+                        //System.out.println(professor);
                     }
                 }
 
@@ -88,7 +87,20 @@ public class EDXScraper {
                         startDateString = String.format("%d-%02d-%02d", year, month, day);
                     }
                     catch(ParseException e) {
-                        e.printStackTrace();
+                        try {
+                            // catch Month Year format
+                            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MMMMM yyyy");
+                            Date startDate = simpleDateFormat.parse(startDateString);
+                            Calendar cal = Calendar.getInstance();
+                            cal.setTime(startDate);
+                            int year = cal.get(Calendar.YEAR);
+                            int month = cal.get(Calendar.MONTH) + 1;
+                            int day = 1;
+                            startDateString = String.format("%d-%02d-%02d", year, month, day);
+                        }
+                        catch(ParseException e1) {
+                            e1.printStackTrace();
+                        }
                     }
                 }
                 else if(!startDateString.isEmpty()) {
@@ -148,14 +160,17 @@ public class EDXScraper {
                 Course course = new Course(title, shortDesc, longDesc, courseLink, videoLink,
                         startDateString, courseLength, courseImage, category, site,
                         courseFee, language, certificate, university, timeScraped);
-                courseList.add(course);
-                System.out.println(course);
+                //System.out.println(course);
+                //System.out.println();
 
-                System.out.println();
+                // add to map
+                courseToProfessorListMap.put(course, professorList);
             }
         }
         catch(IOException e) {
             e.printStackTrace();
         }
+
+        return courseToProfessorListMap;
     }
 }

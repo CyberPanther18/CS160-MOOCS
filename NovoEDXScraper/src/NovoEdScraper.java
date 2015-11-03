@@ -8,30 +8,25 @@ import java.io.IOException;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.TimeZone;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 /**
  * The NovoEdScraper.
  */
 public class NovoEdScraper {
-    public void start() {
-        try {
-            // professors and courses
-            List<Professor> professorList = new ArrayList<>();
-            List<Course> courseList = new ArrayList<>();
+    public Map<Course, List<Professor>> start() {
+        Map<Course, List<Professor>> courseToProfessorListMap = new TreeMap<>();
 
-            //Document doc = Jsoup.connect("https://novoed.com/courses").get();
+        try {
             File folder = new File("novoEd");
             for(File file : folder.listFiles()) {
-                //String filename = "how-writers-write-fiction-2015.txt";
+                List<Professor> professorList = new ArrayList<>();
+
                 String filename = file.getName();
                 File input = new File("novoEd/" + filename);
                 Document doc = Jsoup.parse(input, "UTF-8", "");
-                System.out.println("https://novoed.com/" + filename.replace(".txt", ""));
+                //System.out.println("https://novoed.com/" + filename.replace(".txt", ""));
 
                 // professors
                 // get prof names
@@ -59,7 +54,7 @@ public class NovoEdScraper {
                     // add new professor
                     Professor professor = new Professor(profNameList.get(i), profImage);
                     professorList.add(professor);
-                    System.out.println(professor);
+                    //System.out.println(professor);
                 }
                 // no professor image
                 if(profImageElements.size() == 0) {
@@ -67,7 +62,7 @@ public class NovoEdScraper {
                         // add new professor
                         Professor professor = new Professor(profName, "");
                         professorList.add(professor);
-                        System.out.println(professor);
+                        //System.out.println(professor);
                     }
                 }
 
@@ -126,14 +121,17 @@ public class NovoEdScraper {
                 Course course = new Course(title, shortDesc, longDesc, courseLink, videoLink,
                         startDateString, courseLength, courseImage, category, site,
                         courseFee, language, certificate, university, timeScraped);
-                courseList.add(course);
-                System.out.println(course);
+                //System.out.println(course);
+                //System.out.println();
 
-                System.out.println();
+                // add to map
+                courseToProfessorListMap.put(course, professorList);
             }
         }
         catch(IOException e) {
             e.printStackTrace();
         }
+
+        return courseToProfessorListMap;
     }
 }

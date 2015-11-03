@@ -1,7 +1,7 @@
 /**
  * The Course.
  */
-public class Course {
+public class Course implements Comparable<Course> {
     public final String title, shortDesc, longDesc, courseLink, videoLink,
             startDate, courseImage, category, site,
             language, university, timeScraped;
@@ -26,6 +26,11 @@ public class Course {
         this.certificate = certificate;
         this.university = university;
         this.timeScraped = timeScraped;
+    }
+
+    @Override
+    public int compareTo(Course o) {
+        return title.compareToIgnoreCase(o.title);
     }
 
     @Override
