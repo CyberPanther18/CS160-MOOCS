@@ -71,9 +71,30 @@ public class NovoEdScraper {
                 String title = doc.select("h1").first().text();
 
                 // long desc
-                String longDesc = doc.select("h3.course + p").text();
-                if(longDesc.equals("")) {
-                    longDesc = doc.select("p").first().text();
+                String descSelector = "h3.course + p";
+                String longDesc = doc.select(descSelector).text();
+
+                int maxAttempts = 3;
+                int currentAttempt = 1;
+                int minDescLen = 30;
+                while(longDesc.length() < minDescLen && currentAttempt <= maxAttempts)
+                {
+                    descSelector += " + p"; //Look at next paragraph if current one fails
+                    longDesc = doc.select(descSelector).text();
+                    currentAttempt++;
+                }
+                //last try at long desc
+                if(longDesc.length() < minDescLen)
+                    {
+                    currentAttempt = 1;
+                    descSelector = "p";
+                    longDesc = doc.select(descSelector).text();
+                    while(longDesc.length() < minDescLen && currentAttempt <= maxAttempts)
+                    {
+                        descSelector += " + p"; //Look at next paragraph if current one fails
+                        longDesc = doc.select(descSelector).text();
+                        currentAttempt++;
+                    }
                 }
 
                 // short desc
