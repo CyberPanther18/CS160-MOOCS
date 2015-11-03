@@ -5,19 +5,12 @@ public class NovoEDXScraper {
         //save("novoEd");
         //System.out.println();
         //save("edx");
-        // sample edx professor images
-        // https://www.edx.org/sites/default/files/person/image/michael_buffa-110x110.png
-        // https://www.edx.org/sites/default/files/person/image/mx101z-chen-110x110.png
 
+        /*NovoEdScraper novoEdScraper = new NovoEdScraper();
+        novoEdScraper.start();*/
 
-
-        // jsoup attempt to load data, but since they use javascript to generate the page jsoup fails to load the data
-        // tried using phantomjs to load the page with javascript but it didn't work out
-        NovoEdScraper novoEdScraper = new NovoEdScraper();
-        novoEdScraper.start();
-
-        /*EDXScraper edxScraper = new EDXScraper();
-        edxScraper.start();*/
+        EDXScraper edxScraper = new EDXScraper();
+        edxScraper.start();
     }
 
     /**

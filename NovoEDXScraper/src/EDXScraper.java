@@ -1,141 +1,138 @@
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.select.Elements;
 import org.jsoup.nodes.Element;
-import java.sql.*;
+import org.jsoup.select.Elements;
+
+import java.io.File;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.TimeZone;
+import java.util.concurrent.TimeUnit;
 
 public class EDXScraper {
-    /**
-     * @throws IOException
-     * @throws ClassNotFoundException
-     * @throws IllegalAccessException
-     * @throws InstantiationException
-     * @throws SQLException
-     */
-    public void start() throws IOException, InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException {
-        //Many things are commented out in this sample program. Uncomment to explore more if needed.
-        // Need Jsoup jar files to run this sample program. You may also need to rebuild path, etc.
-        // There are many pages that show 15 EDX courses on a webpage as constrained by ?page=some_number.
-        //In this sample program, we show the first 6 pages.
-        String url1 = "https://www.edx.org/course-list/allschools/allsubjects/allcourses?page=0";
-        String url2 = "https://www.edx.org/course-list/allschools/allsubjects/allcourses?page=1";
-        String url3 = "https://www.edx.org/course-list/allschools/allsubjects/allcourses?page=2";
-        String url4 = "https://www.edx.org/course-list/allschools/allsubjects/allcourses?page=3";
-        String url5 = "https://www.edx.org/course-list/allschools/allsubjects/allcourses?page=4";
-        String url6 = "https://www.edx.org/course-list/allschools/allsubjects/allcourses?page=5";
+    public void start() {
+        try {
+            // professors and courses
+            List<Professor> professorList = new ArrayList<>();
+            List<Course> courseList = new ArrayList<>();
 
+            File folder = new File("edx");
+            for(File file : folder.listFiles()) {
+                //String filename = "how-writers-write-fiction-2015.txt";
+                String filename = file.getName();
+                File input = new File("edx/" + filename);
+                Document doc = Jsoup.parse(input, "UTF-8", "");
+                System.out.println("https://edx.com/" + filename.replace(".txt", ""));
 
-        ArrayList pgcrs = new ArrayList<String>(); //Array which will store each course URLs
-        pgcrs.add(url1);
-        pgcrs.add(url2);
-        pgcrs.add(url3);
-        pgcrs.add(url4);
-        pgcrs.add(url5);
-        pgcrs.add(url6);
-        //The following few lines of code are used to connect to a database so the scraped course content can be stored.
-        //Class.forName("com.mysql.jdbc.Driver").newInstance();
-        //java.sql.Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/scrapedcourse","root","");
-        //make sure you create a database named scrapedcourse in your local mysql database before running this code
-        //default mysql database in your local machine is ID:root with no password
-        //you can download scrapecourse database template from your Canvas account->modules->Team Project area
-        for(int a=0; a<pgcrs.size();a++)
-        {
-            String furl = (String) pgcrs.get(a);
-            Document doc = Jsoup.connect(furl).get();
-            Elements ele = doc.select("div[class*=views-row]");
-            Elements crspg = ele.select("article[class=course-tile]");
-            Elements link = crspg.select("div[href]");
-
-            for (int j=0; j<link.size();j++)
-            {
-                //Statement statement = connection.createStatement();
-
-                String crsurl = "https://www.edx.org" +link.get(j).attr("href"); //Get the Course Url from href tag and add to www.edx.org to get the full URL to the course
-                System.out.println(crsurl);
-                String CourseName = crspg.select("h1").get(j).text(); //Get the Course Name from H1 Tag
-                CourseName = CourseName.replace("'", "''");
-                CourseName = CourseName.replace(",", "");
-                String SCrsDesrpTemp = crspg.select("div[class=subtitle]").get(j).text();
-                SCrsDesrpTemp = SCrsDesrpTemp.replace("?", "");
-                //String SCrsDesrp = SCrsDesrpTemp.substring(0, (SCrsDesrpTemp.length()-5)); //To get the course description and remove the extra characters at the end.
-                SCrsDesrpTemp = SCrsDesrpTemp.replace("'", "''");
-                SCrsDesrpTemp = SCrsDesrpTemp.replace(",", "");
-                String CrsImg;
-                if(a==0||a==1)
-                {
-                    CrsImg  = "write you own code here"; //To get the course image
-                }
-                else
-                {
-                    CrsImg = "write you own code here"; //To get the course image - FOR URL4
-                }
-                Document crsdoc = Jsoup.connect(crsurl).get();
-                Elements crsheadele = crsdoc.select("section[class=course-header clearfix]");
-                String youtube = "write your own code"; //Youtube link
-                Elements crsbodyele = crsdoc.select("section[class=course-detail clearfix]");
-                String CrsDes = "write your own code"; //Course Description Element
-                CrsDes = CrsDes.replace("'", "''");
-                CrsDes = CrsDes.replace(",", "");
-                if(CrsDes.contains("?"))
-                {
-                    CrsDes = CrsDes.replace("?", "");
-                }
-                String Date = crsdoc.select("div[class=startdate]").text();
-                String StrDate = Date.substring(Date.indexOf(":")+1, Date.length()); //Start date after the :
-                String datechk = StrDate.substring(0, StrDate.indexOf(" "));
-                if(!datechk.matches(".*\\d.*"))
-                {
-                    if(StrDate.contains("n/a"))
-                    {
-                        StrDate = "write you own code";
+                // professors
+                // get prof names
+                List<String> profNameList = new ArrayList<>();
+                Elements profNameElements = doc.select("span.instructor_name");
+                for (Element element : profNameElements) {
+                    String profName = element.text();
+                    int commaIndex = profName.lastIndexOf(",");
+                    if (commaIndex != -1) {
+                        profName = profName.substring(0, commaIndex);
                     }
-                    else
-                    {
-                        StrDate = "write your own code";
+                    profNameList.add(profName);
+                }
+
+                // get prof images
+                Elements profImageElements = doc.select("img.person");
+                for(int i = 0; i < profImageElements.size(); i++) {
+                    Element element = profImageElements.get(i);
+                    String profImage = element.attr("src");
+                    int jpgIndex = profImage.indexOf("?");
+                    if (jpgIndex != -1) {
+                        profImage = profImage.substring(0, jpgIndex);
+                    }
+
+                    // add new professor
+                    Professor professor = new Professor(profNameList.get(i), profImage);
+                    professorList.add(professor);
+                    System.out.println(professor);
+                }
+                // no professor image
+                if(profImageElements.size() == 0) {
+                    for(String profName : profNameList) {
+                        // add new professor
+                        Professor professor = new Professor(profName, "");
+                        professorList.add(professor);
+                        System.out.println(professor);
                     }
                 }
-                else
-                {
-                    String date = StrDate.substring(0, StrDate.indexOf(" "));
-                    String month = StrDate.substring(StrDate.indexOf(" ")+1, StrDate.indexOf(" ")+4);
-                    String year = StrDate.substring(StrDate.length()-4,StrDate.length());
-                    StrDate = "write your own code";
-                }
-                Element chk = crsdoc.select("div[class=effort last]").first();
-                Element crslenschk = crsdoc.select("div[class*=duration]").first();
-                String crsduration;
-                if (crslenschk==null)
-                {
-                    crsduration = "0";
-                }
-                else if(StrDate.contains("n/a self-paced"))
-                {
-                    crsduration = "0";
-                }
-                else
-                {
-                    try{
-                        String crsdurationtmp = crsdoc.select("div[class*=duration]").text();
-                        int start = crsdurationtmp.indexOf(":")+1;
-                        int end = crsdurationtmp.indexOf((" "),crsdurationtmp.indexOf(":"));
-                        crsduration = crsdurationtmp.substring(start, end);
+
+                // course
+                String title = doc.select("h1").first().text();
+                String longDesc = doc.select("h3.course + p").text();
+                String shortDesc = longDesc.substring(0, longDesc.indexOf(".") + 1);
+                String courseLink = "https://novoed.com/" + filename.replace(".txt", "");
+                String videoLink = doc.select("iframe[src$=.com]").attr("src");
+
+                // get date
+                String startDateString = "";
+                int courseLength = -1;
+                Elements dateElements = doc.select("span[data-utc-time]");
+                if(dateElements.size() == 2) {
+                    startDateString = dateElements.get(0).attr("data-utc-time");
+                    startDateString = startDateString.substring(0, startDateString.lastIndexOf("T"));
+                    String endDateString = dateElements.get(1).attr("data-utc-time");
+                    endDateString = endDateString.substring(0, endDateString.lastIndexOf("T"));
+
+                    try {
+                        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+                        Date startDate = simpleDateFormat.parse(startDateString);
+                        Date endDate = simpleDateFormat.parse(endDateString);
+                        long diff = endDate.getTime() - startDate.getTime();
+                        courseLength = (int) TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
                     }
-                    catch (Exception e)
-                    {
-                        crsduration ="0";
-                        System.out.println("Exception");
+                    catch(ParseException e) {
+                        e.printStackTrace();
                     }
                 }
-                //The following is used to insert scraped data into your database table. Need to uncomment all database related code to run this.
-                String query = "insert into course_data values(null,'"+CourseName+"','"+SCrsDesrpTemp+"','"+CrsDes+"','"+crsurl+"','"+youtube+"',"+StrDate+","+crsduration+",'"+CrsImg+"','','Edx')";
-                System.out.println(query);
-                //statement.executeUpdate(query);// skip writing to database; focus on data printout to a text file instead.
-                //statement.close();
+
+                String courseImage = "";
+                String category = "";
+                String site = "https://novoed.com/";
+                int courseFee = -1; // see https://novoed.com/Introduction-Negotiation-Fall-2015
+                String language = courseLink.endsWith("-es") ? "Spanish" : "English"; // this site only has classes in English and Spanish
+                boolean certificate = false;
+                String priceTag = doc.select("figure.pricetag").text();
+                String university = priceTag.replace("A free course from ", "");
+                String certificateString = "You have the opportunity to sign up for a certificate of completion for $";
+                int certificateIndex = university.lastIndexOf(certificateString);
+                if(certificateIndex != -1) {
+                    courseFee = (int) Double.parseDouble(university.substring(certificateIndex + certificateString.length(), university.length() - 1));
+                    university = university.substring(0, certificateIndex); // this must come after courseFee
+                    certificate = true;
+                }
+
+                // current time
+                TimeZone tz = TimeZone.getTimeZone("UTC");
+                DateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+                df.setTimeZone(tz);
+                String timeScraped  = df.format(new Date());
+
+                // add new course
+                Course course = new Course(title, shortDesc, longDesc, courseLink, videoLink,
+                        startDateString, courseLength, courseImage, category, site,
+                        courseFee, language, certificate, university, timeScraped);
+                courseList.add(course);
+                System.out.println(course);
+
+                System.out.println();
             }
+
+            // database code goes here
+
         }
-        // connection variable doesn't exist - sample code did not compile
-        //connection.close();
+        catch(IOException e) {
+            e.printStackTrace();
+        }
     }
 }
