@@ -14,6 +14,9 @@ import java.util.List;
 import java.util.TimeZone;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * The NovoEdScraper.
+ */
 public class NovoEdScraper {
     public void start() {
         try {
@@ -128,9 +131,6 @@ public class NovoEdScraper {
 
                 System.out.println();
             }
-
-            // database code goes here
-
         }
         catch(IOException e) {
             e.printStackTrace();

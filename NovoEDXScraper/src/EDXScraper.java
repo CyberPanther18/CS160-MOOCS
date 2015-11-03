@@ -10,6 +10,9 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
+/**
+ * The EDXScraper.
+ */
 public class EDXScraper {
     public void start() {
         try {
@@ -102,7 +105,6 @@ public class EDXScraper {
                 String courseImage = doc.select("a.video-link > img").attr("src");
 
                 String category = doc.select("li[data-field=subject] > span.block-list__desc").text();
-                System.out.println(category);
                 String site = "https://edx.org/";
 
                 Elements languageElements = doc.select("li > span.block-list__desc");
@@ -151,9 +153,6 @@ public class EDXScraper {
 
                 System.out.println();
             }
-
-            // database code goes here
-
         }
         catch(IOException e) {
             e.printStackTrace();

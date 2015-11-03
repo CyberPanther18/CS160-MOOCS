@@ -1,4 +1,6 @@
-
+/**
+ * The Course.
+ */
 public class Course {
     public final String title, shortDesc, longDesc, courseLink, videoLink,
             startDate, courseImage, category, site,

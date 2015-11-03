@@ -1,5 +1,8 @@
 import java.util.List;
 
+/**
+ * The NovoEDXScraper.
+ */
 public class NovoEDXScraper {
     public static void main(String[] args) {
         //save("novoEd");

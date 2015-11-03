@@ -1,4 +1,6 @@
-
+/**
+ * The Professor.
+ */
 public class Professor {
     public final String profName, profImage;
 
