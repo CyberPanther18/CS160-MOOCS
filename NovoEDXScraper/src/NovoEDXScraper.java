@@ -25,17 +25,9 @@ public class NovoEDXScraper {
         courseToProfessorListMap.putAll(novoEdCourseToProfessorListMap);
         courseToProfessorListMap.putAll(edxCourseToProfessorListMap);
 
-        // database code goes here
-        // go through maps
-        int courseID = 0;
-        for(Course course : courseToProfessorListMap.keySet()) {
-            System.out.println(String.format("%3d", courseID) + " " + course);
-            for(Professor professor : courseToProfessorListMap.get(course)) {
-                System.out.println("        " + professor);
-            }
-            System.out.println();
-            courseID++;
-        }
+        // put data into database
+        NovoEDXDatabase novoEDXDatabase = new NovoEDXDatabase();
+        novoEDXDatabase.start(courseToProfessorListMap);
     }
 
     /**

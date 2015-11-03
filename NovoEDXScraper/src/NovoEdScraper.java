@@ -72,6 +72,9 @@ public class NovoEdScraper {
 
                 // long desc
                 String longDesc = doc.select("h3.course + p").text();
+                if(longDesc.equals("")) {
+                    longDesc = doc.select("p").first().text();
+                }
 
                 // short desc
                 String shortDesc = longDesc.substring(0, longDesc.indexOf(".") + 1);
@@ -80,7 +83,7 @@ public class NovoEdScraper {
                 String courseLink = "https://novoed.com/" + filename.replace(".txt", "");
 
                 // video link
-                String videoLink = doc.select("iframe[src$=.com]").attr("src");
+                String videoLink = doc.select("iframe[src^=https://www.youtube.com/embed/]").attr("src");
 
                 // date and course length
                 String startDateString = "";
@@ -123,10 +126,17 @@ public class NovoEdScraper {
                 String priceTag = doc.select("figure.pricetag").text();
                 String university = priceTag.replace("A free course from ", "");
                 String certificateString = "You have the opportunity to sign up for a certificate of completion for $";
+                String moneyString = "You can take this course for $";
                 int certificateIndex = university.lastIndexOf(certificateString);
+                int moneyIndex = university.lastIndexOf(moneyString);
                 if(certificateIndex != -1) {
                     courseFee = (int) Double.parseDouble(university.substring(certificateIndex + certificateString.length(), university.length() - 1));
                     university = university.substring(0, certificateIndex); // this must come after courseFee
+                    certificate = true;
+                }
+                else if(moneyIndex != -1) {
+                    courseFee = (int) Double.parseDouble(university.substring(moneyIndex + moneyString.length(), university.length() - 1));
+                    university = university.substring(0, moneyIndex); // this must come after courseFee
                     certificate = true;
                 }
 
