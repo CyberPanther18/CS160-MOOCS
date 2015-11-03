@@ -29,7 +29,7 @@ public class NovoEdScraper {
                 //System.out.println("https://novoed.com/" + filename.replace(".txt", ""));
 
                 // professors
-                // get prof names
+                // prof names
                 List<String> profNameList = new ArrayList<>();
                 Elements profNameElements = doc.select("span.instructor_name");
                 for (Element element : profNameElements) {
@@ -41,7 +41,7 @@ public class NovoEdScraper {
                     profNameList.add(profName);
                 }
 
-                // get prof images
+                // prof images
                 Elements profImageElements = doc.select("img.person");
                 for(int i = 0; i < profImageElements.size(); i++) {
                     Element element = profImageElements.get(i);
@@ -67,13 +67,22 @@ public class NovoEdScraper {
                 }
 
                 // course
+                // title
                 String title = doc.select("h1").first().text();
+
+                // long desc
                 String longDesc = doc.select("h3.course + p").text();
+
+                // short desc
                 String shortDesc = longDesc.substring(0, longDesc.indexOf(".") + 1);
+
+                // course link
                 String courseLink = "https://novoed.com/" + filename.replace(".txt", "");
+
+                // video link
                 String videoLink = doc.select("iframe[src$=.com]").attr("src");
 
-                // get date
+                // date and course length
                 String startDateString = "";
                 int courseLength = -1;
                 Elements dateElements = doc.select("span[data-utc-time]");
@@ -95,11 +104,21 @@ public class NovoEdScraper {
                     }
                 }
 
+                // course image
                 String courseImage = "";
+
+                // category
                 String category = "";
+
+                // site
                 String site = "https://novoed.com/";
-                int courseFee = -1; // see https://novoed.com/Introduction-Negotiation-Fall-2015
+
+
+                // language
                 String language = courseLink.endsWith("-es") ? "Spanish" : "English"; // this site only has classes in English and Spanish
+
+                // certificate, course fee, and university
+                int courseFee = -1; // see https://novoed.com/Introduction-Negotiation-Fall-2015
                 boolean certificate = false;
                 String priceTag = doc.select("figure.pricetag").text();
                 String university = priceTag.replace("A free course from ", "");

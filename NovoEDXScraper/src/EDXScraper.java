@@ -28,7 +28,7 @@ public class EDXScraper {
                 //System.out.println("https://www.edx.org/course/" + filename.replace(".txt", ""));
 
                 // professors
-                // get prof names
+                // prof names
                 List<String> profNameList = new ArrayList<>();
                 Elements profNameElements = doc.select("p.instructor-name");
                 for (Element element : profNameElements) {
@@ -40,7 +40,7 @@ public class EDXScraper {
                     profNameList.add(profName);
                 }
 
-                // get prof images
+                // prof images
                 Elements profImageElements = doc.select("img.instructor-img");
                 for(int i = 0; i < profImageElements.size(); i++) {
                     Element element = profImageElements.get(i);
@@ -66,13 +66,22 @@ public class EDXScraper {
                 }
 
                 // course
+                // title
                 String title = doc.select("h1").first().text();
+
+                // long desc
                 String longDesc = doc.select("div.see-more-content > p").text();
+
+                // short desc
                 String shortDesc = longDesc.substring(0, longDesc.indexOf(".") + 1);
+
+                // course link
                 String courseLink = "https://edx.org/course/" + filename.replace(".txt", "");
+
+                // video link
                 String videoLink = doc.select("meta[content$=autohide=1").attr("content");
 
-                // get date
+                // start date
                 String startDateString = doc.select("div.course-start > span").text();
                 if(startDateString.contains(" on ")) {
                     startDateString = startDateString.substring(startDateString.indexOf(" on ") + 4);
@@ -107,6 +116,7 @@ public class EDXScraper {
                     startDateString = "";
                 }
 
+                // course length
                 String courseLengthString = doc.select("li > span.block-list__desc").first().text();
                 int courseLength = -1;
                 if(courseLengthString.matches("[0-9]+ weeks")) {
@@ -114,11 +124,16 @@ public class EDXScraper {
                     courseLength = Integer.parseInt(courseLengthString) * 7;
                 }
 
+                // course image
                 String courseImage = doc.select("a.video-link > img").attr("src");
 
+                // category
                 String category = doc.select("li[data-field=subject] > span.block-list__desc").text();
+
+                // site
                 String site = "https://edx.org/";
 
+                // language
                 Elements languageElements = doc.select("li > span.block-list__desc");
                 String language = languageElements.get(languageElements.size() - 2).text();
                 int languageIndex = language.indexOf(",");
@@ -126,8 +141,7 @@ public class EDXScraper {
                     language = language.substring(0, languageIndex);
                 }
 
-                boolean certificate = false;
-
+                // course fee
                 int courseFee = -1;
                 String priceTag = doc.select("li[data-field=price] > span.block-list__desc").text();
                 if(priceTag.startsWith("Free")) {
@@ -142,8 +156,11 @@ public class EDXScraper {
                     }
                 }
 
+                // university
                 String university = doc.select("li[data-field=school] > span.block-list__desc").text();
 
+                // certificate
+                boolean certificate = false;
                 String certificateString = "certificate";
                 int certificateIndex = priceTag.toLowerCase().lastIndexOf(certificateString);
                 if(certificateIndex != -1) {
