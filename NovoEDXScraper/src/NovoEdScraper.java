@@ -15,6 +15,8 @@ import java.util.concurrent.TimeUnit;
  * The NovoEdScraper.
  */
 public class NovoEdScraper {
+    private String[] endingPunct = {".", "?", "!"};//Punctuation marks to end sentences
+    
     public Map<Course, List<Professor>> start() {
         Map<Course, List<Professor>> courseToProfessorListMap = new TreeMap<>();
 
@@ -98,7 +100,16 @@ public class NovoEdScraper {
                 }
 
                 // short desc
-                String shortDesc = longDesc.substring(0, longDesc.indexOf(".") + 1);
+                int smallestIndex = -1;
+                for(String punctMark: endingPunct)
+                {
+                    int indexOfPunct = longDesc.indexOf(punctMark);
+                    if(smallestIndex == -1 || (indexOfPunct > -1 && indexOfPunct < smallestIndex))
+                    {
+                        smallestIndex = indexOfPunct;
+                    }
+                }
+                String shortDesc = longDesc.substring(0, smallestIndex + 1);
 
                 // course link
                 String courseLink = "https://novoed.com/" + filename.replace(".txt", "");

@@ -14,6 +14,9 @@ import java.util.*;
  * The EDXScraper.
  */
 public class EDXScraper {
+    
+    private String[] endingPunct = {".", "?", "!"};//Punctuation marks to end sentences
+    
     public Map<Course, List<Professor>> start() {
         Map<Course, List<Professor>> courseToProfessorListMap = new TreeMap<>();
 
@@ -73,7 +76,17 @@ public class EDXScraper {
                 String longDesc = doc.select("div.see-more-content > p").text();
 
                 // short desc
-                String shortDesc = longDesc.substring(0, longDesc.indexOf(".") + 1);
+                
+                int smallestIndex = -1;
+                for(String punctMark: endingPunct)
+                {
+                    int indexOfPunct = longDesc.indexOf(punctMark);
+                    if(smallestIndex == -1 || (indexOfPunct > -1 && indexOfPunct < smallestIndex))
+                    {
+                        smallestIndex = indexOfPunct;
+                    }
+                }
+                String shortDesc = longDesc.substring(0, smallestIndex + 1);
 
                 // course link
                 String courseLink = "https://edx.org/course/" + filename.replace(".txt", "");
