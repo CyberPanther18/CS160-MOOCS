@@ -2,16 +2,20 @@
 $TITLE = "ULearn - Browse";
 require "./inc/header.php";
 ?>
-<section id="browse">
+<section id="browse" class="main">
 <div class="columns" id="browse">
 <div class="leftcolumn">
 <?php require "./inc/filter.php"; ?>
 </div>
-<div class="middlecolumn">
-  <?php require "./db/showCourses.php"; ?>
+<div class="majoritycolumn">
+  <?php 
+ require "./db/showcourses.php";
+ ?>
+ </div>
+
+
 </div>
 </section>
 <?php
-require "./db/disconnect.php";
 require "./inc/footer.php";
 ?>

@@ -1,28 +1,58 @@
 <?php
-require "./db/connect.php";
-$sql = "SELECT name, subject, service, type, description FROM courses";
-$result = $con->query($sql);
-echo '<ul id="courses">';
+$sql = "SELECT * FROM course_data";
+$result = $con->query ( $sql );
+
 if ($result->num_rows > 0) {
-    /*		<ul class='school-approval'></ul>
-			<ul class='business-approval'></ul> */
-    while($row = $result->fetch_assoc()) {
-        echo 
-	"<li>
-		<div class='a-grid'>
-			<div class='a-col-left'>
-				<img src='./images/course/".$row["name"].".png'/>
-			</div>
-			<div class='a-col-right'>
-				<h3 class='name'>".$row["name"]."</h3>
-				<p class='service'>by <span>".$row["service"]."</span></p>
-				<p class='description'>".$row["description"]."</p>
-			</div>
-		</div>
-	</li>";
-    }
+	echo '
+<table id="courses">
+<thead>
+  <tr>
+	<th>ID</th>
+    <th>Title</th>
+	<th>Short Desc</th>
+	<th>Long Desc</th>
+	<th>Course Link</th>
+	<th>Video Link</th>
+	<th>Start Date</th>
+	<th>Course Length</th>
+	<th>Course Image</th>
+	<th>Category</th>
+	<th>Site</th>
+	<th>Course Fee</th>
+	<th>Language</th>
+	<th>Certificate</th>
+	<th>University</th>
+	<th>Time Scraped</th>
+	<th>Add Course</th>
+	</tr>
+	</thead>';
+	while ( $row = $result->fetch_assoc () ) {
+		echo "<tr>
+        <td>" . $row ["id"] . "</td>
+		<td>" . $row ["title"] . "</td>
+		<td>" . $row ["short_desc"] . "</td>
+		<td>" . $row ["long_desc"] . "</td>
+		<td>" . $row ["course_link"] . "</td>
+		<td>" . $row ["video_link"] . "</td>
+		<td>" . $row ["start_date"] . "</td>
+		<td>" . $row ["course_length"] . "</td>
+		<td>" . $row ["course_image"] . "</td>
+		<td>" . $row ["category"] . "</td>	
+		<td>" . $row ["site"] . "</td>
+		<td>" . $row ["course_fee"] . "</td>	
+		<td>" . $row ["language"] . "</td>
+		<td>" . $row ["certificate"] . "</td>	
+		<td>" . $row ["university"] . "</td>
+		<td>" . $row ["time_scraped"] . "</td>
+		<td><div class='button button-alternate'>Add Course</div></td>
+	</tr>";
+	}
+	echo "</table>
+	<script type='application/javascript' src='./plugins/datatables/datatables.js'></script>
+	<script type='application/javascript'>$(document).ready(function(){
+    $('#courses').DataTable();
+});</script>";
 } else {
-    echo "0 results";
+	echo "<p>0 results</p>";
 }
-echo '</ul>';
 ?>

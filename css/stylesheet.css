@@ -1,10 +1,11 @@
 /* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 *{
 	margin:0;
 	padding:0;
 }
 body{
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 header, footer{
 	background-color:white;
@@ -15,39 +16,42 @@ header{
 	float:left;
 	left:0;
 	right:0;
-	z-index:2;
+	z-index:12;
 	height:60px;
-	border-bottom:1px solid white;
 }
 main{
 	position:absolute;
 	overflow-y:auto;
-	top: 61px;
+	top: 60px;
 	right:0;
-	left:0;
 	bottom:0;
+	left:0;
 }
 section{
 	position:relative;
-	height:100%;
 	width:95%;
-	margin:0 auto;
+	margin:5px auto;
+}
+section.dim{
+	background-color:#fff;
+	opacity:0.3;
+	z-index:10;
 }
 aside#slider{
-	z-index:5;
+	z-index:11;
 	display:none;
 	position:absolute;
-	top:0;
 	right:0;
-	bottom:0;
-	width:400px;
-	background:#0f4a57;
-	color:white;
+	top:0;
+	margin:0 auto;
+	width:350px;
+	background-color:#FFF;
+	border:1px solid #E0E0E0;
 	text-align:center;
 }
-aside#slider .close{
-	position:relative;
-	top:80px;
+aside#slider #slidercontent{
+	overflow:auto;
+	margin:auto;
 }
 footer{
 	border-top:2px solid rgba(0,0,0,0.1);
@@ -98,6 +102,8 @@ section#register, section#login, section#home{
 }
 /* Columns */
 .columns{
+	position:relative;
+	height:100%;
 	min-width:300px;
 }
 .leftcolumn, .rightcolumn{
@@ -116,13 +122,24 @@ section#register, section#login, section#home{
 .rightcolumn{
 	float:right;
 }
+.majoritycolumn{
+	width:80%;
+	display:inline-block;
+}
+/* Tables */
+table#courses{
+	padding:10px;
+}
+table#courses th,table#courses td {
+    border: 1px solid black;
+}
 /* Anchors */
 a{
 	color:inherit;
 	text-decoration:none;
 }
 /* Headers */
-h1, h2, .title{
+h1, .title{
 	color: #f7ac16;
 }
 /* Button */
@@ -135,11 +152,11 @@ h1, h2, .title{
 	border:1px solid transparent;
 	white-space:nowrap;
 	padding:4px 6px;
-	font-size:14px;
-	line-height:1.7;	
+	font-size:13px;
+	line-height:29px;
+	font-family:Arial, sans-serif;	
 	border-radius:2px;
 	min-width:80px;
-	margin:2px 10px;
 }
 .button-primary{
 	background-color:#14b2d1;
@@ -150,19 +167,69 @@ h1, h2, .title{
 	color:#fff;
 }
 .button-alternate{
+	border-color: #bcc1c8 #bababa #adb2bb;
+	background-color:#d8dde6;
+	color:#111;
 }
 /* Forms */
-form.register, form.login{
-	position:relative;
-	top:40px;
-	text-align:center;
+form{
+	margin:0 auto;
+	width:95%;
+	text-align:left;
 }
-form.register input, form.login input{
+form .button{
+	margin:3px 12px;
+}
+form .divider{
+	text-align:center;
+	position:relative;
+	top:2px;
+	padding-top:1px;
+	margin:15px 0;
+	line-height:0;
+}
+form .divider h5{
+	line-height:1;
+	font-size:12px;
+	color:#888;
+	z-index:2;
+	position:relative;
+	display:inline-block;
+	background-color:#FFF;
+	padding:0 7px;
+}
+form .divider:after{
+	content: "";
+	width:100%;
+	background-color:transparent;
 	display:block;
-	margin:8px auto;
-	height:40px;
-	font-size:1em;
-	width:90%;
+	height:1px;
+	border-top:1px solid #e7e7e7;
+	position:absolute;
+	top:50%;
+	margin-top:-1px;
+	z-index:1;
+}
+form input[type=text], form input[type=email], form input[type=password], form input[type=number]{
+	height:30px;
+}
+form.register input{
+	display:block;
+	width:98%;
+	margin:1px auto 6px auto;
+}
+form label{
+	display:block;
+	margin:3px 0;
+}
+form.login input{
+	display:block;
+	width:98%;
+	margin:1px auto 12px auto;
+}
+form .button{
+	width:98%;
+	margin: 0 auto;
 }
 form#search{
 	margin:2px;
@@ -186,6 +253,14 @@ form .invalid{
 }
 form .valid{
 	border:2px solid #a7fa5a;
+}
+form .error{
+	list-style:none;
+	font-size:12px;
+	color:#802f31;
+}
+form #formerrors{
+	margin:10px 2px;
 }
 /* Unordered List */
 ul#courses li{
@@ -211,6 +286,8 @@ ul#courses li .service{
 }
 /* Refinement */
 .refinement{
+	position:relative;
+	left:5px;
 	list-style:none;
 }
 .refinement li{

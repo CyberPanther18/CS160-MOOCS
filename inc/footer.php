@@ -1,6 +1,9 @@
-<?php require "./inc/slider.php"; ?>
+
 </main>
 <footer>
 </footer>
 </body>
 </html>
+<?php 
+mysqli_close($con); 
+?>
