@@ -1,10 +1,31 @@
 <?php
 $sql = "SELECT * FROM course_data";
+
+if (! isset ( $type )) :
+	$type = "all";
+
+
+endif;
+
 $result = $con->query ( $sql );
 
 if ($result->num_rows > 0) {
-	echo '
-<table id="courses">
+	echo '<table id="courses">';
+	// Show Minimalized Browse
+	if ($type == "browse") :
+		echo '<thead><tr><th>Image</th><th>Course Description</th></tr></thead>';
+		while ( $row = $result->fetch_assoc () ) :
+			echo "<tr>
+		<td class='course_image'><img src='" . $row ["course_image"] . "'/></td>
+		<td class='course_desc'><h3 class='course_title'>" . $row ["title"] . "</h3>
+				<p class='course_short_desc'>" . $row ["short_desc"] . "</p>
+						<a href='#'><div class='button button-alternate'>Add Course</div></a></td>
+	</tr>";
+		endwhile
+		;
+	 	// Show All Courses
+	else :
+		echo '
 <thead>
   <tr>
 	<th>ID</th>
@@ -23,11 +44,10 @@ if ($result->num_rows > 0) {
 	<th>Certificate</th>
 	<th>University</th>
 	<th>Time Scraped</th>
-	<th>Add Course</th>
 	</tr>
 	</thead>';
-	while ( $row = $result->fetch_assoc () ) {
-		echo "<tr>
+		while ( $row = $result->fetch_assoc () ) :
+			echo "<tr>
         <td>" . $row ["id"] . "</td>
 		<td>" . $row ["title"] . "</td>
 		<td>" . $row ["short_desc"] . "</td>
@@ -37,21 +57,18 @@ if ($result->num_rows > 0) {
 		<td>" . $row ["start_date"] . "</td>
 		<td>" . $row ["course_length"] . "</td>
 		<td>" . $row ["course_image"] . "</td>
-		<td>" . $row ["category"] . "</td>	
+		<td>" . $row ["category"] . "</td>
 		<td>" . $row ["site"] . "</td>
-		<td>" . $row ["course_fee"] . "</td>	
+		<td>" . $row ["course_fee"] . "</td>
 		<td>" . $row ["language"] . "</td>
-		<td>" . $row ["certificate"] . "</td>	
+		<td>" . $row ["certificate"] . "</td>
 		<td>" . $row ["university"] . "</td>
 		<td>" . $row ["time_scraped"] . "</td>
-		<td><div class='button button-alternate'>Add Course</div></td>
 	</tr>";
-	}
-	echo "</table>
-	<script type='application/javascript' src='./plugins/datatables/datatables.js'></script>
-	<script type='application/javascript'>$(document).ready(function(){
-    $('#courses').DataTable();
-});</script>";
+		endwhile
+		;
+	endif;
+	echo "</table>";
 } else {
 	echo "<p>0 results</p>";
 }

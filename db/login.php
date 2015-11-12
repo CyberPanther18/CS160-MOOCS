@@ -1,25 +1,34 @@
 <?php
-session_start(); 
+session_start ();
 
-$email = $_POST["email"];
-$password = $_POST["password"];
+$email = $_POST ["email"];
+$password = $_POST ["password"];
 // To protect MySQL injection for Security purpose
-$email = stripslashes($email);
-$password = stripslashes($password);
+$email = stripslashes ( $email );
+$password = stripslashes ( $password );
 
-require "connect.php";
+require "./config.php";
 
-$sql = "SELECT * FROM users WHERE email = '".$email."' AND password = '".$password."'";
+$con = new mysqli ( $db_host, $db_username, $db_password, $db_database );
 
-$result = $con->query($sql);
-if($result->num_rows > 0):
-	while($row = $result->fetch_assoc()):
-		$_SESSION["name"] = $row["first_name"];
-		header("Location: ../browse.php");
-		die();
-	endwhile;
-else:
+if ($con->connect_error) :
+	die ( "Connection to Database failed: " . $con->connect_error );
+
+
+endif;
+
+$sql = "SELECT * FROM users WHERE email = '" . $email . "' AND password = '" . $password . "'";
+
+$result = $con->query ( $sql );
+if ($result->num_rows > 0) :
+	while ( $row = $result->fetch_assoc () ) :
+		$_SESSION ["name"] = $row ["first_name"];
+		header ( "Location: ../browse.php" );
+		die ();
+	endwhile
+	;
+ else :
 	echo "0 results";
 endif;
-require "disconnect.php";
+mysqli_close ( $con );
 ?>

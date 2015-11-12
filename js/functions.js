@@ -16,5 +16,4 @@ $(document).ready(function(){
 		$slider.hide("slide", {direction: "up"});
 		$(".main").removeClass("dim");
 	});
-	
 });
