@@ -147,12 +147,14 @@ public class EDXScraper {
                 String site = "https://edx.org/";
 
                 // language
-                Elements languageElements = doc.select("li > span.block-list__desc");
-                String language = languageElements.get(languageElements.size() - 2).text();
+
+                Elements languageElements = doc.select("li[data-field=language] > span.block-list__desc");
+                String language = languageElements.first().text();
                 int languageIndex = language.indexOf(",");
                 if(languageIndex != -1) {
                     language = language.substring(0, languageIndex);
                 }
+                
 
                 // course fee
                 int courseFee = -1;
