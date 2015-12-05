@@ -1,7 +1,7 @@
 <section id="login">
 	<h2>Sign in</h2>
-  <form class="login" action="./db/login.php" method="post">
-  <label for"email">Email </label>
+  <form class="login" action="./db/login.php" method="POST">
+  <label for="email">Email </label>
     <input type="email" name="email" id="email" placeholder="Email Address" />
     <label for="password">Password</label>
     <input type="password" name="password" id="password" placeholder="Password"/>
@@ -44,6 +44,7 @@
 		validated = false;
 	}
 	if(validated){
+		
 		return true;
 	} else{
 		errors += "</ul>";

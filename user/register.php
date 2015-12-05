@@ -1,6 +1,6 @@
   <section id="register">
    <h2>Sign Up</h2>
-    <form class="register" action="../db/register.php" method="post">
+    <form class="register" action="./db/register.php" method="post">
      <label for="firstname">First Name</label>
       <input type="text" name="firstname" id="firstname" placeholder="First Name">
        <label for="lastname">Last Name</label>
